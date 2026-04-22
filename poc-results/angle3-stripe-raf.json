@@ -1,0 +1,1263 @@
+{
+  "target": "stripe.com",
+  "date": "2026-04-22T17:14:01.370Z",
+  "total_raf_frames": 1563,
+  "raf_log_entries": 88,
+  "element_animate_calls": 257,
+  "unique_elements_with_mutation": 63,
+  "time_clusters": {
+    "load_phase_0_2500ms": 27,
+    "scroll_phase_2500ms_plus": 61
+  },
+  "top_mutated_elements": [
+    {
+      "path": "div.platform-graphic-browser-container > div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--payments > div.platform-graphic-browser-card-item__gradient",
+      "mutation_count": 37,
+      "first_t_ms": 8415,
+      "last_t_ms": 10199,
+      "samples": [
+        {
+          "t": 8415,
+          "before": "opacity: 0; --border-angle: 0deg;",
+          "after": "opacity: 0; --border-angle: 1.8deg;"
+        },
+        {
+          "t": 8465,
+          "before": "opacity: 0; --border-angle: 8.4deg;",
+          "after": "opacity: 0; --border-angle: 11.8deg;"
+        },
+        {
+          "t": 8515,
+          "before": "opacity: 0; --border-angle: 18.2deg;",
+          "after": "opacity: 0; --border-angle: 21.6deg;"
+        }
+      ]
+    },
+    {
+      "path": "div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__connection > div.connect-platform-graphic__connection-amount-pill-container",
+      "mutation_count": 32,
+      "first_t_ms": 9549,
+      "last_t_ms": 11065,
+      "samples": [
+        {
+          "t": 9549,
+          "before": "--translate-x: -129.99999570846558px; --translate-y: 23.67565679550171px;",
+          "after": "--translate-x: -129.99999630451202px; --translate-y: 21.50964117050171px;"
+        },
+        {
+          "t": 9599,
+          "before": "--translate-x: -129.9999976158142px; --translate-y: 16.945516109466553px;",
+          "after": "--translate-x: -129.99999821186066px; --translate-y: 14.781126499176025px;"
+        },
+        {
+          "t": 9649,
+          "before": "--translate-x: -129.99999952316284px; --translate-y: 10.30532693862915px;",
+          "after": "--translate-x: -129.99465095996857px; --translate-y: 8.14994192123413px;"
+        }
+      ]
+    },
+    {
+      "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+      "mutation_count": 27,
+      "first_t_ms": 932,
+      "last_t_ms": 2832,
+      "samples": [
+        {
+          "t": 932,
+          "before": "transform: translateX(-5.001px);",
+          "after": "transform: translateX(-5.502px);"
+        },
+        {
+          "t": 982,
+          "before": "transform: translateX(-6.501px);",
+          "after": "transform: translateX(-6.999px);"
+        },
+        {
+          "t": 1032,
+          "before": "transform: translateX(-8.001px);",
+          "after": "transform: translateX(-8.499px);"
+        }
+      ]
+    },
+    {
+      "path": "div.dom-graphic__content > div.agentic-commerce-graphic__layout > div.agentic-commerce-graphic__chat > div.agentic-commerce-graphic__chat-bubble.agentic-commerce-graphic__chat-bubble--agent > span",
+      "mutation_count": 17,
+      "first_t_ms": 5499,
+      "last_t_ms": 5499,
+      "samples": [
+        {
+          "t": 5499,
+          "before": "",
+          "after": "opacity: 1;"
+        },
+        {
+          "t": 5499,
+          "before": "",
+          "after": "opacity: 1;"
+        },
+        {
+          "t": 5499,
+          "before": "",
+          "after": "opacity: 1;"
+        }
+      ]
+    },
+    {
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "mutation_count": 11,
+      "first_t_ms": 1499,
+      "last_t_ms": 1499,
+      "samples": [
+        {
+          "t": 1499,
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "t": 1499,
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "t": 1499,
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    },
+    {
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "mutation_count": 11,
+      "first_t_ms": 1499,
+      "last_t_ms": 1499,
+      "samples": [
+        {
+          "t": 1499,
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "t": 1499,
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "t": 1499,
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    },
+    {
+      "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+      "mutation_count": 9,
+      "first_t_ms": 766,
+      "last_t_ms": 766,
+      "samples": [
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        }
+      ]
+    },
+    {
+      "path": "div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__connection > svg.connect-platform-graphic__connection-ring",
+      "mutation_count": 8,
+      "first_t_ms": 9215,
+      "last_t_ms": 9499,
+      "samples": [
+        {
+          "t": 9215,
+          "before": "transform: scale(0.05523);",
+          "after": "transform: scale(0.20063);"
+        },
+        {
+          "t": 9232,
+          "before": "transform: scale(0.20063);",
+          "after": "transform: scale(0.33741);"
+        },
+        {
+          "t": 9282,
+          "before": "transform: scale(0.57112);",
+          "after": "transform: scale(0.66316);"
+        }
+      ]
+    },
+    {
+      "path": "div.browser-graphic > div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row",
+      "mutation_count": 7,
+      "first_t_ms": 5015,
+      "last_t_ms": 5015,
+      "samples": [
+        {
+          "t": 5015,
+          "before": "",
+          "after": "opacity: 1;"
+        },
+        {
+          "t": 5015,
+          "before": "",
+          "after": "opacity: 1;"
+        },
+        {
+          "t": 5015,
+          "before": "",
+          "after": "opacity: 1;"
+        }
+      ]
+    },
+    {
+      "path": "div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success > div.connect-platform-graphic__payment-summary-table > div.connect-platform-graphic__payment-summary-table-row",
+      "mutation_count": 4,
+      "first_t_ms": 9499,
+      "last_t_ms": 9499,
+      "samples": [
+        {
+          "t": 9499,
+          "before": "",
+          "after": "opacity: 1; transform: translateY(0px);"
+        },
+        {
+          "t": 9499,
+          "before": "",
+          "after": "opacity: 1; transform: translateY(0px);"
+        },
+        {
+          "t": 9499,
+          "before": "",
+          "after": "opacity: 1; transform: translateY(0px);"
+        }
+      ]
+    },
+    {
+      "path": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-checkbox > svg.payments-graphic__checkout-payment-methods-active-checkbox",
+      "mutation_count": 3,
+      "first_t_ms": 766,
+      "last_t_ms": 766,
+      "samples": [
+        {
+          "t": 766,
+          "before": "",
+          "after": "opacity: 0;"
+        },
+        {
+          "t": 766,
+          "before": "",
+          "after": "opacity: 0;"
+        },
+        {
+          "t": 766,
+          "before": "",
+          "after": "opacity: 1;"
+        }
+      ]
+    },
+    {
+      "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-input-label > div.payments-graphic__checkout-input-label-values",
+      "mutation_count": 2,
+      "first_t_ms": 766,
+      "last_t_ms": 766,
+      "samples": [
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    },
+    {
+      "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row > div.payments-graphic__checkout-payment-table-row-label-block > div.payments-graphic__checkout-payment-table-row-label-block-contents",
+      "mutation_count": 2,
+      "first_t_ms": 766,
+      "last_t_ms": 766,
+      "samples": [
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    },
+    {
+      "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row > div.payments-graphic__checkout-payment-table-row-value-block > div.payments-graphic__checkout-payment-table-row-value-block-contents",
+      "mutation_count": 2,
+      "first_t_ms": 766,
+      "last_t_ms": 766,
+      "samples": [
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    },
+    {
+      "path": "div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details",
+      "mutation_count": 2,
+      "first_t_ms": 3215,
+      "last_t_ms": 9499,
+      "samples": [
+        {
+          "t": 3215,
+          "before": "",
+          "after": "opacity: 1; transform: translateY(0px);"
+        },
+        {
+          "t": 9499,
+          "before": "opacity: 1; transform: translateY(0px);",
+          "after": "opacity: 0; transform: translateY(12px);"
+        }
+      ]
+    },
+    {
+      "path": "div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success",
+      "mutation_count": 2,
+      "first_t_ms": 3215,
+      "last_t_ms": 9499,
+      "samples": [
+        {
+          "t": 3215,
+          "before": "",
+          "after": "opacity: 0;"
+        },
+        {
+          "t": 9499,
+          "before": "opacity: 0;",
+          "after": "opacity: 1;"
+        }
+      ]
+    },
+    {
+      "path": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--daybreak-yoga > div.connect-platform-graphic__dashboard-table-amount.connect-platform-graphic__dashboard-table-amount--daybreak-yoga",
+      "mutation_count": 2,
+      "first_t_ms": 5015,
+      "last_t_ms": 5015,
+      "samples": [
+        {
+          "t": 5015,
+          "before": "font-weight: 300; color: rgb(80, 97, 122);",
+          "after": "font-weight: var(--hds-font-weight-normal); color: var(--hds-color-core-neutral-600);"
+        },
+        {
+          "t": 5015,
+          "before": "font-weight: 300; color: rgb(80, 97, 122);",
+          "after": "font-weight: var(--hds-font-weight-normal); color: var(--hds-color-core-neutral-600);"
+        }
+      ]
+    },
+    {
+      "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-pay-label > div.payments-graphic__terminal-pay-label-values",
+      "mutation_count": 1,
+      "first_t_ms": 766,
+      "last_t_ms": 766,
+      "samples": [
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    },
+    {
+      "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-payment-amount > div.payments-graphic__terminal-payment-amount-values",
+      "mutation_count": 1,
+      "first_t_ms": 766,
+      "last_t_ms": 766,
+      "samples": [
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    },
+    {
+      "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-message > div.payments-graphic__terminal-message-values",
+      "mutation_count": 1,
+      "first_t_ms": 766,
+      "last_t_ms": 766,
+      "samples": [
+        {
+          "t": 766,
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    }
+  ],
+  "element_animate_details": [
+    {
+      "t": 621.6000000014901,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 621.8000000044703,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 622.2000000029802,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 622.2000000029802,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 622.7000000029802,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 622.7000000029802,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 623,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 623,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 623.3000000044703,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 623.3000000044703,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 623.7000000029802,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 623.7000000029802,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 623.8999999985099,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 623.8999999985099,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 624.1000000014901,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 624.1000000014901,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 624.5,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 624.5,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 624.8000000044703,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 624.8000000044703,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 625,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 625.1000000014901,
+      "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "keyframes": [
+        [
+          "transform"
+        ]
+      ],
+      "duration": 325,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+    },
+    {
+      "t": 892.7000000029802,
+      "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-pay-label > div.payments-graphic__terminal-pay-label-values",
+      "keyframes": [
+        "transform",
+        "offset",
+        "easing"
+      ],
+      "duration": 0,
+      "easing": "linear"
+    },
+    {
+      "t": 892.8000000044703,
+      "path": "div.browser-graphic__url-box > div.browser-graphic__url-box-content > div.browser-graphic__url-box-text > div.payments-graphic__checkout-browser-url-block > div.payments-graphic__checkout-browser-url-values",
+      "keyframes": [
+        "transform",
+        "offset",
+        "easing"
+      ],
+      "duration": 0,
+      "easing": "linear"
+    },
+    {
+      "t": 892.8999999985099,
+      "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-payment-amount > div.payments-graphic__terminal-payment-amount-values",
+      "keyframes": [
+        "transform",
+        "offset",
+        "easing"
+      ],
+      "duration": 0,
+      "easing": "linear"
+    },
+    {
+      "t": 892.8999999985099,
+      "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-message > div.payments-graphic__terminal-message-values",
+      "keyframes": [
+        "transform",
+        "offset",
+        "easing"
+      ],
+      "duration": 0,
+      "easing": "linear"
+    },
+    {
+      "t": 893,
+      "path": "div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-transaction-button > div.payments-graphic__terminal-transaction-button-text > div.payments-graphic__terminal-transaction-button-text-values",
+      "keyframes": [
+        "transform",
+        "offset",
+        "easing"
+      ],
+      "duration": 0,
+      "easing": "linear"
+    },
+    {
+      "t": 893.1000000014901,
+      "path": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-button.payments-graphic__checkout-payment-button--hidden > div.payments-graphic__checkout-payment-button-text > div.payments-graphic__checkout-payment-button-text-values",
+      "keyframes": [
+        "transform",
+        "offset",
+        "easing"
+      ],
+      "duration": 0,
+      "easing": "linear"
+    },
+    {
+      "t": 893.1000000014901,
+      "path": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-separator > div.payments-graphic__checkout-separator-text > div.payments-graphic__checkout-separator-text-values",
+      "keyframes": [
+        "transform",
+        "offset",
+        "easing"
+      ],
+      "duration": 0,
+      "easing": "linear"
+    },
+    {
+      "t": 893.6000000014901,
+      "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-transaction-details > div.payments-graphic__terminal-transaction-details-content",
+      "keyframes": [
+        "transform",
+        "offset",
+        "easing"
+      ],
+      "duration": 0,
+      "easing": "linear"
+    }
+  ],
+  "raw_log_sample": [
+    {
+      "t": 766,
+      "changed": [
+        {
+          "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-pay-label > div.payments-graphic__terminal-pay-label-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-payment-amount > div.payments-graphic__terminal-payment-amount-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-message > div.payments-graphic__terminal-message-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-transaction-details > div.payments-graphic__terminal-transaction-details-content",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content > div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-transaction-button",
+          "before": "",
+          "after": "background: rgb(255, 224, 209); color: var(--hds-color-core-orange-350);"
+        },
+        {
+          "path": "div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-transaction-button > div.payments-graphic__terminal-transaction-button-text > div.payments-graphic__terminal-transaction-button-text-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__window > div.browser-graphic__window-top-bar > div.browser-graphic__url-box > div.browser-graphic__url-box-content > svg",
+          "before": "",
+          "after": "transform: translateX(0px);"
+        },
+        {
+          "path": "div.browser-graphic__url-box > div.browser-graphic__url-box-content > div.browser-graphic__url-box-text > div.payments-graphic__checkout-browser-url-block > div.payments-graphic__checkout-browser-url-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic > div.browser-graphic__page > div.payments-graphic__checkout-header > div.payments-graphic__checkout-header-logos-wrapper > div.payments-graphic__checkout-header-logos",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-input-label > div.payments-graphic__checkout-input-label-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-input > div.payments-graphic__checkout-input-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-separator > div.payments-graphic__checkout-separator-text > div.payments-graphic__checkout-separator-text-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-input-label > div.payments-graphic__checkout-input-label-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-border > div.payments-graphic__checkout-payment-methods-border-bottom",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-border > div.payments-graphic__checkout-payment-methods-border-horizontal",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-checkbox > svg.payments-graphic__checkout-payment-methods-active-checkbox",
+          "before": "",
+          "after": "opacity: 0;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-icon.payments-graphic__checkout-payment-methods-item-icon--card > div.payments-graphic__checkout-payment-methods-card-icons",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-label.payments-graphic__checkout-payment-methods-item-label--card > div.payments-graphic__checkout-payment-methods-item-label-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-card-details",
+          "before": "",
+          "after": "clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-checkbox > svg.payments-graphic__checkout-payment-methods-active-checkbox",
+          "before": "",
+          "after": "opacity: 0;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-checkbox > svg.payments-graphic__checkout-payment-methods-active-checkbox",
+          "before": "",
+          "after": "opacity: 1;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods.payments-graphic__checkout-payment-methods--hidden > div.payments-graphic__checkout-payment-methods-item",
+          "before": "",
+          "after": "transform: none; clip-path: none; opacity: 1;"
+        },
+        {
+          "path": "div.browser-graphic > div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-button.payments-graphic__checkout-payment-button--hidden",
+          "before": "",
+          "after": "transform: none; background: rgb(255, 224, 209); color: var(--hds-color-core-orange-350);"
+        },
+        {
+          "path": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-button.payments-graphic__checkout-payment-button--hidden > div.payments-graphic__checkout-payment-button-text > div.payments-graphic__checkout-payment-button-text-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-order-summary-title > div.payments-graphic__checkout-order-summary-title-values",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-item-card > div.payments-graphic__checkout-item-card-contents",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row > div.payments-graphic__checkout-payment-table-row-label-block > div.payments-graphic__checkout-payment-table-row-label-block-contents",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row > div.payments-graphic__checkout-payment-table-row-value-block > div.payments-graphic__checkout-payment-table-row-value-block-contents",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row > div.payments-graphic__checkout-payment-table-row-label-block > div.payments-graphic__checkout-payment-table-row-label-block-contents",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row > div.payments-graphic__checkout-payment-table-row-value-block > div.payments-graphic__checkout-payment-table-row-value-block-contents",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--shipping",
+          "before": "",
+          "after": "opacity: 1;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--shipping > div.payments-graphic__checkout-payment-table-row-label-block > div.payments-graphic__checkout-payment-table-row-label-block-contents",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--total",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--total > div.payments-graphic__checkout-payment-table-row-label-block > div.payments-graphic__checkout-payment-table-row-label-block-contents",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--total > div.payments-graphic__checkout-payment-table-row-value-block > div.payments-graphic__checkout-payment-table-row-value-block-contents",
+          "before": "",
+          "after": "transform: translateY(0%);"
+        }
+      ]
+    },
+    {
+      "t": 932,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-5.001px);",
+          "after": "transform: translateX(-5.502px);"
+        }
+      ]
+    },
+    {
+      "t": 982,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-6.501px);",
+          "after": "transform: translateX(-6.999px);"
+        }
+      ]
+    },
+    {
+      "t": 1032,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-8.001px);",
+          "after": "transform: translateX(-8.499px);"
+        }
+      ]
+    },
+    {
+      "t": 1066,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-9px);",
+          "after": "transform: translateX(-9.501px);"
+        }
+      ]
+    },
+    {
+      "t": 1116,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-10.5px);",
+          "after": "transform: translateX(-11.001px);"
+        }
+      ]
+    },
+    {
+      "t": 1166,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-12px);",
+          "after": "transform: translateX(-12.501px);"
+        }
+      ]
+    },
+    {
+      "t": 1216,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-13.5px);",
+          "after": "transform: translateX(-14.001px);"
+        }
+      ]
+    },
+    {
+      "t": 1266,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-15.003px);",
+          "after": "transform: translateX(-15.501px);"
+        }
+      ]
+    },
+    {
+      "t": 1316,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-16.503px);",
+          "after": "transform: translateX(-17.001px);"
+        }
+      ]
+    },
+    {
+      "t": 1366,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-18.003px);",
+          "after": "transform: translateX(-18.501px);"
+        }
+      ]
+    },
+    {
+      "t": 1416,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-19.503px);",
+          "after": "transform: translateX(-20.001px);"
+        }
+      ]
+    },
+    {
+      "t": 1466,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-21px);",
+          "after": "transform: translateX(-21.501px);"
+        }
+      ]
+    },
+    {
+      "t": 1499,
+      "changed": [
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        },
+        {
+          "path": "div.hero-section__layout-grid > div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+          "before": "",
+          "after": "transform: none;"
+        }
+      ]
+    },
+    {
+      "t": 1549,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-23.499px);",
+          "after": "transform: translateX(-24px);"
+        }
+      ]
+    },
+    {
+      "t": 1599,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-25.002px);",
+          "after": "transform: translateX(-25.5px);"
+        }
+      ]
+    },
+    {
+      "t": 1649,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-26.499px);",
+          "after": "transform: translateX(-27.003px);"
+        }
+      ]
+    },
+    {
+      "t": 1699,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-28.002px);",
+          "after": "transform: translateX(-28.5px);"
+        }
+      ]
+    },
+    {
+      "t": 1749,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-29.502px);",
+          "after": "transform: translateX(-30px);"
+        }
+      ]
+    },
+    {
+      "t": 1799,
+      "changed": [
+        {
+          "path": "section.hds-color-mode.hero-section-container > div.section-container.hero-logo-section > div.logo-carousel > div.logo-carousel__marquee-container > ul.logo-carousel__marquee",
+          "before": "transform: translateX(-30.999px);",
+          "after": "transform: translateX(-31.5px);"
+        }
+      ]
+    }
+  ]
+}

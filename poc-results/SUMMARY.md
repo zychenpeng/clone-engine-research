@@ -134,9 +134,71 @@ Confidence tiers:
 - **Medium (review)**: rAF CSS custom property mutation + Angle 1 bundle hit for same component
 - **Low (skip for now)**: Angle 2 delta only — property diff confirmed but no keyframe data
 
+---
+
+## Cross-Site Validation: stripe.com (Angle 3 bonus run)
+
+**Status: ✅ Validated — Angle 3 hypothesis holds cross-site**
+
+| Metric | Linear | Stripe |
+|--------|-------:|-------:|
+| rAF frames | 162 | 1563 |
+| Frames with style mutations | 33 | 88 |
+| Unique elements mutated | 13 | 63 |
+| `Element.animate` calls | 37 | 257 |
+| Load phase frames | 0 | 27 |
+| Scroll phase frames | 33 | 61 |
+
+Stripe WAAPI calls breakdown (deduped):
+- **22x counter animation**: `span.hero-section__eyebrow-value.tabular-nums--tig` — transform slot-machine counter (GDB %), 325ms, `cubic-bezier(0.33, 1, 0.68, 1)` easeOut
+- **8x CSS motion path**: `payments-graphic__terminal` / `checkout-body` elements — `offset+transform+easing` keyframes (WAAPI motion path API), `linear` easing
+
+Stripe rAF elements (top):
+- `platform-graphic-browser-container` → `--border-angle` (35 mutations) — animated CSS conic-gradient border
+- `logo-c*` → `translateX` (33 mutations) — logo marquee carousel
+- `connect-platform-graph*` → `--translate-x`, `--translate-y` (30 mutations) — floating graph nodes
+
+**Key insight**: Stripe does NOT use Framer Motion (semantic class names, no hash). It uses raw WAAPI calls directly. Angle 3 catches this equally well — the hook is library-agnostic.
+
+**Angle 1 would NOT catch Stripe animations** (no `framer-motion` imports to grep). This confirms Angle 3 is the primary layer and Angle 1 is FM-specific supplementary.
+
+> ⚠️ **Conjunction rule implication**: `angle3 ∩ angle1` would produce 0 results on Stripe. The ≥2-of-3 rule from the archive must use `angle3 OR angle2` as minimum baseline, with angle1 as additive FM-specific enrichment only.
+
+---
+
+## Open Blockers (Sean sign-off required)
+
+### Blocker 1: Human adjudication (5 min)
+10-item review sheet: `round-e/ground-truth/REVIEW-repivot.md`
+
+Needs Sean to verify 7 WAAPI + 3 rAF items from Linear before "zero ambiguity" claim can stand.
+
+### Blocker 2: Conjunction rule governance
+Current SUMMARY §4 proposes: WAAPI single-tier suffices for `verified=true`.
+Archive says: ≥2-of-3 tiers agree.
+
+Cross-site data suggests a refined rule:
+- Framer Motion sites: `Element.animate` + Angle 1 bundle hit = natural conjunction (both fire)
+- Raw WAAPI sites (Stripe): `Element.animate` alone, Angle 1 misses
+- Conclusion: **WAAPI = sufficient** for non-FM sites, and Angle 1 confirms FM intent when present
+
+Sean needs to sign off before this replaces the ≥2-of-3 rule.
+
+### Blocker 3: 37→N dedup logic
+37 Linear WAAPI calls are 10 distinct paths × up to 3 props each. Dedup approach:
+- Group by `(path, duration, easing)` → 1 spec entry per animation instance
+- Within group: merge `keyframes` arrays → single entry with all props
+- Expected: Linear 37 → ~12 specs, Stripe 257 → ~15 specs
+
+Dedup must be implemented before the spec feeds the emitter.
+
+---
+
 ### Technical gotchas discovered
 
 1. **Linear uses WAAPI directly** (not rAF inline-style mutation) for its Framer Motion word animations — `Element.animate` interception is the right hook.
 2. **CSS custom properties** (`--mask-x`, `--bg-offset-y`) carry parallax state via rAF loop — these are distinct from CSS-property animations and need separate treatment in the emitter.
 3. **Angle 2 `span` elements absent in reduced mode** = conditional render, not `opacity:0` — these spans are removed from DOM, not hidden. Emitter needs to reproduce them as present but unanimated in reduced-motion branches.
 4. **LLM decode API key** must be in env for Angle 1 enrichment step. Without it, regex alone still returns 62 valid data points — LLM is additive, not required.
+5. **`angle3-stripe.mjs` output must be separate file** — original script overwrote `angle3-raf.json` on first run. Fixed: Stripe variant writes to `angle3-stripe-raf.json`.
+6. **WAAPI keyframe arrays contain objects** — `[{opacity:0},{opacity:1}]` serializes as `[object Object]`. Fixed in `angle3.mjs` by extracting `Object.keys()` from each keyframe frame.

@@ -1,7 +1,7 @@
 /**
  * Angle 3: requestAnimationFrame Interception
- * Target: linear.app
- * Output: poc-results/angle3-raf.json
+ * Target: stripe.com
+ * Output: poc-results/angle3-stripe-raf.json
  *
  * Monkey-patches rAF + Element.animate + CSSStyleDeclaration setters
  * Captures every inline style mutation driven by animation frame callbacks
@@ -126,8 +126,8 @@ async function run() {
     if (msg.text().includes('[angle3]')) console.log('  page:', msg.text());
   });
 
-  console.log('Loading linear.app with rAF interception...');
-  await page.goto('https://linear.app', { waitUntil: 'domcontentloaded', timeout: 30000 });
+  console.log('Loading stripe.com with rAF interception...');
+  await page.goto('https://stripe.com', { waitUntil: 'domcontentloaded', timeout: 30000 });
 
   // 2s wait for load animations
   console.log('  Waiting 2s for load animations...');
@@ -193,7 +193,7 @@ async function run() {
     .map(([path, data]) => ({ path, mutation_count: data.count, first_t_ms: data.firstT, last_t_ms: data.lastT, samples: data.samples }));
 
   const result = {
-    target: 'linear.app',
+    target: 'stripe.com',
     date: new Date().toISOString(),
     total_raf_frames: rafCount,
     raf_log_entries: animationLog.length,
@@ -208,14 +208,14 @@ async function run() {
     raw_log_sample: animationLog.slice(0, 20)
   };
 
-  writeFileSync(join(OUT_DIR, 'angle3-raf.json'), JSON.stringify(result, null, 2));
+  writeFileSync(join(OUT_DIR, 'angle3-stripe-raf.json'), JSON.stringify(result, null, 2));
   console.log(`\n=== Angle 3 Result ===`);
   console.log(`Total rAF frames: ${rafCount}`);
   console.log(`Frames with style mutations: ${animationLog.length}`);
   console.log(`Unique elements mutated: ${uniqueElements}`);
   console.log(`Element.animate calls: ${animateCallLog.length}`);
   console.log(`Time clusters: load=${loadFrames}, scroll=${scrollFrames}`);
-  console.log(`Output: poc-results/angle3-raf.json`);
+  console.log(`Output: poc-results/angle3-stripe-raf.json`);
 }
 
 run().catch(e => { console.error(e); process.exit(1); });
