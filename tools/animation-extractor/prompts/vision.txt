@@ -1,0 +1,27 @@
+You are analyzing 20 frames from a 10-second screen recording of a website scrolling from top to bottom and interacting with UI elements (hover, focus).
+
+For each visual element that MOVES, CHANGES, or APPEARS across these frames, produce one entry in a JSON array with these exact keys:
+
+- `element`: brief description (e.g. "hero headline", "mesh gradient background", "feature card #2", "primary CTA button"). Prefer specific quotes when text is readable.
+- `motion_type`: one of ["fade", "slide", "scale", "rotate", "morph", "parallax", "shader-webgl", "blur", "color-shift", "reveal", "stagger", "typewriter", "other"]
+- `direction`: one of ["up", "down", "left", "right", "in", "out"] or null — ONLY set if motion_type is fade/slide/scale AND direction is clearly visible. Set null if ambiguous.
+- `trigger`: one of ["on-load", "scroll-in", "scroll-out", "hover", "focus", "continuous", "unknown"]
+- `approximate_duration_ms`: integer estimate
+- `approximate_easing`: one of ["linear", "ease-out", "ease-in-out", "spring", "unknown"]
+- `frames_involved`: array of frame indices (0-19) where the animation is visible or active
+- `confidence`: float 0.0-1.0 — how sure you are this is a real animation rather than a static element appearing across frames or a scrolling artifact
+
+Rules:
+- Only output animations you're at least 0.5 confident about.
+- Do NOT count the page scrolling itself as an animation — only animations *within* the page that happen regardless of scroll position or BECAUSE of scroll position.
+- Do NOT invent animations to fill the response — if you only see 3 real animations, output 3.
+- Flag uncertain WebGL/Canvas/Lottie suspects with `motion_type: "shader-webgl"` + lower confidence rather than forcing them into other categories.
+- If direction is ambiguous, set `"direction": null` rather than guessing.
+
+Output STRICT JSON array. No commentary. No markdown fences. No prose before or after.
+
+Example:
+[
+  {"element": "hero mesh gradient background", "motion_type": "shader-webgl", "direction": null, "trigger": "continuous", "approximate_duration_ms": 8000, "approximate_easing": "linear", "frames_involved": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], "confidence": 0.85},
+  {"element": "feature card #1", "motion_type": "fade", "direction": "up", "trigger": "scroll-in", "approximate_duration_ms": 600, "approximate_easing": "ease-out", "frames_involved": [8, 9, 10], "confidence": 0.9}
+]
