@@ -1,0 +1,966 @@
+{
+  "target": "linear.app",
+  "date": "2026-04-22T17:03:19.329Z",
+  "scroll_steps": 8,
+  "elements_compared": 2072,
+  "elements_with_delta": 17,
+  "reduce_mode_respected": true,
+  "property_delta_summary": {
+    "opacity": 17,
+    "transform": 9,
+    "filter": 9,
+    "visibility": 9,
+    "transition": 9,
+    "animation": 9,
+    "animationName": 9,
+    "animationDuration": 9,
+    "transitionProperty": 9,
+    "transitionDuration": 9,
+    "transitionTimingFunction": 9,
+    "clipPath": 9,
+    "backdropFilter": 9,
+    "willChange": 9
+  },
+  "diffs": [
+    {
+      "selector": "span",
+      "key": "span|840x865",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transform",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "filter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "visible",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transition",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animation",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "ease",
+          "reduce_value": ""
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "auto",
+          "reduce_value": ""
+        }
+      ]
+    },
+    {
+      "selector": "span.sc-d5151d0-0.lcjIWe",
+      "key": "span.sc-d5151d0-0.lcjIWe|840x871",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transform",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "filter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "visible",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transition",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animation",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "ease",
+          "reduce_value": ""
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "auto",
+          "reduce_value": ""
+        }
+      ]
+    },
+    {
+      "selector": "span.sc-d5151d0-0.cVJWpx",
+      "key": "span.sc-d5151d0-0.cVJWpx|935x872",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transform",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "filter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "visible",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transition",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animation",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "ease",
+          "reduce_value": ""
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "auto",
+          "reduce_value": ""
+        }
+      ]
+    },
+    {
+      "selector": "span",
+      "key": "span|840x901",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transform",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "filter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "visible",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transition",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animation",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "ease",
+          "reduce_value": ""
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "auto",
+          "reduce_value": ""
+        }
+      ]
+    },
+    {
+      "selector": "span.sc-d5151d0-0.lcjIWe",
+      "key": "span.sc-d5151d0-0.lcjIWe|840x907",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transform",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "filter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "visible",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transition",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animation",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "ease",
+          "reduce_value": ""
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "auto",
+          "reduce_value": ""
+        }
+      ]
+    },
+    {
+      "selector": "span.sc-d5151d0-0.cVJWpx",
+      "key": "span.sc-d5151d0-0.cVJWpx|955x908",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transform",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "filter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "visible",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transition",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animation",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "all",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "0s",
+          "reduce_value": ""
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "ease",
+          "reduce_value": ""
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "none",
+          "reduce_value": ""
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "auto",
+          "reduce_value": ""
+        }
+      ]
+    },
+    {
+      "selector": "circle.grid-dot-0-1-upDown",
+      "key": "circle.grid-dot-0-1-upDown|640x340",
+      "affected_properties": [
+        "opacity"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "0.3",
+          "reduce_value": "1"
+        }
+      ]
+    },
+    {
+      "selector": "circle.grid-dot-0-3-upDown",
+      "key": "circle.grid-dot-0-3-upDown|645x342",
+      "affected_properties": [
+        "opacity"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "0.3",
+          "reduce_value": "1"
+        }
+      ]
+    },
+    {
+      "selector": "circle.grid-dot-2-2-upDown",
+      "key": "circle.grid-dot-2-2-upDown|638x343",
+      "affected_properties": [
+        "opacity"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "0.3",
+          "reduce_value": "1"
+        }
+      ]
+    },
+    {
+      "selector": "circle.grid-dot-3-2-pong",
+      "key": "circle.grid-dot-3-2-pong|573x253",
+      "affected_properties": [
+        "opacity"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "0.3",
+          "reduce_value": "1"
+        }
+      ]
+    },
+    {
+      "selector": "circle.grid-dot-4-3-pong",
+      "key": "circle.grid-dot-4-3-pong|573x255",
+      "affected_properties": [
+        "opacity"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": "0.3"
+        }
+      ]
+    },
+    {
+      "selector": "circle.grid-dot-0-2-agent",
+      "key": "circle.grid-dot-0-2-agent|643x199",
+      "affected_properties": [
+        "opacity"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": "0.3"
+        }
+      ]
+    },
+    {
+      "selector": "div.SlackIssue_sendButtonGroup____BtY",
+      "key": "div.SlackIssue_sendButtonGroup____BtY|404x107",
+      "affected_properties": [
+        "opacity"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "0.999997",
+          "reduce_value": "0.999998"
+        }
+      ]
+    },
+    {
+      "selector": "circle.grid-dot-3-2-agent",
+      "key": "circle.grid-dot-3-2-agent|58x902",
+      "affected_properties": [
+        "opacity"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "1",
+          "reduce_value": "0.3"
+        }
+      ]
+    },
+    {
+      "selector": "span.sc-d5151d0-0.lcjIWe",
+      "key": "span.sc-d5151d0-0.lcjIWe|840x865",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "",
+          "reduce_value": "1"
+        },
+        {
+          "prop": "transform",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "filter",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "",
+          "reduce_value": "visible"
+        },
+        {
+          "prop": "transition",
+          "normal_value": "",
+          "reduce_value": "all"
+        },
+        {
+          "prop": "animation",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "",
+          "reduce_value": "0s"
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "",
+          "reduce_value": "all"
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "",
+          "reduce_value": "0s"
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "",
+          "reduce_value": "ease"
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "",
+          "reduce_value": "auto"
+        }
+      ]
+    },
+    {
+      "selector": "span.sc-d5151d0-0.lcjIWe",
+      "key": "span.sc-d5151d0-0.lcjIWe|840x894",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "",
+          "reduce_value": "1"
+        },
+        {
+          "prop": "transform",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "filter",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "",
+          "reduce_value": "visible"
+        },
+        {
+          "prop": "transition",
+          "normal_value": "",
+          "reduce_value": "all"
+        },
+        {
+          "prop": "animation",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "",
+          "reduce_value": "0s"
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "",
+          "reduce_value": "all"
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "",
+          "reduce_value": "0s"
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "",
+          "reduce_value": "ease"
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "",
+          "reduce_value": "auto"
+        }
+      ]
+    },
+    {
+      "selector": "span.sc-d5151d0-0.fCeHYh",
+      "key": "span.sc-d5151d0-0.fCeHYh|952x895",
+      "affected_properties": [
+        "opacity",
+        "transform",
+        "filter",
+        "visibility",
+        "transition",
+        "animation",
+        "animationName",
+        "animationDuration",
+        "transitionProperty",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "clipPath",
+        "backdropFilter",
+        "willChange"
+      ],
+      "details": [
+        {
+          "prop": "opacity",
+          "normal_value": "",
+          "reduce_value": "1"
+        },
+        {
+          "prop": "transform",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "filter",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "visibility",
+          "normal_value": "",
+          "reduce_value": "visible"
+        },
+        {
+          "prop": "transition",
+          "normal_value": "",
+          "reduce_value": "all"
+        },
+        {
+          "prop": "animation",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "animationName",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "animationDuration",
+          "normal_value": "",
+          "reduce_value": "0s"
+        },
+        {
+          "prop": "transitionProperty",
+          "normal_value": "",
+          "reduce_value": "all"
+        },
+        {
+          "prop": "transitionDuration",
+          "normal_value": "",
+          "reduce_value": "0s"
+        },
+        {
+          "prop": "transitionTimingFunction",
+          "normal_value": "",
+          "reduce_value": "ease"
+        },
+        {
+          "prop": "clipPath",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "backdropFilter",
+          "normal_value": "",
+          "reduce_value": "none"
+        },
+        {
+          "prop": "willChange",
+          "normal_value": "",
+          "reduce_value": "auto"
+        }
+      ]
+    }
+  ]
+}

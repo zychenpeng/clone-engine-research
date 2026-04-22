@@ -1,0 +1,1040 @@
+{
+  "target": "linear.app",
+  "date": "2026-04-22T17:02:43.920Z",
+  "bundles_scraped": 58,
+  "bundles_with_hits": 18,
+  "total_data_points": 62,
+  "api_cost_usd": 0,
+  "findings_by_bundle": [
+    {
+      "source_file": "chunks/592-9627d1307e540bfd.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/592-9627d1307e540bfd.js",
+      "pattern_hits": [
+        {
+          "pattern": "transition-duration",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 10350,
+              "snippet": "a});let r=500,o=500,i={style:{transition:\"none\"}},l=\"data-base-ui-click-trigger\",u={fallbackAxisSide:\"none\"},s={fallbackAxisSide:\"end\"},a"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 1,
+      "bundle_size_kb": 106,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "chunks/71768-2fe0466eeb6ef554.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/71768-2fe0466eeb6ef554.js",
+      "pattern_hits": [
+        {
+          "pattern": "transition-duration",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 1442,
+              "snippet": "r:`url(#${F}-filter0)`,style:{transition:\"opacity 0.2s ease-in-out\"},children:k}),(0,i.jsx)(\"g\",{opacity:x?\"0.3\":\"0\",filter:`url(#${F}-filter1)`,style:{trans"
+            },
+            {
+              "offset": 1564,
+              "snippet": "r:`url(#${F}-filter1)`,style:{transition:\"opacity 0.2s ease-in-out\"},children:k}),k,(0,i.jsxs)(\"defs\",{children:[(0,i.jsxs)(\"filter\",{id:`${F}-filter0`,x:\"-5"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 1,
+      "bundle_size_kb": 27,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "chunks/21664-4e9afd8514a15bf6.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/21664-4e9afd8514a15bf6.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-exit-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 70083,
+              "snippet": "))})}({animation:{Feature:tt},exit:{Feature:ti},inView:{Feature:iT},tap:{Feature:im},focus:{Feature:ir},hover:{Feature:is},pan:{Feature:t"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-whileInView",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 19351,
+              "snippet": "tion Z(){return{animate:_(!0),whileInView:_(),whileHover:_(),whileTap:_(),whileDrag:_(),whileFocus:_(),exit:_()}}class J{constructor"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-whileHover",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 19367,
+              "snippet": "animate:_(!0),whileInView:_(),whileHover:_(),whileTap:_(),whileDrag:_(),whileFocus:_(),exit:_()}}class J{constructor(t){this.isMoun"
+            }
+          ]
+        },
+        {
+          "pattern": "keyframes-object",
+          "count": 4,
+          "samples": [
+            {
+              "offset": 1852,
+              "snippet": "his.mirroredGenerator=h({...t,keyframes:[...o].reverse(),velocity:-a})),null===u.calculatedDuration&&(u.calculatedDuration=(0,p.t)("
+            },
+            {
+              "offset": 73450,
+              "snippet": "=d&&e>d){var i;m=t,f=(0,n.o)({keyframes:[g.value,(i=g.value,void 0===u?d:void 0===d||Math.abs(u-i)<Math.abs(d-i)?u:d)],velocity:(0,"
+            },
+            {
+              "offset": 74641,
+              "snippet": "\"!=typeof t?{visualDuration:t,keyframes:[0,1],bounce:e}:t,{restSpeed:x,restDelta:w}=o,T=o.keyframes[0],b=o.keyframes[o.keyframes.le"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 4,
+      "bundle_size_kb": 118,
+      "llm_decoded": "ERROR: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    },
+    {
+      "source_file": "chunks/80882-c22e3c1532b6cdcf.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/80882-c22e3c1532b6cdcf.js",
+      "pattern_hits": [
+        {
+          "pattern": "transition-duration",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 16649,
+              "snippet": "r:`url(#${y}-filter0)`,style:{transition:\"opacity 0.2s ease-in-out\"},children:(0,r.jsx)(\"use\",{href:`#${S}`})}),(0,r.jsx)(\"g\",{opacity:f?\"0.3\":\"0\",filter:`ur"
+            },
+            {
+              "offset": 16801,
+              "snippet": "r:`url(#${y}-filter1)`,style:{transition:\"opacity 0.2s ease-in-out\"},children:(0,r.jsx)(\"use\",{href:`#${S}`})}),(0,r.jsx)(\"use\",{href:`#${S}`}),(0,r.jsxs)(\"d"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 1,
+      "bundle_size_kb": 22,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "chunks/40874-8997d1de5007d10e.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/40874-8997d1de5007d10e.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 10482,
+              "snippet": "(a.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,t.jsx)(d.Tooltip,{title:(0,t.jsxs)(t.Fragment,{child"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 10462,
+              "snippet": "{children:[(0,t.jsx)(a.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,t.jsx)(d.Tooltip,{title:(0,t.jsx"
+            }
+          ]
+        },
+        {
+          "pattern": "transition-duration",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 21352,
+              "snippet": "yle:{transformOrigin:\"center\",transition:\"160ms var(--ease-out-quad)\",transform:\"translateY(-3.5px)\"}}),(0,t.jsx)(\"rect\",{x:\"1\",y:\"7.5\",width:\"14\",height:\"1\",r"
+            },
+            {
+              "offset": 21521,
+              "snippet": "yle:{transformOrigin:\"center\",transition:\"160ms var(--ease-out-quad)\",transform:\"translateY(3.5px)\"}})]});var M=i(23906),A=i(91613),F=i(69251),E=i(3076),O=i(92"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 3,
+      "bundle_size_kb": 41,
+      "llm_decoded": "ERROR: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    },
+    {
+      "source_file": "app/layout-a59f3fe20c0afa40.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/app/layout-a59f3fe20c0afa40.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 17428,
+              "snippet": "(s.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:C().overlay}),(0,r.jsx)(\"div\",{className:C().lightbox,onClick:"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 17408,
+              "snippet": "{children:[(0,r.jsx)(s.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:C().overlay}),(0,r.jsx)(\"div\",{className:C"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-exit-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 17448,
+              "snippet": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:C().overlay}),(0,r.jsx)(\"div\",{className:C().lightbox,onClick:()=>g(!1),childre"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 3,
+      "bundle_size_kb": 51,
+      "llm_decoded": "ERROR: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/15955-8f83b74d847a219f.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 5,
+          "samples": [
+            {
+              "offset": 10432,
+              "snippet": ")(o.P.div,{initial:{height:0},animate:{height:t?\"auto\":0},transition:{type:\"spring\",damping:18,mass:.2,stiffness:280},children:(0,a.jsx)(o.P.div,{i"
+            },
+            {
+              "offset": 10559,
+              "snippet": "(0,a.jsx)(o.P.div,{initial:!1,animate:{opacity:+!!t},transition:{type:\"spring\",delay:.1*!!t,damping:18,mass:.5,stiffness:200},className:(0,s.A"
+            },
+            {
+              "offset": 13209,
+              "snippet": "(0,a.jsx)(c.P.div,{initial:!1,animate:{height:f||\"auto\"},transition:{type:\"spring\",bounce:0,duration:.3},className:_().contentHeight,children:e.ma"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 10413,
+              "snippet": "0,children:(0,a.jsx)(o.P.div,{initial:{height:0},animate:{height:t?\"auto\":0},transition:{type:\"spring\",damping:18,mass:.2,stiffness:280},c"
+            },
+            {
+              "offset": 19044,
+              "snippet": "{children:[(0,a.jsx)(o.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:h().overlay}),(0,a.jsx)(\"div\",{className:h"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-exit-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 19084,
+              "snippet": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:h().overlay}),(0,a.jsx)(\"div\",{className:h().lightbox,onClick:()=>g(!1),childre"
+            }
+          ]
+        },
+        {
+          "pattern": "transition-duration",
+          "count": 3,
+          "samples": [
+            {
+              "offset": 6917,
+              "snippet": "lue}%`,opacity:\"two\"===t?.1:1,transition:\"opacity 0.2s ease\"}})}),(0,a.jsx)(\"div\",{className:g().barContainer,children:0===e.barTwoValue?(0,a.jsx)(\"sv"
+            },
+            {
+              "offset": 7177,
+              "snippet": "auto\",opacity:\"one\"===t?.05:1,transition:\"opacity 0.2s ease\"},children:(0,a.jsx)(\"line\",{opacity:\"0.2\",x1:\"0.5\",y1:\"0.5\",x2:\"55.5\",y2:\"0.5\",stroke:\"va"
+            },
+            {
+              "offset": 7497,
+              "snippet": "80%)`,opacity:\"one\"===t?.05:1,transition:\"opacity 0.2s ease\"}})})]}),(0,a.jsx)(h.Text,{size:\"mini\",color:\"quaternary\",weight:\"medium\",children:r+1})]}"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 4,
+      "bundle_size_kb": 27,
+      "llm_decoded": "ERROR: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    },
+    {
+      "source_file": "chunks/19682-cfd1fc98036ba15c.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/19682-cfd1fc98036ba15c.js",
+      "pattern_hits": [
+        {
+          "pattern": "keyframes-object",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 6812,
+              "snippet": "=null)},p=()=>{f(),s=new o.s({keyframes:[u(e.get()),u(c)],velocity:e.getVelocity(),type:\"spring\",restDelta:.001,restSpeed:.01,...r,"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 1,
+      "bundle_size_kb": 96,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "chunks/25556-ef040257e1bfcb94.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/25556-ef040257e1bfcb94.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 16559,
+              "snippet": "(i.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,o.jsx)(u.Tooltip,{title:(0,o.jsxs)(o.Fragment,{child"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 16539,
+              "snippet": "{children:[(0,o.jsx)(i.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,o.jsx)(u.Tooltip,{title:(0,o.jsx"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 2,
+      "bundle_size_kb": 31,
+      "llm_decoded": "ERROR: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    },
+    {
+      "source_file": "chunks/93115-2eabbb6487e160e7.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/93115-2eabbb6487e160e7.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-exit-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 43205,
+              "snippet": "turn{type:\"thematicBreak\"}})},exit:{atxHeading:l(),atxHeadingSequence:function(e){let t=this.stack[this.stack.length-1];t.depth||(t.depth=this.sliceSerialize(e).length)},autolink:l(),autolinkEmail:function(e){p.call(this,e),this.stack[this.stack.length-1].url"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 1,
+      "bundle_size_kb": 410,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/74051-f3e31e319763b214.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 5,
+          "samples": [
+            {
+              "offset": 34731,
+              "snippet": "P.div,{initial:p&&{opacity:0},animate:{opacity:[0,.85,1]},transition:{duration:1.5,delay:1.3,ease:g,times:[0,.2,1]},className:L().background,\"aria-"
+            },
+            {
+              "offset": 35116,
+              "snippet": "ptop\"),initial:p&&{opacity:0},animate:{opacity:[0,.85,1]},transition:{duration:1.5,delay:1.3,ease:g,times:[0,.2,1]},children:(0,t.jsx)(k._V,{src:(0"
+            },
+            {
+              "offset": 35403,
+              "snippet": "ptop\"),initial:p&&{opacity:0},animate:{opacity:[0,.85,1]},transition:{duration:1.5,delay:1.3,ease:g,times:[0,.2,1]},children:(0,t.jsx)(k._V,{src:(0"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 5,
+          "samples": [
+            {
+              "offset": 195928,
+              "snippet": "dren:1===e?(0,t.jsx)(a.P.div,{initial:{x:500,opacity:0},animate:{x:0,opacity:1},exit:{x:500,opacity:0},transition:{duration:.5,type:\"spring\",boun"
+            },
+            {
+              "offset": 196102,
+              "snippet": ")},\"apac\"):(0,t.jsx)(a.P.div,{initial:{x:-500,opacity:0},animate:{x:0,opacity:1},exit:{x:-500,opacity:0},transition:{duration:.5,type:\"spring\",bou"
+            },
+            {
+              "offset": 241913,
+              "snippet": "ren:[h>=2&&(0,t.jsx)(c.P.div,{initial:{height:0,opacity:0},animate:{height:\"auto\",opacity:1},transition:{duration:.6,type:\"spring\",bounce:0},style:{"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-exit-key",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 195978,
+              "snippet": "ty:0},animate:{x:0,opacity:1},exit:{x:500,opacity:0},transition:{duration:.5,type:\"spring\",bounce:0},children:(0,t.jsx)(V,{})},\"apac\"):(0,t.js"
+            },
+            {
+              "offset": 196153,
+              "snippet": "ty:0},animate:{x:0,opacity:1},exit:{x:-500,opacity:0},transition:{duration:.5,type:\"spring\",bounce:0},children:(0,t.jsxs)(f.Flex,{direction:\"co"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 3,
+      "bundle_size_kb": 336,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "chunks/81027-defe61532e9ef4d7.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/81027-defe61532e9ef4d7.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 7804,
+              "snippet": "(o.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(h.Tooltip,{title:(0,a.jsxs)(a.Fragment,{child"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 7784,
+              "snippet": "{children:[(0,a.jsx)(o.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(h.Tooltip,{title:(0,a.jsx"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 2,
+      "bundle_size_kb": 23,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "now/page-1536b1afba05fa77.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/app/(marketing)/now/page-1536b1afba05fa77.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 3,
+          "samples": [
+            {
+              "offset": 3661,
+              "snippet": "(0,n.jsx)(d.P.div,{initial:!1,animate:{height:p||\"auto\"},transition:{type:\"spring\",bounce:0,duration:.3},className:h().contentHeight,children:e.ma"
+            },
+            {
+              "offset": 4186,
+              "snippet": "(0,n.jsx)(d.P.div,{initial:!1,animate:{opacity:+!!i},transition:{type:\"spring\",damping:18,mass:.5,stiffness:200,delay:.15*!!i},children:r.cont"
+            },
+            {
+              "offset": 16786,
+              "snippet": "(a.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:_().overlay}),(0,n.jsx)(\"div\",{className:_().lightbox,onClick:"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 16766,
+              "snippet": "{children:[(0,n.jsx)(a.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:_().overlay}),(0,n.jsx)(\"div\",{className:_"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-exit-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 16806,
+              "snippet": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:_().overlay}),(0,n.jsx)(\"div\",{className:_().lightbox,onClick:()=>g(!1),childre"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 3,
+      "bundle_size_kb": 24,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "contact/page-2b8e563ad4b67e44.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/app/(marketing)/contact/page-2b8e563ad4b67e44.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 6919,
+              "snippet": "(s.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,o.jsx)(u.Tooltip,{title:(0,o.jsxs)(o.Fragment,{child"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 6899,
+              "snippet": "{children:[(0,o.jsx)(s.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,o.jsx)(u.Tooltip,{title:(0,o.jsx"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 2,
+      "bundle_size_kb": 17,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "chunks/59298-810300781b649235.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/59298-810300781b649235.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 40051,
+              "snippet": "(l.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(_.Tooltip,{title:(0,a.jsxs)(a.Fragment,{child"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 40031,
+              "snippet": "{children:[(0,a.jsx)(l.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(_.Tooltip,{title:(0,a.jsx"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 2,
+      "bundle_size_kb": 45,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "about/page-682b4c7eae425870.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/app/(marketing)/about/page-682b4c7eae425870.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 11985,
+              "snippet": "(o.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,r.jsx)(h.Tooltip,{title:(0,r.jsxs)(r.Fragment,{child"
+            },
+            {
+              "offset": 15628,
+              "snippet": "(o.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:u().overlay}),(0,r.jsx)(\"div\",{className:u().lightbox,onClick:"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 11965,
+              "snippet": "{children:[(0,r.jsx)(o.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,r.jsx)(h.Tooltip,{title:(0,r.jsx"
+            },
+            {
+              "offset": 15608,
+              "snippet": "{children:[(0,r.jsx)(o.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:u().overlay}),(0,r.jsx)(\"div\",{className:u"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-exit-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 15648,
+              "snippet": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:u().overlay}),(0,r.jsx)(\"div\",{className:u().lightbox,onClick:()=>_(!1),childre"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 3,
+      "bundle_size_kb": 38,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "customers/page-890c6558b880f801.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/app/(marketing)/customers/page-890c6558b880f801.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 20103,
+              "snippet": "(n.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(u.Tooltip,{title:(0,a.jsxs)(a.Fragment,{child"
+            },
+            {
+              "offset": 23746,
+              "snippet": "(n.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:m().overlay}),(0,a.jsx)(\"div\",{className:m().lightbox,onClick:"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 2,
+          "samples": [
+            {
+              "offset": 20083,
+              "snippet": "{children:[(0,a.jsx)(n.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(u.Tooltip,{title:(0,a.jsx"
+            },
+            {
+              "offset": 23726,
+              "snippet": "{children:[(0,a.jsx)(n.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:m().overlay}),(0,a.jsx)(\"div\",{className:m"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-exit-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 23766,
+              "snippet": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:m().overlay}),(0,a.jsx)(\"div\",{className:m().lightbox,onClick:()=>p(!1),childre"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 3,
+      "bundle_size_kb": 30,
+      "llm_decoded": null
+    },
+    {
+      "source_file": "next/page-4a4a4fe111022d07.js",
+      "source_url": "https://static.linear.app/web/_next/static/chunks/app/(marketing)/next/page-4a4a4fe111022d07.js",
+      "pattern_hits": [
+        {
+          "pattern": "framer-motion-animate-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 7627,
+              "snippet": "(q.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,z.jsx)(s.Tooltip,{title:(0,z.jsxs)(z.Fragment,{child"
+            }
+          ]
+        },
+        {
+          "pattern": "framer-motion-initial-key",
+          "count": 1,
+          "samples": [
+            {
+              "offset": 7607,
+              "snippet": "{children:[(0,z.jsx)(q.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,z.jsx)(s.Tooltip,{title:(0,z.jsx"
+            }
+          ]
+        }
+      ],
+      "total_patterns_matched": 2,
+      "bundle_size_kb": 338,
+      "llm_decoded": null
+    }
+  ],
+  "data_points": [
+    {
+      "source_file": "chunks/592-9627d1307e540bfd.js",
+      "location": "offset:10350",
+      "inferred_component": "transition-duration",
+      "props": "a});let r=500,o=500,i={style:{transition:\"none\"}},l=\"data-base-ui-click-trigger\",u={fallbackAxisSide:\"none\"},s={fallbackAxisSide:\"end\"},a"
+    },
+    {
+      "source_file": "chunks/71768-2fe0466eeb6ef554.js",
+      "location": "offset:1442",
+      "inferred_component": "transition-duration",
+      "props": "r:`url(#${F}-filter0)`,style:{transition:\"opacity 0.2s ease-in-out\"},children:k}),(0,i.jsx)(\"g\",{opacity:x?\"0.3\":\"0\",filter:`url(#${F}-filter1)`,style:{trans"
+    },
+    {
+      "source_file": "chunks/71768-2fe0466eeb6ef554.js",
+      "location": "offset:1564",
+      "inferred_component": "transition-duration",
+      "props": "r:`url(#${F}-filter1)`,style:{transition:\"opacity 0.2s ease-in-out\"},children:k}),k,(0,i.jsxs)(\"defs\",{children:[(0,i.jsxs)(\"filter\",{id:`${F}-filter0`,x:\"-5"
+    },
+    {
+      "source_file": "chunks/21664-4e9afd8514a15bf6.js",
+      "location": "offset:70083",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "))})}({animation:{Feature:tt},exit:{Feature:ti},inView:{Feature:iT},tap:{Feature:im},focus:{Feature:ir},hover:{Feature:is},pan:{Feature:t"
+    },
+    {
+      "source_file": "chunks/21664-4e9afd8514a15bf6.js",
+      "location": "offset:19351",
+      "inferred_component": "framer-motion-whileInView",
+      "props": "tion Z(){return{animate:_(!0),whileInView:_(),whileHover:_(),whileTap:_(),whileDrag:_(),whileFocus:_(),exit:_()}}class J{constructor"
+    },
+    {
+      "source_file": "chunks/21664-4e9afd8514a15bf6.js",
+      "location": "offset:19367",
+      "inferred_component": "framer-motion-whileHover",
+      "props": "animate:_(!0),whileInView:_(),whileHover:_(),whileTap:_(),whileDrag:_(),whileFocus:_(),exit:_()}}class J{constructor(t){this.isMoun"
+    },
+    {
+      "source_file": "chunks/21664-4e9afd8514a15bf6.js",
+      "location": "offset:1852",
+      "inferred_component": "keyframes-object",
+      "props": "his.mirroredGenerator=h({...t,keyframes:[...o].reverse(),velocity:-a})),null===u.calculatedDuration&&(u.calculatedDuration=(0,p.t)("
+    },
+    {
+      "source_file": "chunks/21664-4e9afd8514a15bf6.js",
+      "location": "offset:73450",
+      "inferred_component": "keyframes-object",
+      "props": "=d&&e>d){var i;m=t,f=(0,n.o)({keyframes:[g.value,(i=g.value,void 0===u?d:void 0===d||Math.abs(u-i)<Math.abs(d-i)?u:d)],velocity:(0,"
+    },
+    {
+      "source_file": "chunks/21664-4e9afd8514a15bf6.js",
+      "location": "offset:74641",
+      "inferred_component": "keyframes-object",
+      "props": "\"!=typeof t?{visualDuration:t,keyframes:[0,1],bounce:e}:t,{restSpeed:x,restDelta:w}=o,T=o.keyframes[0],b=o.keyframes[o.keyframes.le"
+    },
+    {
+      "source_file": "chunks/80882-c22e3c1532b6cdcf.js",
+      "location": "offset:16649",
+      "inferred_component": "transition-duration",
+      "props": "r:`url(#${y}-filter0)`,style:{transition:\"opacity 0.2s ease-in-out\"},children:(0,r.jsx)(\"use\",{href:`#${S}`})}),(0,r.jsx)(\"g\",{opacity:f?\"0.3\":\"0\",filter:`ur"
+    },
+    {
+      "source_file": "chunks/80882-c22e3c1532b6cdcf.js",
+      "location": "offset:16801",
+      "inferred_component": "transition-duration",
+      "props": "r:`url(#${y}-filter1)`,style:{transition:\"opacity 0.2s ease-in-out\"},children:(0,r.jsx)(\"use\",{href:`#${S}`})}),(0,r.jsx)(\"use\",{href:`#${S}`}),(0,r.jsxs)(\"d"
+    },
+    {
+      "source_file": "chunks/40874-8997d1de5007d10e.js",
+      "location": "offset:10482",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(a.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,t.jsx)(d.Tooltip,{title:(0,t.jsxs)(t.Fragment,{child"
+    },
+    {
+      "source_file": "chunks/40874-8997d1de5007d10e.js",
+      "location": "offset:10462",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,t.jsx)(a.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,t.jsx)(d.Tooltip,{title:(0,t.jsx"
+    },
+    {
+      "source_file": "chunks/40874-8997d1de5007d10e.js",
+      "location": "offset:21352",
+      "inferred_component": "transition-duration",
+      "props": "yle:{transformOrigin:\"center\",transition:\"160ms var(--ease-out-quad)\",transform:\"translateY(-3.5px)\"}}),(0,t.jsx)(\"rect\",{x:\"1\",y:\"7.5\",width:\"14\",height:\"1\",r"
+    },
+    {
+      "source_file": "chunks/40874-8997d1de5007d10e.js",
+      "location": "offset:21521",
+      "inferred_component": "transition-duration",
+      "props": "yle:{transformOrigin:\"center\",transition:\"160ms var(--ease-out-quad)\",transform:\"translateY(3.5px)\"}})]});var M=i(23906),A=i(91613),F=i(69251),E=i(3076),O=i(92"
+    },
+    {
+      "source_file": "app/layout-a59f3fe20c0afa40.js",
+      "location": "offset:17428",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(s.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:C().overlay}),(0,r.jsx)(\"div\",{className:C().lightbox,onClick:"
+    },
+    {
+      "source_file": "app/layout-a59f3fe20c0afa40.js",
+      "location": "offset:17408",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,r.jsx)(s.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:C().overlay}),(0,r.jsx)(\"div\",{className:C"
+    },
+    {
+      "source_file": "app/layout-a59f3fe20c0afa40.js",
+      "location": "offset:17448",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:C().overlay}),(0,r.jsx)(\"div\",{className:C().lightbox,onClick:()=>g(!1),childre"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:10432",
+      "inferred_component": "framer-motion-animate-key",
+      "props": ")(o.P.div,{initial:{height:0},animate:{height:t?\"auto\":0},transition:{type:\"spring\",damping:18,mass:.2,stiffness:280},children:(0,a.jsx)(o.P.div,{i"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:10559",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(0,a.jsx)(o.P.div,{initial:!1,animate:{opacity:+!!t},transition:{type:\"spring\",delay:.1*!!t,damping:18,mass:.5,stiffness:200},className:(0,s.A"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:13209",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(0,a.jsx)(c.P.div,{initial:!1,animate:{height:f||\"auto\"},transition:{type:\"spring\",bounce:0,duration:.3},className:_().contentHeight,children:e.ma"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:10413",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "0,children:(0,a.jsx)(o.P.div,{initial:{height:0},animate:{height:t?\"auto\":0},transition:{type:\"spring\",damping:18,mass:.2,stiffness:280},c"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:19044",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,a.jsx)(o.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:h().overlay}),(0,a.jsx)(\"div\",{className:h"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:19084",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:h().overlay}),(0,a.jsx)(\"div\",{className:h().lightbox,onClick:()=>g(!1),childre"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:6917",
+      "inferred_component": "transition-duration",
+      "props": "lue}%`,opacity:\"two\"===t?.1:1,transition:\"opacity 0.2s ease\"}})}),(0,a.jsx)(\"div\",{className:g().barContainer,children:0===e.barTwoValue?(0,a.jsx)(\"sv"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:7177",
+      "inferred_component": "transition-duration",
+      "props": "auto\",opacity:\"one\"===t?.05:1,transition:\"opacity 0.2s ease\"},children:(0,a.jsx)(\"line\",{opacity:\"0.2\",x1:\"0.5\",y1:\"0.5\",x2:\"55.5\",y2:\"0.5\",stroke:\"va"
+    },
+    {
+      "source_file": "chunks/15955-8f83b74d847a219f.js",
+      "location": "offset:7497",
+      "inferred_component": "transition-duration",
+      "props": "80%)`,opacity:\"one\"===t?.05:1,transition:\"opacity 0.2s ease\"}})})]}),(0,a.jsx)(h.Text,{size:\"mini\",color:\"quaternary\",weight:\"medium\",children:r+1})]}"
+    },
+    {
+      "source_file": "chunks/19682-cfd1fc98036ba15c.js",
+      "location": "offset:6812",
+      "inferred_component": "keyframes-object",
+      "props": "=null)},p=()=>{f(),s=new o.s({keyframes:[u(e.get()),u(c)],velocity:e.getVelocity(),type:\"spring\",restDelta:.001,restSpeed:.01,...r,"
+    },
+    {
+      "source_file": "chunks/25556-ef040257e1bfcb94.js",
+      "location": "offset:16559",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(i.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,o.jsx)(u.Tooltip,{title:(0,o.jsxs)(o.Fragment,{child"
+    },
+    {
+      "source_file": "chunks/25556-ef040257e1bfcb94.js",
+      "location": "offset:16539",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,o.jsx)(i.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,o.jsx)(u.Tooltip,{title:(0,o.jsx"
+    },
+    {
+      "source_file": "chunks/93115-2eabbb6487e160e7.js",
+      "location": "offset:43205",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "turn{type:\"thematicBreak\"}})},exit:{atxHeading:l(),atxHeadingSequence:function(e){let t=this.stack[this.stack.length-1];t.depth||(t.depth=this.sliceSerialize(e).length)},autolink:l(),autolinkEmail:function(e){p.call(this,e),this.stack[this.stack.length-1].url"
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "location": "offset:34731",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "P.div,{initial:p&&{opacity:0},animate:{opacity:[0,.85,1]},transition:{duration:1.5,delay:1.3,ease:g,times:[0,.2,1]},className:L().background,\"aria-"
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "location": "offset:35116",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "ptop\"),initial:p&&{opacity:0},animate:{opacity:[0,.85,1]},transition:{duration:1.5,delay:1.3,ease:g,times:[0,.2,1]},children:(0,t.jsx)(k._V,{src:(0"
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "location": "offset:35403",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "ptop\"),initial:p&&{opacity:0},animate:{opacity:[0,.85,1]},transition:{duration:1.5,delay:1.3,ease:g,times:[0,.2,1]},children:(0,t.jsx)(k._V,{src:(0"
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "location": "offset:195928",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "dren:1===e?(0,t.jsx)(a.P.div,{initial:{x:500,opacity:0},animate:{x:0,opacity:1},exit:{x:500,opacity:0},transition:{duration:.5,type:\"spring\",boun"
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "location": "offset:196102",
+      "inferred_component": "framer-motion-initial-key",
+      "props": ")},\"apac\"):(0,t.jsx)(a.P.div,{initial:{x:-500,opacity:0},animate:{x:0,opacity:1},exit:{x:-500,opacity:0},transition:{duration:.5,type:\"spring\",bou"
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "location": "offset:241913",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "ren:[h>=2&&(0,t.jsx)(c.P.div,{initial:{height:0,opacity:0},animate:{height:\"auto\",opacity:1},transition:{duration:.6,type:\"spring\",bounce:0},style:{"
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "location": "offset:195978",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "ty:0},animate:{x:0,opacity:1},exit:{x:500,opacity:0},transition:{duration:.5,type:\"spring\",bounce:0},children:(0,t.jsx)(V,{})},\"apac\"):(0,t.js"
+    },
+    {
+      "source_file": "chunks/74051-f3e31e319763b214.js",
+      "location": "offset:196153",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "ty:0},animate:{x:0,opacity:1},exit:{x:-500,opacity:0},transition:{duration:.5,type:\"spring\",bounce:0},children:(0,t.jsxs)(f.Flex,{direction:\"co"
+    },
+    {
+      "source_file": "chunks/81027-defe61532e9ef4d7.js",
+      "location": "offset:7804",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(o.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(h.Tooltip,{title:(0,a.jsxs)(a.Fragment,{child"
+    },
+    {
+      "source_file": "chunks/81027-defe61532e9ef4d7.js",
+      "location": "offset:7784",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,a.jsx)(o.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(h.Tooltip,{title:(0,a.jsx"
+    },
+    {
+      "source_file": "now/page-1536b1afba05fa77.js",
+      "location": "offset:3661",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(0,n.jsx)(d.P.div,{initial:!1,animate:{height:p||\"auto\"},transition:{type:\"spring\",bounce:0,duration:.3},className:h().contentHeight,children:e.ma"
+    },
+    {
+      "source_file": "now/page-1536b1afba05fa77.js",
+      "location": "offset:4186",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(0,n.jsx)(d.P.div,{initial:!1,animate:{opacity:+!!i},transition:{type:\"spring\",damping:18,mass:.5,stiffness:200,delay:.15*!!i},children:r.cont"
+    },
+    {
+      "source_file": "now/page-1536b1afba05fa77.js",
+      "location": "offset:16786",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(a.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:_().overlay}),(0,n.jsx)(\"div\",{className:_().lightbox,onClick:"
+    },
+    {
+      "source_file": "now/page-1536b1afba05fa77.js",
+      "location": "offset:16766",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,n.jsx)(a.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:_().overlay}),(0,n.jsx)(\"div\",{className:_"
+    },
+    {
+      "source_file": "now/page-1536b1afba05fa77.js",
+      "location": "offset:16806",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:_().overlay}),(0,n.jsx)(\"div\",{className:_().lightbox,onClick:()=>g(!1),childre"
+    },
+    {
+      "source_file": "contact/page-2b8e563ad4b67e44.js",
+      "location": "offset:6919",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(s.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,o.jsx)(u.Tooltip,{title:(0,o.jsxs)(o.Fragment,{child"
+    },
+    {
+      "source_file": "contact/page-2b8e563ad4b67e44.js",
+      "location": "offset:6899",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,o.jsx)(s.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,o.jsx)(u.Tooltip,{title:(0,o.jsx"
+    },
+    {
+      "source_file": "chunks/59298-810300781b649235.js",
+      "location": "offset:40051",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(l.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(_.Tooltip,{title:(0,a.jsxs)(a.Fragment,{child"
+    },
+    {
+      "source_file": "chunks/59298-810300781b649235.js",
+      "location": "offset:40031",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,a.jsx)(l.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(_.Tooltip,{title:(0,a.jsx"
+    },
+    {
+      "source_file": "about/page-682b4c7eae425870.js",
+      "location": "offset:11985",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(o.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,r.jsx)(h.Tooltip,{title:(0,r.jsxs)(r.Fragment,{child"
+    },
+    {
+      "source_file": "about/page-682b4c7eae425870.js",
+      "location": "offset:15628",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(o.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:u().overlay}),(0,r.jsx)(\"div\",{className:u().lightbox,onClick:"
+    },
+    {
+      "source_file": "about/page-682b4c7eae425870.js",
+      "location": "offset:11965",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,r.jsx)(o.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,r.jsx)(h.Tooltip,{title:(0,r.jsx"
+    },
+    {
+      "source_file": "about/page-682b4c7eae425870.js",
+      "location": "offset:15608",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,r.jsx)(o.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:u().overlay}),(0,r.jsx)(\"div\",{className:u"
+    },
+    {
+      "source_file": "about/page-682b4c7eae425870.js",
+      "location": "offset:15648",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:u().overlay}),(0,r.jsx)(\"div\",{className:u().lightbox,onClick:()=>_(!1),childre"
+    },
+    {
+      "source_file": "customers/page-890c6558b880f801.js",
+      "location": "offset:20103",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(n.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(u.Tooltip,{title:(0,a.jsxs)(a.Fragment,{child"
+    },
+    {
+      "source_file": "customers/page-890c6558b880f801.js",
+      "location": "offset:23746",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(n.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:m().overlay}),(0,a.jsx)(\"div\",{className:m().lightbox,onClick:"
+    },
+    {
+      "source_file": "customers/page-890c6558b880f801.js",
+      "location": "offset:20083",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,a.jsx)(n.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,a.jsx)(u.Tooltip,{title:(0,a.jsx"
+    },
+    {
+      "source_file": "customers/page-890c6558b880f801.js",
+      "location": "offset:23726",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,a.jsx)(n.P.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},className:m().overlay}),(0,a.jsx)(\"div\",{className:m"
+    },
+    {
+      "source_file": "customers/page-890c6558b880f801.js",
+      "location": "offset:23766",
+      "inferred_component": "framer-motion-exit-key",
+      "props": "pacity:0},animate:{opacity:1},exit:{opacity:0},className:m().overlay}),(0,a.jsx)(\"div\",{className:m().lightbox,onClick:()=>p(!1),childre"
+    },
+    {
+      "source_file": "next/page-4a4a4fe111022d07.js",
+      "location": "offset:7627",
+      "inferred_component": "framer-motion-animate-key",
+      "props": "(q.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,z.jsx)(s.Tooltip,{title:(0,z.jsxs)(z.Fragment,{child"
+    },
+    {
+      "source_file": "next/page-4a4a4fe111022d07.js",
+      "location": "offset:7607",
+      "inferred_component": "framer-motion-initial-key",
+      "props": "{children:[(0,z.jsx)(q.P.div,{initial:{opacity:0},animate:{opacity:1},transition:{duration:.2},children:(0,z.jsx)(s.Tooltip,{title:(0,z.jsx"
+    }
+  ]
+}
