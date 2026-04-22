@@ -15,9 +15,10 @@
     "extract:dom": "tsx extract-dom.mjs",
     "extract:rrweb": "tsx extract-rrweb.mjs",
     "extract:vision": "tsx extract-vision.mjs",
+    "cross-validate": "tsx cross-validate.mjs",
     "merge": "tsx merge.mjs",
     "cli": "node cli.mjs",
-    "test": "tsx --test test/schema.test.mjs test/merge.test.mjs test/vision.test.mjs test/rrweb.test.mjs"
+    "test": "tsx --test test/schema.test.mjs test/merge.test.mjs test/vision.test.mjs test/rrweb.test.mjs test/cross-validate.test.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.88.0",

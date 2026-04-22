@@ -29,7 +29,14 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 
 const OUT_DIR = process.env.OUT_DIR || path.join(HERE, 'out');
 const DOM_PATH = process.env.DOM_PATH || path.join(OUT_DIR, 'animations-dom.json');
-const VISION_PATH = process.env.VISION_PATH || path.join(OUT_DIR, 'animations-vision.json');
+// Prefer the cross-validated Vision file when cross-validate.mjs has run;
+// fall back to the raw Vision output so the pipeline is still usable in
+// `--skip-cross-validate` or legacy modes.
+const VERIFIED_VISION_PATH = path.join(OUT_DIR, 'animations-vision-verified.json');
+const VISION_PATH = process.env.VISION_PATH
+  || (existsSync(VERIFIED_VISION_PATH)
+      ? VERIFIED_VISION_PATH
+      : path.join(OUT_DIR, 'animations-vision.json'));
 const SPEC_PATH = process.env.SPEC_PATH || path.join(OUT_DIR, 'animation-spec.json');
 const DURATION_TOLERANCE = Number(process.env.DURATION_TOLERANCE || 0.3); // ±30%
 
@@ -216,6 +223,8 @@ async function main() {
 
   const dom = JSON.parse(await readFile(DOM_PATH, 'utf8'));
   const vision = JSON.parse(await readFile(VISION_PATH, 'utf8'));
+
+  console.log(`[merge] vision source: ${path.basename(VISION_PATH)}${vision.cross_validated ? ' (cross-validated)' : ' (raw)'}`);
 
   const spec = mergeSpec(dom, vision);
   validateSpec(spec);

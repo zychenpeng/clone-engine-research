@@ -13,26 +13,30 @@ const USAGE = `
 Usage: animation-extract <url> [options]
 
 Stages (run sequentially, each writes to <out>/):
-  1. extract-dom       → animations-dom.json  (Layer 1: document.getAnimations)
-  2. extract-rrweb     → mutation-log.json    (Layer 2: rrweb DOM mutations)
-  3. extract-vision    → animations-vision.json (Layer 3: Claude Vision candidates)
-  4. merge             → animation-spec.json  (canonical merged spec)
+  1. extract-dom         → animations-dom.json           (Layer 1: document.getAnimations)
+  2. extract-rrweb       → mutation-log.json             (Layer 2: rrweb DOM mutations)
+  3. extract-vision      → animations-vision.json        (Layer 3: Claude Vision candidates)
+  4. cross-validate      → animations-vision-verified.json + cross-validation.json
+                                                         (Layer 4: rrweb-gated verification)
+  5. merge               → animation-spec.json           (canonical merged spec)
 
 Options:
-  --out <dir>            Output directory (default: ./out/<hostname>)
-  --skip-dom             Skip Stage 1
-  --skip-rrweb           Skip Stage 2
-  --skip-vision          Skip Stage 3
-  --skip-merge           Skip Stage 4
-  --headless             Launch browser headless (default: headed for stealth)
-  --frames <n>           Number of scroll frames (default: 20)
-  --timeout <ms>         Goto timeout in ms (default: 60000)
-  --min-confidence <n>   Vision confidence floor (default: 0.5)
-  --vision-model <id>    Override vision model (default: claude-sonnet-4-5-20250929)
-  -h, --help             Show this help
+  --out <dir>                Output directory (default: ./out/<hostname>)
+  --skip-dom                 Skip Stage 1
+  --skip-rrweb               Skip Stage 2
+  --skip-vision              Skip Stage 3
+  --skip-cross-validate      Skip Stage 4 (merge will fall back to raw Vision)
+  --skip-merge               Skip Stage 5
+  --headless                 Launch browser headless (default: headed for stealth)
+  --frames <n>               Number of scroll frames (default: 20)
+  --timeout <ms>             Goto timeout in ms (default: 60000)
+  --min-confidence <n>       Vision confidence floor (default: 0.5)
+  --vision-model <id>        Override vision model (default: claude-sonnet-4-5-20250929)
+  --time-window-ms <n>       Cross-validator ±time-window, ms (default: 500)
+  -h, --help                 Show this help
 
 Env:
-  ANTHROPIC_API_KEY      Required for Stage 3 (Vision)
+  ANTHROPIC_API_KEY          Required for Stage 3 (Vision)
 `.trim();
 
 function parseArgs(argv) {
@@ -42,12 +46,14 @@ function parseArgs(argv) {
     skipDom: false,
     skipRrweb: false,
     skipVision: false,
+    skipCrossValidate: false,
     skipMerge: false,
     headless: false,
     frames: null,
     timeout: null,
     minConfidence: null,
     visionModel: null,
+    timeWindowMs: null,
   };
   const positional = [];
   for (let i = 0; i < argv.length; i++) {
@@ -58,7 +64,9 @@ function parseArgs(argv) {
     } else if (a === '--skip-dom') opts.skipDom = true;
     else if (a === '--skip-rrweb') opts.skipRrweb = true;
     else if (a === '--skip-vision') opts.skipVision = true;
+    else if (a === '--skip-cross-validate') opts.skipCrossValidate = true;
     else if (a === '--skip-merge') opts.skipMerge = true;
+    else if (a === '--time-window-ms') opts.timeWindowMs = argv[++i];
     else if (a === '--headless') opts.headless = true;
     else if (a === '--out') opts.out = argv[++i];
     else if (a === '--frames') opts.frames = argv[++i];
@@ -116,6 +124,7 @@ async function main() {
   if (opts.timeout) baseEnv.GOTO_TIMEOUT_MS = opts.timeout;
   if (opts.minConfidence) baseEnv.MIN_CONFIDENCE = opts.minConfidence;
   if (opts.visionModel) baseEnv.VISION_MODEL = opts.visionModel;
+  if (opts.timeWindowMs) baseEnv.TIME_WINDOW_MS = opts.timeWindowMs;
 
   console.log(`[cli] target=${opts.url}`);
   console.log(`[cli] out=${outDir}`);
@@ -123,14 +132,14 @@ async function main() {
   const t0 = Date.now();
 
   if (!opts.skipDom) {
-    console.log('[cli] Stage 1/4: DOM probe');
+    console.log('[cli] Stage 1/5: DOM probe');
     await runStage('extract-dom', path.join(HERE, 'extract-dom.mjs'), baseEnv);
   } else {
     console.log('[cli] Skipping DOM probe');
   }
 
   if (!opts.skipRrweb) {
-    console.log('[cli] Stage 2/4: rrweb mutation recorder');
+    console.log('[cli] Stage 2/5: rrweb mutation recorder');
     await runStage('extract-rrweb', path.join(HERE, 'extract-rrweb.mjs'), baseEnv);
   } else {
     console.log('[cli] Skipping rrweb');
@@ -141,14 +150,21 @@ async function main() {
       console.error('[cli] ANTHROPIC_API_KEY required for Vision stage (use --skip-vision to bypass)');
       process.exit(2);
     }
-    console.log('[cli] Stage 3/4: Vision probe');
+    console.log('[cli] Stage 3/5: Vision probe');
     await runStage('extract-vision', path.join(HERE, 'extract-vision.mjs'), baseEnv);
   } else {
     console.log('[cli] Skipping Vision probe');
   }
 
+  if (!opts.skipCrossValidate) {
+    console.log('[cli] Stage 4/5: Cross-validate Vision against rrweb mutations');
+    await runStage('cross-validate', path.join(HERE, 'cross-validate.mjs'), baseEnv);
+  } else {
+    console.log('[cli] Skipping cross-validate (merge will use raw Vision output)');
+  }
+
   if (!opts.skipMerge) {
-    console.log('[cli] Stage 4/4: Merge');
+    console.log('[cli] Stage 5/5: Merge');
     await runStage('merge', path.join(HERE, 'merge.mjs'), baseEnv);
   } else {
     console.log('[cli] Skipping merge');
