@@ -416,3 +416,65 @@ Review 完後，根據標記結果決定下一步：
 ---
 
 *Review 完成後，把這份 commit 回 repo，新 session 讀你的判斷後決定是否進 E3 emitter。*
+
+---
+
+## 🔴 Sean Final Verdict (2026-04-23)
+
+### TLDR
+
+**B+C 架構（rrweb + cross-validator）也是 dead-end。**
+
+| 輪次 | Verified 數 | 人工 review 結果 | Hallucination rate |
+|------|-----------:|:----------------|-------------------:|
+| Phase E2（raw Vision） | 18（樣本）| **18/18 ❌** 幻覺 | 100% |
+| E-Pivot.3（rrweb-gated）| 3（Stripe 全數）| **3/3 ❌** keyword collision 假陽性 | 100% |
+
+PIVOT.md §4.1 訂的 "<10% hallucination" 目標沒達到。Cross-validator 沒 fail 任何「壞的」Vision 判斷都沒救，因為 **它讓壞的 3 個通過了**。不進 E-Pivot.4，不進 E3 emitter。
+
+### 為什麼 rrweb 也救不起來（root cause）
+
+Stripe 3 個 "verified" 的共同模式：
+- Vision 描述含「section/container」類泛結構詞 → 2-keyword overlap 門檻仍命中 DOM path 上的 `section.hds-color-mode` / `div.section-container.section-root`
+- rrweb 確實在 Vision 宣稱的 frame window 內錄到某元素 `opacity + transform` 變化
+- **但那個在變的元素，不是 Vision 描述的元素**
+
+**rrweb 給的是 correlational evidence，不是 causal evidence**。它能告訴你「這段時間有東西在變」，但沒辦法告訴你「Vision 描述的那個元素**就是**這個在變的元素」。element identity 這件事需要更 ground-truth 的信號，而不是兩組詞彙的模糊比對。
+
+### matcher 不能再嚴的原因
+
+試過的加嚴路線都死：
+- **完整 selector match** — rrweb path 被 build tool hash 化（`Layout_container__BVtmP`），Vision prose 不可能產出這種 token → 5 站 collapse 到 0 verified → 等同於放棄 Vision layer
+- **Vision 詞彙 → semantic selector 對映** — 依賴 DOM class name 語意化，但 Next.js / CSS Modules / CSS-in-JS 主流 build 會 hash class 名
+- **AI semantic embedding matching** — 成本高且重新引入 LLM hallucination 風險
+
+**結論**：用 Vision 當 primary truth source + 任何 post-hoc gate 的路線都是死的。架構要換 source，不是換 gate。
+
+### Round E 進入 Re-Pivot — Tier 1 三管齊下
+
+不再走 LLM-Vision + 後驗證的路線。新方向：三個獨立 evidence source，**conjunction rule（≥2 tier 同意才 verified）**：
+
+| Tier | 技術 | 抓什麼 | 防幻覺性 |
+|------|------|--------|:--------:|
+| **1.a JS AST** | 靜態分析 loaded bundle（acorn / `@babel/parser`）| `framer-motion` / `gsap` / `motion` / `lottie` / `@react-spring` 的 API 呼叫位置 + 參數 | 高（code = truth）|
+| **1.b Differential Render** | Playwright 高幀率 screenshot，scroll offset mask 後求像素殘差 | 不能被「scroll 進出」解釋的真實視覺變化 | 中（仍視覺層，但已 control scroll）|
+| **1.c rAF Intercept** | Monkey-patch `requestAnimationFrame` / `Element.animate()` / CSSStyleDeclaration setter，錄 caller + 影響節點 | CSS keyframe / WAAPI / canvas / shader 的實際 render 事件 | 高（runtime callable trace）|
+
+Vision 若保留，只當第 4 個 tier 且權重最低。
+
+### 凍結狀態（以下全部保留，不刪）
+
+| 項目 | 狀態 |
+|------|------|
+| Phase E3 emitter | Frozen（理由升級：等 Re-Pivot Tier 1 收斂）|
+| `tools/animation-extractor/extract-rrweb.mjs` | 保留（infra 日後可能被 Tier 1.c 複用）|
+| `tools/animation-extractor/cross-validate.mjs` | 保留（規則引擎 + pure helpers 可能被 Re-Pivot conjunction logic 重用）|
+| `round-e/ground-truth/*.json`（E2 baseline）| 保留為 hallucination 對照組 #1 |
+| `round-e/ground-truth/pivot/*.json`（E-Pivot 產出）| 保留為 hallucination 對照組 #2（post-gate 仍失敗）|
+| 全部 unit tests（80 綠燈）| 保留，none asserts Vision truth |
+
+### Sign-off
+
+**Round E Phase E-Pivot 結束。B+C 架構證實不夠。Re-Pivot Tier 1（JS AST + Differential Render + rAF Intercept）立項，由新 session 接手。詳細 post-mortem 見 `round-e/ARCHIVE-B-C-pivot.md`。**
+
+— Sean @ 2026-04-23
