@@ -43,8 +43,9 @@ export class VisionParseError extends Error {
   }
 }
 
-function extractJsonArray(text) {
-  // Prefer the longest balanced `[...]` block; tolerate leading/trailing prose.
+export function extractJsonArray(text) {
+  // Prefer the outermost `[...]` block; tolerate leading/trailing prose or
+  // a ```json fence around the array.
   const start = text.indexOf('[');
   const end = text.lastIndexOf(']');
   if (start < 0 || end < 0 || end <= start) {
@@ -56,6 +57,24 @@ function extractJsonArray(text) {
   } catch (e) {
     throw new VisionParseError(`JSON.parse failed: ${e.message}`, text);
   }
+}
+
+// Split raw Vision entries into kept / dropped / needs-review based on
+// confidence thresholds. Pure function, safe to import from tests.
+export function filterByConfidence(entries, { minConfidence = 0.5, reviewConfidence = 0.7 } = {}) {
+  const kept = [];
+  const dropped = [];
+  for (const a of entries) {
+    const conf = typeof a.confidence === 'number' ? a.confidence : 0;
+    if (conf < minConfidence) {
+      dropped.push({ element: a.element, confidence: conf });
+      continue;
+    }
+    const copy = { ...a };
+    if (conf < reviewConfidence) copy.needs_review = true;
+    kept.push(copy);
+  }
+  return { kept, dropped };
 }
 
 function isTransientApiError(err) {
@@ -171,18 +190,10 @@ async function main() {
     throw new VisionParseError('extracted value is not an array', String(animations));
   }
 
-  // Confidence filtering
-  const kept = [];
-  const dropped = [];
-  for (const a of animations) {
-    const conf = typeof a.confidence === 'number' ? a.confidence : 0;
-    if (conf < MIN_CONFIDENCE) {
-      dropped.push({ element: a.element, confidence: conf });
-      continue;
-    }
-    if (conf < REVIEW_CONFIDENCE) a.needs_review = true;
-    kept.push(a);
-  }
+  const { kept, dropped } = filterByConfidence(animations, {
+    minConfidence: MIN_CONFIDENCE,
+    reviewConfidence: REVIEW_CONFIDENCE,
+  });
   if (dropped.length) {
     console.log(`[probe-vision] Dropped ${dropped.length} low-confidence entries (< ${MIN_CONFIDENCE})`);
   }

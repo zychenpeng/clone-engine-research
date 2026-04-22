@@ -86,17 +86,13 @@ function cleanElementLabel(d) {
   return parts[parts.length - 1] || 'unknown-element';
 }
 
-async function main() {
-  if (!existsSync(DOM_PATH)) throw new Error(`DOM probe output not found: ${DOM_PATH}`);
-  if (!existsSync(VISION_PATH)) throw new Error(`Vision probe output not found: ${VISION_PATH}`);
-
-  const dom = JSON.parse(await readFile(DOM_PATH, 'utf8'));
-  const vision = JSON.parse(await readFile(VISION_PATH, 'utf8'));
-
+// Pure merge function — testable without any I/O.
+// Accepts the JSON shapes produced by extract-dom.mjs / extract-vision.mjs
+// and returns a canonical AnimationSpec. Does not validate; caller should.
+export function mergeSpec(dom, vision) {
   const merged = [];
   const matchedDomIndices = new Set();
 
-  // Pass 1: Vision entries, attempting to attach a DOM match.
   for (const v of vision.animations) {
     let matchedIdx = -1;
     for (let i = 0; i < dom.animations.length; i++) {
@@ -180,17 +176,14 @@ async function main() {
     });
   }
 
-  // Summaries
   const byProvenance = { dom: 0, vision: 0, both: 0 };
   const byTrigger = {};
   const byMotionType = {};
-  const needsReviewList = [];
   for (const m of merged) {
     const prov = m.provenance.length === 2 ? 'both' : m.provenance[0];
     byProvenance[prov] = (byProvenance[prov] || 0) + 1;
     byTrigger[m.trigger] = (byTrigger[m.trigger] || 0) + 1;
     byMotionType[m.motion_type] = (byMotionType[m.motion_type] || 0) + 1;
-    if (m.needs_review) needsReviewList.push(m.element);
   }
 
   const warnings = [];
@@ -214,19 +207,28 @@ async function main() {
     animations: merged,
   };
 
-  // Self-check against schema before writing.
+  return spec;
+}
+
+async function main() {
+  if (!existsSync(DOM_PATH)) throw new Error(`DOM probe output not found: ${DOM_PATH}`);
+  if (!existsSync(VISION_PATH)) throw new Error(`Vision probe output not found: ${VISION_PATH}`);
+
+  const dom = JSON.parse(await readFile(DOM_PATH, 'utf8'));
+  const vision = JSON.parse(await readFile(VISION_PATH, 'utf8'));
+
+  const spec = mergeSpec(dom, vision);
   validateSpec(spec);
 
   await writeFile(SPEC_PATH, JSON.stringify(spec, null, 2));
-  console.log(`[merge] ${merged.length} animations → ${path.basename(SPEC_PATH)}`);
-  console.log('[merge] provenance:', byProvenance);
-  console.log('[merge] triggers:', byTrigger);
-  console.log('[merge] motion types:', byMotionType);
-  if (needsReviewList.length) {
-    console.log(`[merge] ${needsReviewList.length} entries flagged for review`);
-  }
-  if (warnings.length) {
-    console.warn(`[merge] Warnings:\n  - ${warnings.join('\n  - ')}`);
+  console.log(`[merge] ${spec.total} animations → ${path.basename(SPEC_PATH)}`);
+  console.log('[merge] provenance:', spec.by_provenance);
+  console.log('[merge] triggers:', spec.by_trigger);
+  console.log('[merge] motion types:', spec.by_motion_type);
+  const reviewCount = spec.animations.filter((a) => a.needs_review).length;
+  if (reviewCount) console.log(`[merge] ${reviewCount} entries flagged for review`);
+  if (spec.warnings?.length) {
+    console.warn(`[merge] Warnings:\n  - ${spec.warnings.join('\n  - ')}`);
   }
 }
 
