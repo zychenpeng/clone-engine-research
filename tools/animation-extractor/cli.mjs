@@ -12,11 +12,18 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const USAGE = `
 Usage: animation-extract <url> [options]
 
+Stages (run sequentially, each writes to <out>/):
+  1. extract-dom       → animations-dom.json  (Layer 1: document.getAnimations)
+  2. extract-rrweb     → mutation-log.json    (Layer 2: rrweb DOM mutations)
+  3. extract-vision    → animations-vision.json (Layer 3: Claude Vision candidates)
+  4. merge             → animation-spec.json  (canonical merged spec)
+
 Options:
   --out <dir>            Output directory (default: ./out/<hostname>)
-  --skip-dom             Skip Layer 1 DOM probe (reuse animations-dom.json)
-  --skip-vision          Skip Layer 2 Vision probe (reuse animations-vision.json)
-  --skip-merge           Skip merge step (only probe)
+  --skip-dom             Skip Stage 1
+  --skip-rrweb           Skip Stage 2
+  --skip-vision          Skip Stage 3
+  --skip-merge           Skip Stage 4
   --headless             Launch browser headless (default: headed for stealth)
   --frames <n>           Number of scroll frames (default: 20)
   --timeout <ms>         Goto timeout in ms (default: 60000)
@@ -25,7 +32,7 @@ Options:
   -h, --help             Show this help
 
 Env:
-  ANTHROPIC_API_KEY      Required for Layer 2 Vision step
+  ANTHROPIC_API_KEY      Required for Stage 3 (Vision)
 `.trim();
 
 function parseArgs(argv) {
@@ -33,6 +40,7 @@ function parseArgs(argv) {
     url: null,
     out: null,
     skipDom: false,
+    skipRrweb: false,
     skipVision: false,
     skipMerge: false,
     headless: false,
@@ -48,6 +56,7 @@ function parseArgs(argv) {
       console.log(USAGE);
       process.exit(0);
     } else if (a === '--skip-dom') opts.skipDom = true;
+    else if (a === '--skip-rrweb') opts.skipRrweb = true;
     else if (a === '--skip-vision') opts.skipVision = true;
     else if (a === '--skip-merge') opts.skipMerge = true;
     else if (a === '--headless') opts.headless = true;
@@ -114,10 +123,17 @@ async function main() {
   const t0 = Date.now();
 
   if (!opts.skipDom) {
-    console.log('[cli] Stage 1/3: DOM probe');
+    console.log('[cli] Stage 1/4: DOM probe');
     await runStage('extract-dom', path.join(HERE, 'extract-dom.mjs'), baseEnv);
   } else {
     console.log('[cli] Skipping DOM probe');
+  }
+
+  if (!opts.skipRrweb) {
+    console.log('[cli] Stage 2/4: rrweb mutation recorder');
+    await runStage('extract-rrweb', path.join(HERE, 'extract-rrweb.mjs'), baseEnv);
+  } else {
+    console.log('[cli] Skipping rrweb');
   }
 
   if (!opts.skipVision) {
@@ -125,14 +141,14 @@ async function main() {
       console.error('[cli] ANTHROPIC_API_KEY required for Vision stage (use --skip-vision to bypass)');
       process.exit(2);
     }
-    console.log('[cli] Stage 2/3: Vision probe');
+    console.log('[cli] Stage 3/4: Vision probe');
     await runStage('extract-vision', path.join(HERE, 'extract-vision.mjs'), baseEnv);
   } else {
     console.log('[cli] Skipping Vision probe');
   }
 
   if (!opts.skipMerge) {
-    console.log('[cli] Stage 3/3: Merge');
+    console.log('[cli] Stage 4/4: Merge');
     await runStage('merge', path.join(HERE, 'merge.mjs'), baseEnv);
   } else {
     console.log('[cli] Skipping merge');
