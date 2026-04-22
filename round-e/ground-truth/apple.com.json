@@ -1,0 +1,823 @@
+{
+  "version": "1.0",
+  "target_url": "https://www.apple.com/mac/",
+  "captured_at": "2026-04-22T09:34:21.762Z",
+  "total": 26,
+  "by_provenance": {
+    "dom": 18,
+    "vision": 5,
+    "both": 3
+  },
+  "by_trigger": {
+    "scroll-in": 8,
+    "unknown": 17,
+    "continuous": 1
+  },
+  "by_motion_type": {
+    "slide-left": 1,
+    "reveal-on-scroll": 3,
+    "fade-in": 2,
+    "fade-up": 2,
+    "one-shot": 17,
+    "loop": 1
+  },
+  "layer_counts": {
+    "dom": 21,
+    "vision": 8
+  },
+  "cost_usd": 0.107985,
+  "animations": [
+    {
+      "id": "anim-de8d4e21",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Mac product lineup carousel/gallery",
+      "motion_type": "slide-left",
+      "trigger": "scroll-in",
+      "duration_ms": 800,
+      "easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "anim-87ad5e4a",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "MacBook Neo, MacBook Air, MacBook Pro product cards with images and pricing",
+      "motion_type": "reveal-on-scroll",
+      "trigger": "scroll-in",
+      "duration_ms": 900,
+      "easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "anim-1690c665",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.88,
+      "element": "Learn more and Buy buttons for Mac products",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-in-out",
+      "frames_involved": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "anim-2b6e5ce0",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.92,
+      "element": "Get to know Mac feature cards (Performance, AI, macOS)",
+      "motion_type": "fade-up",
+      "trigger": "scroll-in",
+      "duration_ms": 800,
+      "easing": "ease-out",
+      "frames_involved": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "anim-78709d9a",
+      "provenance": [
+        "dom",
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Help me choose interactive section with colorful hello text and Mac illustrations",
+      "selector": "nav.ChapterNav_chapternav__F68Cm.ChapterNavSection_chapterNav__kIfth > div.ChapterNav_chapternav-wrapper__mcxaI > ul.ChapterNav_chapternav-items__V0rZ8.ChapterNav_chapternav-clip-right__wmb12 > li.ChapterNav_chapternav-item__qKLP2",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 700,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+          "composite": "auto",
+          "transform": "translateY(8px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ],
+      "frames_involved": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "anim-f3b22dd5",
+      "provenance": [
+        "dom",
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Switch to Mac section with laptop trade-in images and Mac migration screenshot",
+      "selector": "nav.ChapterNav_chapternav__F68Cm.ChapterNavSection_chapterNav__kIfth > div.ChapterNav_chapternav-wrapper__mcxaI > ul.ChapterNav_chapternav-items__V0rZ8.ChapterNav_chapternav-clip-right__wmb12 > li.ChapterNav_chapternav-item__qKLP2",
+      "motion_type": "reveal-on-scroll",
+      "trigger": "scroll-in",
+      "duration_ms": 900,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "frames_involved": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "anim-4ebf9325",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.91,
+      "element": "Mac accessories and Studio Display cards",
+      "motion_type": "fade-up",
+      "trigger": "scroll-in",
+      "duration_ms": 750,
+      "easing": "ease-out",
+      "frames_involved": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "anim-bd66e0b3",
+      "provenance": [
+        "dom",
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Unlock the world of Apple - Mac and iPhone integration section",
+      "selector": "div.section-content > nav.ChapterNav_chapternav__F68Cm.ChapterNavSection_chapterNav__kIfth > div.ChapterNav_chapternav-wrapper__mcxaI > div.ChapterNav_chapternav-paddlenav-wrapper__li5ph",
+      "motion_type": "reveal-on-scroll",
+      "trigger": "scroll-in",
+      "duration_ms": 900,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "frames_involved": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "anim-1d8739b2",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "h2.globalnav-searchresults-header",
+      "selector": "div.globalnav-searchresults > div.globalnav-searchresults-current > div.globalnav-searchresults-container > h2.globalnav-searchresults-header",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateY(-4px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-55d470bc",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "li.globalnav-searchresults-list-item",
+      "selector": "div.globalnav-searchresults-current > div.globalnav-searchresults-container > ul.globalnav-searchresults-list > li.globalnav-searchresults-list-item",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateY(-4px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2cd8ffb1",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.Ribbon_content-wrapper__LlSR1",
+      "selector": "div#app > main > div#Education Savings > div.Ribbon_content-wrapper__LlSR1",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 800,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-cb31574a",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.Ribbon_content-wrapper__LlSR1",
+      "selector": "div#app > main > div#Education Savings > div.Ribbon_content-wrapper__LlSR1",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "color": "rgb(245, 245, 247)",
+          "backgroundColor": "rgb(0, 113, 227)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "color": "rgb(29, 29, 31)",
+          "backgroundColor": "rgb(245, 245, 247)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-4b2ef630",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "a.Ribbon_link__8S_WE.StandardsLink_link__WcJoK",
+      "selector": "div#Education Savings > div.Ribbon_content-wrapper__LlSR1 > p.Ribbon_column__elHPU.Ribbon_content__tI6qS > a.Ribbon_link__8S_WE.StandardsLink_link__WcJoK",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "color": "rgb(245, 245, 247)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "color": "rgb(0, 102, 204)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-78577491",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "h3#index-list-group-0",
+      "selector": "div.responsive-content_responsiveContent__S1ntz > nav.Index_nav__1BQGP.Index_enhanced--active__E9DMy > div.Index_indexGroup__NLNA6 > h3#index-list-group-0",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 900,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateY(-4px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-855d8867",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "li.Index_itemElevated__N6Tte.typography_headline__zZkHA",
+      "selector": "nav.Index_nav__1BQGP.Index_enhanced--active__E9DMy > div.Index_indexGroup__NLNA6 > ul > li.Index_itemElevated__N6Tte.typography_headline__zZkHA",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 900,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateY(-4px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-13fc6d7c",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "li.Index_itemBase__ON_MT.typography_bodyCopySemibold__RqR50",
+      "selector": "nav.Index_nav__1BQGP.Index_enhanced--active__E9DMy > div.Index_indexGroup__NLNA6 > ul > li.Index_itemBase__ON_MT.typography_bodyCopySemibold__RqR50",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 900,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateY(-4px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-c23482f4",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "h3#index-list-group-1",
+      "selector": "div.responsive-content_responsiveContent__S1ntz > nav.Index_nav__1BQGP.Index_enhanced--active__E9DMy > div.Index_indexGroup__NLNA6 > h3#index-list-group-1",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 900,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateY(-4px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-68b1a50f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "h3#index-list-group-2",
+      "selector": "div.responsive-content_responsiveContent__S1ntz > nav.Index_nav__1BQGP.Index_enhanced--active__E9DMy > div.Index_indexGroup__NLNA6 > h3#index-list-group-2",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 900,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateY(-4px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-9f5e94d5",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "h2#c64e0a00",
+      "selector": "div.globalnav-flyout-scroll-container > div.globalnav-flyout-content.globalnav-submenu-content > div.globalnav-submenu-group.globalnav-submenu-group-elevated > h2#c64e0a00",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "unknown",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-4c0512dc",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "li.globalnav-submenu-list-item-elevated",
+      "selector": "div.globalnav-flyout-content.globalnav-submenu-content > div.globalnav-submenu-group.globalnav-submenu-group-elevated > ul.globalnav-submenu-list > li.globalnav-submenu-list-item-elevated",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "unknown",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-ceb74cea",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "h2#b80e39ed",
+      "selector": "div.globalnav-flyout-scroll-container > div.globalnav-flyout-content.globalnav-submenu-content > div.globalnav-submenu-group > h2#b80e39ed",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "unknown",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-d3990a7d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "li.globalnav-submenu-list-item",
+      "selector": "div.globalnav-flyout-content.globalnav-submenu-content > div.globalnav-submenu-group > ul.globalnav-submenu-list > li.globalnav-submenu-list-item",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "unknown",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-1f3b275f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "h2#68805228",
+      "selector": "div.globalnav-flyout-scroll-container > div.globalnav-flyout-content.globalnav-submenu-content > div.globalnav-submenu-group > h2#68805228",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "unknown",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-3c358fee",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div#globalnav-curtain",
+      "selector": "div#app > div > div#globalheader > div#globalnav-curtain",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-3c358fee",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div#globalnav-curtain",
+      "selector": "div#app > div > div#globalheader > div#globalnav-curtain",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 320,
+      "easing": "unknown",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "visibility": "hidden",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "visibility": "visible",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-3c3ace6f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "path",
+      "selector": "div.progress-indicator.progress-indicator-indeterminate > svg > g > path",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 800,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.125,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "auto",
+          "opacity": "0.9",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.25,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.375,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "auto",
+          "opacity": "0.6",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.5,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "auto",
+          "opacity": "0.4",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.625,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.75,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "auto",
+          "opacity": "0.2",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.875,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "auto",
+          "opacity": "0.13",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(1, 0.1, 0, 0.3)",
+          "composite": "replace",
+          "opacity": "0.2",
+          "computedOffset": 1
+        }
+      ]
+    }
+  ]
+}

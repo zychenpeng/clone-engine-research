@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-04-22T09:38:04.651Z",
+  "sites": [
+    {
+      "site": "linear.app",
+      "total": 35,
+      "by_provenance": {
+        "dom": 12,
+        "vision": 23,
+        "both": 0
+      },
+      "by_motion_type_top5": {
+        "fade-in": 21,
+        "loop": 9,
+        "one-shot": 3,
+        "fade-out": 2
+      },
+      "by_trigger": {
+        "scroll-out": 2,
+        "scroll-in": 21,
+        "continuous": 9,
+        "unknown": 3
+      },
+      "needs_review": 0,
+      "avg_confidence": 0.901,
+      "cost_usd": 0.131235,
+      "round_d_baseline": 27
+    },
+    {
+      "site": "stripe.com",
+      "total": 111,
+      "by_provenance": {
+        "dom": 95,
+        "vision": 12,
+        "both": 4
+      },
+      "by_motion_type_top5": {
+        "one-shot": 95,
+        "shader-ambient": 5,
+        "fade-in": 3,
+        "slide-left": 2,
+        "reveal-on-scroll": 2
+      },
+      "by_trigger": {
+        "continuous": 3,
+        "scroll-in": 12,
+        "on-load": 1,
+        "unknown": 95
+      },
+      "needs_review": 3,
+      "avg_confidence": 0.968,
+      "cost_usd": 0.122295,
+      "round_d_baseline": null
+    },
+    {
+      "site": "raycast.com",
+      "total": 50,
+      "by_provenance": {
+        "dom": 18,
+        "vision": 25,
+        "both": 7
+      },
+      "by_motion_type_top5": {
+        "fade-in": 22,
+        "one-shot": 13,
+        "loop": 5,
+        "stagger": 4,
+        "fade-out": 1
+      },
+      "by_trigger": {
+        "on-load": 2,
+        "scroll-in": 27,
+        "hover": 1,
+        "scroll-out": 1,
+        "continuous": 6,
+        "unknown": 13
+      },
+      "needs_review": 1,
+      "avg_confidence": 0.866,
+      "cost_usd": 0.140715,
+      "round_d_baseline": null
+    },
+    {
+      "site": "vercel.com",
+      "total": 25,
+      "by_provenance": {
+        "dom": 5,
+        "vision": 16,
+        "both": 4
+      },
+      "by_motion_type_top5": {
+        "reveal-on-scroll": 5,
+        "fade-in": 5,
+        "one-shot": 5,
+        "shader-ambient": 2,
+        "slide-up": 2
+      },
+      "by_trigger": {
+        "continuous": 1,
+        "scroll-out": 2,
+        "scroll-in": 17,
+        "unknown": 5
+      },
+      "needs_review": 0,
+      "avg_confidence": 0.856,
+      "cost_usd": 0.12735,
+      "round_d_baseline": null
+    },
+    {
+      "site": "apple.com/mac",
+      "total": 26,
+      "by_provenance": {
+        "dom": 18,
+        "vision": 5,
+        "both": 3
+      },
+      "by_motion_type_top5": {
+        "one-shot": 17,
+        "reveal-on-scroll": 3,
+        "fade-in": 2,
+        "fade-up": 2,
+        "slide-left": 1
+      },
+      "by_trigger": {
+        "scroll-in": 8,
+        "unknown": 17,
+        "continuous": 1
+      },
+      "needs_review": 0,
+      "avg_confidence": 0.968,
+      "cost_usd": 0.107985,
+      "round_d_baseline": null
+    }
+  ],
+  "totals": {
+    "animations": 247,
+    "overlap_entries": 18,
+    "cost_usd": 0.6296
+  }
+}

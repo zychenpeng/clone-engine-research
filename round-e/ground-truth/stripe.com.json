@@ -1,0 +1,4431 @@
+{
+  "version": "1.0",
+  "target_url": "https://stripe.com",
+  "captured_at": "2026-04-22T09:29:41.532Z",
+  "total": 111,
+  "by_provenance": {
+    "dom": 95,
+    "vision": 12,
+    "both": 4
+  },
+  "by_trigger": {
+    "continuous": 3,
+    "scroll-in": 12,
+    "on-load": 1,
+    "unknown": 95
+  },
+  "by_motion_type": {
+    "shader-ambient": 5,
+    "typewriter": 1,
+    "slide-left": 2,
+    "parallax": 1,
+    "reveal-on-scroll": 2,
+    "fade-in": 3,
+    "stagger": 2,
+    "one-shot": 95
+  },
+  "layer_counts": {
+    "dom": 99,
+    "vision": 16
+  },
+  "cost_usd": 0.122295,
+  "animations": [
+    {
+      "id": "anim-67eb7eb3",
+      "provenance": [
+        "dom",
+        "vision"
+      ],
+      "confidence": 0.95,
+      "element": "hero mesh gradient background",
+      "selector": "div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--payments > div.platform-graphic-browser-card-item__gradient",
+      "motion_type": "shader-ambient",
+      "trigger": "continuous",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.10460251046025104,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.10460251046025104
+        },
+        {
+          "offset": 0.1297071129707113,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.1297071129707113
+        },
+        {
+          "offset": 0.2552301255230125,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.2552301255230125
+        },
+        {
+          "offset": 0.2970711297071129,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.2970711297071129
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ],
+      "frames_involved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "anim-c7fd0cc7",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.75,
+      "element": "Global GDP running on Stripe percentage counter",
+      "motion_type": "typewriter",
+      "trigger": "continuous",
+      "duration_ms": 10000,
+      "easing": "linear",
+      "frames_involved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "anim-0d4c57a0",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Company logo carousel (amazon, nvidia, ford, coinbase, google, shopify, mindbody)",
+      "motion_type": "slide-left",
+      "trigger": "continuous",
+      "duration_ms": 10000,
+      "easing": "linear",
+      "frames_involved": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "anim-efc493fe",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.7,
+      "element": "Accept and optimize payments section - mobile phone mockup",
+      "motion_type": "parallax",
+      "trigger": "scroll-in",
+      "duration_ms": 1000,
+      "easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "anim-c19e0ace",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.75,
+      "element": "Enable any billing model section - usage meter chart",
+      "motion_type": "reveal-on-scroll",
+      "trigger": "scroll-in",
+      "duration_ms": 800,
+      "easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "anim-a9ce670f",
+      "provenance": [
+        "dom",
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Monetize through agentic commerce section - particle circle animation",
+      "selector": "div.dom-graphic__content > div.agentic-commerce-graphic__layout > div.agentic-commerce-graphic__chat > div.agentic-commerce-graphic__chat-bubble.agentic-commerce-graphic__chat-bubble--user",
+      "motion_type": "shader-ambient",
+      "trigger": "scroll-in",
+      "duration_ms": 2260.0000000000005,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.11061946902654866,
+          "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.11061946902654866
+        },
+        {
+          "offset": 0.44247787610619466,
+          "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.44247787610619466
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "frames_involved": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "anim-7be61b20",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.7,
+      "element": "Create a card issuing program section - gradient card visual",
+      "motion_type": "reveal-on-scroll",
+      "trigger": "scroll-in",
+      "duration_ms": 800,
+      "easing": "ease-out",
+      "frames_involved": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "anim-82e88c54",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Access borderless money movement section - globe with particle trail",
+      "motion_type": "shader-ambient",
+      "trigger": "scroll-in",
+      "duration_ms": 2500,
+      "easing": "linear",
+      "frames_involved": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "anim-556c5bb5",
+      "provenance": [
+        "dom",
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Embed payments in your platform section - Connected Accounts table",
+      "selector": "div.section-container.section-row > div.section-row.section-row-gap > div.section-row.section-row-gap > div.lazy-animation.lazy-animation--loaded",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 500,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "frames_involved": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "anim-53f5b788",
+      "provenance": [
+        "dom",
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "The backbone of global commerce section - radiating lines visualization",
+      "selector": "div.dom-graphic__content > div.agentic-commerce-graphic__layout > div.agentic-commerce-graphic__chat > div.agentic-commerce-graphic__chat-bubble.agentic-commerce-graphic__chat-bubble--agent",
+      "motion_type": "shader-ambient",
+      "trigger": "scroll-in",
+      "duration_ms": 2260.0000000000005,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.44247787610619466,
+          "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.44247787610619466
+        },
+        {
+          "offset": 0.5973451327433628,
+          "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5973451327433628
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "frames_involved": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "anim-d6689361",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.65,
+      "element": "Statistics cards (135+, $1.9T, 99.999%, 200M+)",
+      "motion_type": "stagger",
+      "trigger": "scroll-in",
+      "duration_ms": 1200,
+      "easing": "ease-out",
+      "frames_involved": [
+        4,
+        5
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "anim-b821e744",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Purple and orange wave visualization on dark background",
+      "motion_type": "shader-ambient",
+      "trigger": "scroll-in",
+      "duration_ms": 3000,
+      "easing": "ease-in-out",
+      "frames_involved": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "anim-1948069b",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.8,
+      "element": "Startup logos carousel (Lovable, Runway, Supabase, Linear)",
+      "motion_type": "slide-left",
+      "trigger": "scroll-in",
+      "duration_ms": 8000,
+      "easing": "linear",
+      "frames_involved": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "anim-83e7b7e4",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.7,
+      "element": "Make your SaaS platform section - gradient background",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 800,
+      "easing": "ease-out",
+      "frames_involved": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "anim-e59c7803",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.6,
+      "element": "Platform benefits icons (rocket, graph, shield)",
+      "motion_type": "stagger",
+      "trigger": "scroll-in",
+      "duration_ms": 900,
+      "easing": "ease-out",
+      "frames_involved": [
+        10,
+        11
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "anim-fb683e4f",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.55,
+      "element": "Cookie consent banner",
+      "motion_type": "fade-in",
+      "trigger": "on-load",
+      "duration_ms": 400,
+      "easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "anim-0a96dad4",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "nav#navigation-menu",
+      "selector": "div > header.hds-color-mode.navigation > div.section-container.navigation__layout > nav#navigation-menu",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2fd80cf5",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.lazy-animation.lazy-animation--loaded",
+      "selector": "div.modular-solutions-bento-card__content > div.modular-solutions-bento-card__content-inner > div.modular-solutions-bento-card__graphic > div.lazy-animation.lazy-animation--loaded",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 500,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-5325ba93",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__terminal-pay-label-values",
+      "selector": "div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-pay-label > div.payments-graphic__terminal-pay-label-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.7042253521126761,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.7042253521126761
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-8dc6c990",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-browser-url-values",
+      "selector": "div.browser-graphic__url-box-content > div.browser-graphic__url-box-text > div.payments-graphic__checkout-browser-url-block > div.payments-graphic__checkout-browser-url-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.7042253521126761,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.7042253521126761
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-de0ad089",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__terminal-payment-amount-values",
+      "selector": "div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-payment-amount > div.payments-graphic__terminal-payment-amount-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.07042253521126761,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.07042253521126761
+        },
+        {
+          "offset": 0.6338028169014085,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.6338028169014085
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-9c98c86d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__terminal-message-values",
+      "selector": "div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-message > div.payments-graphic__terminal-message-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.14084507042253522,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.14084507042253522
+        },
+        {
+          "offset": 0.7042253521126761,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.7042253521126761
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-d8104ed7",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__terminal-transaction-button-text-values",
+      "selector": "div.payments-graphic__terminal-screen > div.payments-graphic__terminal-transaction-button > div.payments-graphic__terminal-transaction-button-text > div.payments-graphic__terminal-transaction-button-text-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.7746478873239437,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.7746478873239437
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-0e9b1545",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-button-text-values",
+      "selector": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-button > div.payments-graphic__checkout-payment-button-text > div.payments-graphic__checkout-payment-button-text-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.7746478873239437,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.7746478873239437
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-f3372869",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-separator-text-values",
+      "selector": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-separator > div.payments-graphic__checkout-separator-text > div.payments-graphic__checkout-separator-text-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.7746478873239437,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.7746478873239437
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-0b8dbe00",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__terminal-transaction-details-content",
+      "selector": "div.payments-graphic__terminal > div.payments-graphic__terminal-screen > div.payments-graphic__terminal-transaction-details > div.payments-graphic__terminal-transaction-details-content",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.915492957746479,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 0.915492957746479
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-6d8f1949",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-header-logos",
+      "selector": "div.browser-graphic__page > div.payments-graphic__checkout-header > div.payments-graphic__checkout-header-logos-wrapper > div.payments-graphic__checkout-header-logos",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.915492957746479,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.915492957746479
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-366e4b64",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-input-values",
+      "selector": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-input > div.payments-graphic__checkout-input-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.915492957746479,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.915492957746479
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-a2d3fb9d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-input-label-values",
+      "selector": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-input-label > div.payments-graphic__checkout-input-label-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.915492957746479,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.915492957746479
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-3d7ec952",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-order-summary-title-values",
+      "selector": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-order-summary-title > div.payments-graphic__checkout-order-summary-title-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.915492957746479,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.915492957746479
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-100c46ac",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-item-card-contents",
+      "selector": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-item-card > div.payments-graphic__checkout-item-card-contents",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.915492957746479,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 0.915492957746479
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-dfe41822",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-methods-item-label-values",
+      "selector": "div.payments-graphic__checkout-payment-methods > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-label.payments-graphic__checkout-payment-methods-item-label--card > div.payments-graphic__checkout-payment-methods-item-label-values",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.915492957746479,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 0.915492957746479
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-a20b4bf2",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-table-row-value-block-contents",
+      "selector": "div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row > div.payments-graphic__checkout-payment-table-row-value-block > div.payments-graphic__checkout-payment-table-row-value-block-contents",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.21126760563380287,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.21126760563380287
+        },
+        {
+          "offset": 0.915492957746479,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.915492957746479
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-a20b4bf2",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-table-row-value-block-contents",
+      "selector": "div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--total > div.payments-graphic__checkout-payment-table-row-value-block > div.payments-graphic__checkout-payment-table-row-value-block-contents",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.295774647887324,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.295774647887324
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-29141f9b",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-table-row-label-block-contents",
+      "selector": "div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row > div.payments-graphic__checkout-payment-table-row-label-block > div.payments-graphic__checkout-payment-table-row-label-block-contents",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-29141f9b",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-table-row-label-block-contents",
+      "selector": "div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--shipping > div.payments-graphic__checkout-payment-table-row-label-block > div.payments-graphic__checkout-payment-table-row-label-block-contents",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-29141f9b",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-table-row-label-block-contents",
+      "selector": "div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--total > div.payments-graphic__checkout-payment-table-row-label-block > div.payments-graphic__checkout-payment-table-row-label-block-contents",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0%)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-0d05b5bb",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--shipping",
+      "selector": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--shipping",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-70924ebb",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--total",
+      "selector": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-order-summary > div.payments-graphic__checkout-payment-table > div.payments-graphic__checkout-payment-table-row.payments-graphic__checkout-payment-table-row--total",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-12e2b7d1",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-methods-card-icons",
+      "selector": "div.payments-graphic__checkout-payment-methods > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-icon.payments-graphic__checkout-payment-methods-item-icon--card > div.payments-graphic__checkout-payment-methods-card-icons",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.46478873239436624,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0.46478873239436624
+        },
+        {
+          "offset": 0.9577464788732394,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 0.9577464788732394
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(0%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-a8c1a089",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-methods-item-card-details",
+      "selector": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods > div.payments-graphic__checkout-payment-methods-item > div.payments-graphic__checkout-payment-methods-item-card-details",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "clipPath": "inset(0px 0px 100%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 0px 100%)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 0px 100%)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "clipPath": "inset(0px 0px 100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2a665d8b",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-methods-item",
+      "selector": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods > div.payments-graphic__checkout-payment-methods-item",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-7051bdd6",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-methods-item",
+      "selector": "div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods > div.payments-graphic__checkout-payment-methods-item",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "clipPath": "inset(0px 0px 100%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 0px 100%)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 0px 0%)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "clipPath": "inset(0px 0px 0%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-fa8d1a3d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-methods-border-bottom",
+      "selector": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods > div.payments-graphic__checkout-payment-methods-border > div.payments-graphic__checkout-payment-methods-border-bottom",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-168px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-168px)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-225px)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-225px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-23e38ffc",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-button",
+      "selector": "div.browser-graphic__page > div.payments-graphic__checkout-body > div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-button",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-168px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-168px)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-225px)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-225px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2664bf82",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.payments-graphic__checkout-payment-methods-border-horizontal",
+      "selector": "div.payments-graphic__checkout-payment-details > div.payments-graphic__checkout-payment-methods > div.payments-graphic__checkout-payment-methods-border > div.payments-graphic__checkout-payment-methods-border-horizontal",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1420,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-168px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.25352112676056343,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-168px)",
+          "computedOffset": 0.25352112676056343
+        },
+        {
+          "offset": 0.9577464788732396,
+          "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+          "composite": "auto",
+          "transform": "translateY(-225px)",
+          "computedOffset": 0.9577464788732396
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateY(-225px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-bb1001c2",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.agentic-commerce-graphic__products",
+      "selector": "div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content > div.agentic-commerce-graphic__layout > div.agentic-commerce-graphic__products",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 2260.0000000000005,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.6194690265486724,
+          "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.6194690265486724
+        },
+        {
+          "offset": 0.8407079646017698,
+          "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8407079646017698
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-3d0c33f9",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "span",
+      "selector": "div.agentic-commerce-graphic__layout > div.agentic-commerce-graphic__chat > div.agentic-commerce-graphic__chat-bubble.agentic-commerce-graphic__chat-bubble--agent > span",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 2260.0000000000005,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5309734513274336,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5309734513274336
+        },
+        {
+          "offset": 0.5752212389380531,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5752212389380531
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-3d0c33f9",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "span",
+      "selector": "div.agentic-commerce-graphic__layout > div.agentic-commerce-graphic__chat > div.agentic-commerce-graphic__chat-bubble.agentic-commerce-graphic__chat-bubble--agent > span",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 2260.0000000000005,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.9557522123893805,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.9557522123893805
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-d7705425",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-card-pay-button",
+      "selector": "div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details > div.connect-platform-graphic__payment-card-pay-button",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.22321428571428573,
+          "easing": "cubic-bezier(0.55, 0.06, 0.68, 0.19)",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 0.22321428571428573
+        },
+        {
+          "offset": 0.26785714285714285,
+          "easing": "cubic-bezier(0.55, 0.06, 0.68, 0.19)",
+          "composite": "auto",
+          "transform": "scale(0.97)",
+          "computedOffset": 0.26785714285714285
+        },
+        {
+          "offset": 0.26785714285714285,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "transform": "scale(0.97)",
+          "computedOffset": 0.26785714285714285
+        },
+        {
+          "offset": 0.3125,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 0.3125
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-5c3f6bd8",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details",
+      "selector": "div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.4017857142857143,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4017857142857143
+        },
+        {
+          "offset": 0.44642857142857145,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.44642857142857145
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2493a7c8",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success",
+      "selector": "div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.4017857142857143,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.4017857142857143
+        },
+        {
+          "offset": 0.4241071428571429,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4241071428571429
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-31d161a2",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-screen-summary",
+      "selector": "div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success > div.connect-platform-graphic__payment-screen-summary",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.43526785714285715,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.43526785714285715
+        },
+        {
+          "offset": 0.4799107142857143,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4799107142857143
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-95be1e8d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-summary-table-row",
+      "selector": "div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success > div.connect-platform-graphic__payment-summary-table > div.connect-platform-graphic__payment-summary-table-row",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.4486607142857143,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.4486607142857143
+        },
+        {
+          "offset": 0.48883928571428575,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.48883928571428575
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-e609eb4f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-summary-table-row.connect-platform-graphic__payment-summary-table-row--total",
+      "selector": "div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success > div.connect-platform-graphic__payment-summary-table > div.connect-platform-graphic__payment-summary-table-row.connect-platform-graphic__payment-summary-table-row--total",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5022321428571429,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5022321428571429
+        },
+        {
+          "offset": 0.5424107142857144,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5424107142857144
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-6eb3161b",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__connection-amount-pill",
+      "selector": "div.connect-platform-graphic > div.connect-platform-graphic__connection > div.connect-platform-graphic__connection-amount-pill-container > div.connect-platform-graphic__connection-amount-pill",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-3cad3cca",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-8850e5c3",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--daybreak-yoga",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--daybreak-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-5a077125",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--jackson-hot-yoga",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--jackson-hot-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-bfe4b311",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--quiet-fire-yoga",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--quiet-fire-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-138fd9bc",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row-bg",
+      "selector": "div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--daybreak-yoga > div.connect-platform-graphic__dashboard-table-row-bg",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-138fd9bc",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row-bg",
+      "selector": "div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--jackson-hot-yoga > div.connect-platform-graphic__dashboard-table-row-bg",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-138fd9bc",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row-bg",
+      "selector": "div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--quiet-fire-yoga > div.connect-platform-graphic__dashboard-table-row-bg",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-7ca55f04",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.dom-graphic.dom-graphic--variant-default",
+      "selector": "div.platform-graphic > div > div.platform-graphic__dom > div.dom-graphic.dom-graphic--variant-default",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.04184100418410042,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.04184100418410042
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2ce21418",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic__feature-card__container.platform-graphic-features__payments",
+      "selector": "div > div.platform-graphic__features > div.platform-graphic-features > div.platform-graphic__feature-card__container.platform-graphic-features__payments",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.06276150627615062,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.06276150627615062
+        },
+        {
+          "offset": 0.10460251046025104,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.10460251046025104
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-ed408508",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__payments-content",
+      "selector": "div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--payments > div.platform-graphic-browser-card-item__content > div.platform-graphic-browser-card-item__payments-content",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.10460251046025104,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.10460251046025104
+        },
+        {
+          "offset": 0.14644351464435146,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.14644351464435146
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-b1dfdaed",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__border",
+      "selector": "div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--payments > div.platform-graphic-browser-card-item__border",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.2552301255230125,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.2552301255230125
+        },
+        {
+          "offset": 0.2970711297071129,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.2970711297071129
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-de721f2f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic__feature-card__container.platform-graphic-features__capital",
+      "selector": "div > div.platform-graphic__features > div.platform-graphic-features > div.platform-graphic__feature-card__container.platform-graphic-features__capital",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.2970711297071129,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.2970711297071129
+        },
+        {
+          "offset": 0.33891213389121333,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.33891213389121333
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2a3a2750",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__notification-content",
+      "selector": "div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--notification > div.platform-graphic-browser-card-item__content > div.platform-graphic-browser-card-item__notification-content",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.33891213389121333,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.33891213389121333
+        },
+        {
+          "offset": 0.38075313807531375,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.38075313807531375
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-a6c62667",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__gradient",
+      "selector": "div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--notification > div.platform-graphic-browser-card-item__gradient",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.33891213389121333,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.33891213389121333
+        },
+        {
+          "offset": 0.3640167364016736,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.3640167364016736
+        },
+        {
+          "offset": 0.48953974895397484,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.48953974895397484
+        },
+        {
+          "offset": 0.5313807531380752,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5313807531380752
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-b1dfdaed",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__border",
+      "selector": "div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--notification > div.platform-graphic-browser-card-item__border",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.48953974895397484,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.48953974895397484
+        },
+        {
+          "offset": 0.5313807531380752,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5313807531380752
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-f8f4115c",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic__feature-card__container.platform-graphic-features__payouts",
+      "selector": "div > div.platform-graphic__features > div.platform-graphic-features > div.platform-graphic__feature-card__container.platform-graphic-features__payouts",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5313807531380752,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5313807531380752
+        },
+        {
+          "offset": 0.5732217573221756,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5732217573221756
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-192b71e4",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__payouts-content",
+      "selector": "div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--payouts > div.platform-graphic-browser-card-item__content > div.platform-graphic-browser-card-item__payouts-content",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5732217573221756,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5732217573221756
+        },
+        {
+          "offset": 0.615062761506276,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.615062761506276
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-a6c62667",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__gradient",
+      "selector": "div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--payouts > div.platform-graphic-browser-card-item__gradient",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5732217573221756,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5732217573221756
+        },
+        {
+          "offset": 0.5983263598326359,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5983263598326359
+        },
+        {
+          "offset": 0.7238493723849372,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.7238493723849372
+        },
+        {
+          "offset": 0.7656903765690376,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.7656903765690376
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-b1dfdaed",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__border",
+      "selector": "div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--payouts > div.platform-graphic-browser-card-item__border",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.7238493723849372,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.7238493723849372
+        },
+        {
+          "offset": 0.7656903765690376,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.7656903765690376
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-4d349800",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic__feature-card__container.platform-graphic-features__notification",
+      "selector": "div > div.platform-graphic__features > div.platform-graphic-features > div.platform-graphic__feature-card__container.platform-graphic-features__notification",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.7656903765690376,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.7656903765690376
+        },
+        {
+          "offset": 0.807531380753138,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.807531380753138
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-35774c57",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__capital-content",
+      "selector": "div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--capital > div.platform-graphic-browser-card-item__content > div.platform-graphic-browser-card-item__capital-content",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.807531380753138,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.807531380753138
+        },
+        {
+          "offset": 0.8493723849372384,
+          "easing": "cubic-bezier(0.2, 0, 0, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8493723849372384
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-a6c62667",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__gradient",
+      "selector": "div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--capital > div.platform-graphic-browser-card-item__gradient",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.807531380753138,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.807531380753138
+        },
+        {
+          "offset": 0.8326359832635983,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8326359832635983
+        },
+        {
+          "offset": 0.9581589958158996,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.9581589958158996
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-b1dfdaed",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.platform-graphic-browser-card-item__border",
+      "selector": "div.platform-graphic-browser-content > div.platform-graphic-browser-cards > div.platform-graphic-browser-card-item.platform-graphic-browser-card-item--capital > div.platform-graphic-browser-card-item__border",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 11950.000000000002,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.9581589958158996,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.9581589958158996
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-77a99b4f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.developer-systems-animation__psp-app-container.developer-systems-animation__psp-app-container--animate",
+      "selector": "figure.developer-systems-animation__figure > div.developer-systems-animation__figure--chart-center > div.developer-systems-animation__psp-container.developer-systems-animation__psp-container--multiple > div.developer-systems-animation__psp-app-container.developer-systems-animation__psp-app-container--animate",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 500,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "borderBottomColor": "rgb(21, 36, 96)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "borderBottomColor": "rgba(0, 0, 0, 0)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2fd80cf5",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.lazy-animation.lazy-animation--loaded",
+      "selector": "div.columns.columns-row-gap > div.feature-detail > div.feature-detail__image > div.lazy-animation.lazy-animation--loaded",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 500,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-dde26475",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "picture.book-of-the-week__picture",
+      "selector": "div > div.book-of-the-week > div.book-of-the-week__image-container > picture.book-of-the-week__picture",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 500,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-9367def4",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__connection-amount-pill",
+      "selector": "div.connect-platform-graphic > div.connect-platform-graphic__connection > div.connect-platform-graphic__connection-amount-pill-container > div.connect-platform-graphic__connection-amount-pill",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1400,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.28571428571428575,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.28571428571428575
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-c5318e43",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1400,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.14285714285714288,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.14285714285714288
+        },
+        {
+          "offset": 0.35714285714285715,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 0.35714285714285715
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-5b8ab9c2",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--jackson-hot-yoga",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--jackson-hot-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1400,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.14285714285714288,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.14285714285714288
+        },
+        {
+          "offset": 0.35714285714285715,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 0.35714285714285715
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-18fc068e",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--quiet-fire-yoga",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--quiet-fire-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1400,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.14285714285714288,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.14285714285714288
+        },
+        {
+          "offset": 0.35714285714285715,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 0.35714285714285715
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-66f6f309",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row-bg",
+      "selector": "div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--daybreak-yoga > div.connect-platform-graphic__dashboard-table-row-bg",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 1400,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.14285714285714288,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.14285714285714288
+        },
+        {
+          "offset": 0.35714285714285715,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.35714285714285715
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-535f175b",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "path",
+      "selector": "div.charm > svg > mask#animated-tag-mask-a-:R4r6psql6: > path",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+          "composite": "auto",
+          "transform": "rotate(-45deg)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto",
+          "transform": "rotate(70deg)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.6,
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto",
+          "transform": "rotate(-15deg)",
+          "computedOffset": 0.6
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto",
+          "transform": "rotate(0deg)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-b83cd76f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.47, 0, 0.75, 0.72)",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.47, 0, 0.75, 0.72)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-8850e5c3",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--daybreak-yoga",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--daybreak-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.47, 0, 0.75, 0.72)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.47, 0, 0.75, 0.72)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-cc6762ec",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--jackson-hot-yoga",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--jackson-hot-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.47, 0, 0.75, 0.72)",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.47, 0, 0.75, 0.72)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-11b8cd18",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--quiet-fire-yoga",
+      "selector": "div.browser-graphic__page > div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--quiet-fire-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.47, 0, 0.75, 0.72)",
+          "composite": "auto",
+          "opacity": "0.7",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.47, 0, 0.75, 0.72)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-db79257d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__dashboard-table-row-bg",
+      "selector": "div.connect-platform-graphic__dashboard > div.connect-platform-graphic__dashboard-main > div.connect-platform-graphic__dashboard-table-row.connect-platform-graphic__dashboard-table-row--daybreak-yoga > div.connect-platform-graphic__dashboard-table-row-bg",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.55, 0.06, 0.68, 0.19)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.55, 0.06, 0.68, 0.19)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-91936de1",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "ul.navigation-buttons",
+      "selector": "header.hds-color-mode.navigation > div.section-container.navigation__layout > nav#navigation-menu > ul.navigation-buttons",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-52163d61",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--jackson-hot-yoga",
+      "selector": "div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--jackson-hot-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(-200%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5,
+          "easing": "cubic-bezier(0.65, 0.05, 0.36, 1)",
+          "composite": "auto",
+          "transform": "translateX(-200%)",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.65, 0.05, 0.36, 1)",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-c42e52b5",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--quiet-fire-yoga",
+      "selector": "div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--quiet-fire-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(-200%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5,
+          "easing": "cubic-bezier(0.65, 0.05, 0.36, 1)",
+          "composite": "auto",
+          "transform": "translateX(-200%)",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.65, 0.05, 0.36, 1)",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-94703a1f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga",
+      "selector": "div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--daybreak-yoga",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "composite": "auto",
+          "transform": "translateX(-200%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5,
+          "easing": "cubic-bezier(0.65, 0.05, 0.36, 1)",
+          "composite": "auto",
+          "transform": "translateX(-200%)",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.65, 0.05, 0.36, 1)",
+          "composite": "auto",
+          "transform": "translateX(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-6142f1c4",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "path",
+      "selector": "li.hds-navigation-menu__item.navigation-item > button.hds-button.hds-navigation-menu__trigger > svg > path",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 250,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "none",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "rotate(-90deg)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-8f41090b",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "button.hds-button.hds-navigation-menu__trigger",
+      "selector": "div.hds-navigation-menu__content.navigation-menu-content > ul.hds-navigation-menu__list.navigation-menu-list > li.hds-navigation-menu__item.navigation-item > button.hds-button.hds-navigation-menu__trigger",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "color": "rgb(6, 27, 49)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "color": "rgb(100, 116, 141)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-f0163098",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "a.hds-button.hds-navigation-menu__trigger",
+      "selector": "div.hds-navigation-menu__content.navigation-menu-content > ul.hds-navigation-menu__list.navigation-menu-list > li.hds-navigation-menu__item.navigation-item > a.hds-button.hds-navigation-menu__trigger",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "color": "rgb(6, 27, 49)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "color": "rgb(100, 116, 141)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-618509ba",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.hds-navigation-menu__overlay",
+      "selector": "div#:rd: > div.hds-navigation-menu__overlay",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-d2d01c20",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "svg",
+      "selector": "li > a.hds-link > span.navigation-hover-arrow > svg",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-4245f066",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "span",
+      "selector": "div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-outgoing > span",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 325,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-4245f066",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "span",
+      "selector": "div.hero-section__eyebrow > span.hero-section__eyebrow-value.tabular-nums--tight > span.hero-section__eyebrow-value__content-incoming.hero-section__eyebrow-value__content-incoming--higher > span",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 325,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "translateY(-100%)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-e23f5327",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.hds-navigation-menu__content",
+      "selector": "div.hds-navigation-menu__positioner > nav#:rf: > div.hds-navigation-menu__viewport > div.hds-navigation-menu__content",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 500,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "translateX(20%)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "transform": "none",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-f772c88d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-card-pay-button.connect-platform-graphic__payment-card-pay-button--link",
+      "selector": "div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--quiet-fire-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details > div.connect-platform-graphic__payment-card-pay-button.connect-platform-graphic__payment-card-pay-button--link",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.22321428571428573,
+          "easing": "cubic-bezier(0.55, 0.06, 0.68, 0.19)",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 0.22321428571428573
+        },
+        {
+          "offset": 0.26785714285714285,
+          "easing": "cubic-bezier(0.55, 0.06, 0.68, 0.19)",
+          "composite": "auto",
+          "transform": "scale(0.97)",
+          "computedOffset": 0.26785714285714285
+        },
+        {
+          "offset": 0.26785714285714285,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "transform": "scale(0.97)",
+          "computedOffset": 0.26785714285714285
+        },
+        {
+          "offset": 0.3125,
+          "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 0.3125
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "transform": "scale(1)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-5c3f6bd8",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details",
+      "selector": "div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--quiet-fire-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.4017857142857143,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4017857142857143
+        },
+        {
+          "offset": 0.44642857142857145,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.44642857142857145
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-2493a7c8",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success",
+      "selector": "div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--quiet-fire-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.4017857142857143,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.4017857142857143
+        },
+        {
+          "offset": 0.4241071428571429,
+          "easing": "cubic-bezier(0.39, 0.58, 0.57, 1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4241071428571429
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-31d161a2",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-screen-summary",
+      "selector": "div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--quiet-fire-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success > div.connect-platform-graphic__payment-screen-summary",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.43526785714285715,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.43526785714285715
+        },
+        {
+          "offset": 0.4799107142857143,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4799107142857143
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-95be1e8d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-summary-table-row",
+      "selector": "div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--quiet-fire-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success > div.connect-platform-graphic__payment-summary-table > div.connect-platform-graphic__payment-summary-table-row",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.4486607142857143,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.4486607142857143
+        },
+        {
+          "offset": 0.48883928571428575,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.48883928571428575
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-e609eb4f",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.connect-platform-graphic__payment-summary-table-row.connect-platform-graphic__payment-summary-table-row--total",
+      "selector": "div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--quiet-fire-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--success > div.connect-platform-graphic__payment-summary-table > div.connect-platform-graphic__payment-summary-table-row.connect-platform-graphic__payment-summary-table-row--total",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 4479.999999999999,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5022321428571429,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5022321428571429
+        },
+        {
+          "offset": 0.5424107142857144,
+          "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5424107142857144
+        },
+        {
+          "offset": 1,
+          "easing": "ease-out",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1255 @@
+{
+  "version": "1.0",
+  "target_url": "https://linear.app",
+  "captured_at": "2026-04-22T08:03:41.283Z",
+  "total": 35,
+  "by_provenance": {
+    "dom": 12,
+    "vision": 23,
+    "both": 0
+  },
+  "by_trigger": {
+    "scroll-out": 2,
+    "scroll-in": 21,
+    "continuous": 9,
+    "unknown": 3
+  },
+  "by_motion_type": {
+    "fade-out": 2,
+    "fade-in": 21,
+    "loop": 9,
+    "one-shot": 3
+  },
+  "layer_counts": {
+    "dom": 12,
+    "vision": 23
+  },
+  "cost_usd": 0.131235,
+  "animations": [
+    {
+      "id": "anim-4417a340",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.95,
+      "element": "Hero section with text 'The product development system for teams and agents'",
+      "motion_type": "fade-out",
+      "trigger": "scroll-out",
+      "duration_ms": 400,
+      "easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "anim-68591d59",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Issue tracking modal/detail view",
+      "motion_type": "fade-out",
+      "trigger": "scroll-out",
+      "duration_ms": 300,
+      "easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "anim-2afc57cf",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Company logo strip (Vercel, CURSOR, Oscar, OpenAI, Coinbase, Cash App, BOOM, ramp)",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "anim-21a33892",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.8,
+      "element": "Heading 'A new species of product tool'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 500,
+      "easing": "ease-out",
+      "frames_involved": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "anim-5fc3add8",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Three isometric 3D figures (FIG 0.2, FIG 0.3, FIG 0.4)",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 700,
+      "easing": "ease-out",
+      "frames_involved": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "anim-70f2330c",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Section 'Make product operations self-driving'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "anim-42c9db2a",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.8,
+      "element": "Slack-style conversation thread in #feedback channel",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 500,
+      "easing": "ease-out",
+      "frames_involved": [
+        4
+      ]
+    },
+    {
+      "id": "anim-fc61e00f",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Issue intake board with Todo and In Progress columns",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "anim-2717ef9f",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.75,
+      "element": "Navigation items '1.1 Linear Agent', '1.2 Triage', '1.3 Customer Requests', '1.4 Linear Asks'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 400,
+      "easing": "ease-out",
+      "frames_involved": [
+        5
+      ]
+    },
+    {
+      "id": "anim-e88a5517",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Section 'Define the product direction'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "anim-7bde4a9e",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Roadmap timeline with initiatives and projects",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 700,
+      "easing": "ease-out",
+      "frames_involved": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "anim-1623e526",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Section 'Move work forward across teams and agents'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        8
+      ]
+    },
+    {
+      "id": "anim-cffcbdf8",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.8,
+      "element": "Codex agent response panel with code execution output",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 500,
+      "easing": "ease-out",
+      "frames_involved": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "anim-b06da47d",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Assign to... dropdown menu with Codex, Steven, Ema, GitHub Copilot, Cursor, Meg",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 400,
+      "easing": "ease-out",
+      "frames_involved": [
+        9
+      ]
+    },
+    {
+      "id": "anim-f56e98dc",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.75,
+      "element": "Navigation items '3.1 Issues', '3.2 Agents', '3.3 Linear MCP', '3.4 Git automations', '3.5 Cycles'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 400,
+      "easing": "ease-out",
+      "frames_involved": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "anim-006f7f7f",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Section 'Review PRs and agent output'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        10
+      ]
+    },
+    {
+      "id": "anim-038eb5e8",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Code diff comparison (kinetic-iOS/src/screens/Home/HomeScreen.tsx)",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 700,
+      "easing": "ease-out",
+      "frames_involved": [
+        11
+      ]
+    },
+    {
+      "id": "anim-f0b3a605",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Section 'Understand progress at scale'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        12
+      ]
+    },
+    {
+      "id": "anim-421e615e",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.8,
+      "element": "Weekly Pulse panel with project status",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 500,
+      "easing": "ease-out",
+      "frames_involved": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "anim-9d6cdebf",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Cycle time by agent scatter plot visualization",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 700,
+      "easing": "ease-out",
+      "frames_involved": [
+        13
+      ]
+    },
+    {
+      "id": "anim-62e18b52",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "Changelog section with four cards",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": "anim-74f53335",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.9,
+      "element": "Customer testimonials: Gabriel Peal (OpenAI) and Nik Koblov (Ramp)",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 700,
+      "easing": "ease-out",
+      "frames_involved": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "anim-ea8daa0c",
+      "provenance": [
+        "vision"
+      ],
+      "confidence": 0.85,
+      "element": "CTA section 'Built for the future. Available today.'",
+      "motion_type": "fade-in",
+      "trigger": "scroll-in",
+      "duration_ms": 600,
+      "easing": "ease-out",
+      "frames_involved": [
+        17
+      ]
+    },
+    {
+      "id": "anim-2ce0ab69",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.Hero_pulseDot__oDuNr",
+      "selector": "a.hide-mobile.Hero_newFeatureLink__PHt6b > span > div.Flex_root__DOQCW.Flex_align-center__oXK9F > div.Hero_pulseDot__oDuNr",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 1750,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.66, 0, 0, 1)",
+          "composite": "replace",
+          "boxShadow": "rgba(94, 106, 210, 0.1) 0px 0px 0px 0px",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.66, 0, 0, 1)",
+          "composite": "auto",
+          "boxShadow": "rgba(243, 79, 82, 0) 0px 0px 0px 10px",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-5a28000d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "circle",
+      "selector": "div.IssueView_chatBoxContent__TzJbj > div.Flex_root__DOQCW.Flex_align-center__oXK9F > svg > circle",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 3200,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.0625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.0625
+        },
+        {
+          "offset": 0.125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.1875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.1875
+        },
+        {
+          "offset": 0.25,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.3125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.3125
+        },
+        {
+          "offset": 0.375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.4375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4375
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.5625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5625
+        },
+        {
+          "offset": 0.625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.6875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.6875
+        },
+        {
+          "offset": 0.75,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.8125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8125
+        },
+        {
+          "offset": 0.875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 0.9375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.9375
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-b60f60bd",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "span.IssueView_dots__7olLU",
+      "selector": "div.IssueView_chatBoxContent__TzJbj > div.Flex_root__DOQCW.Flex_align-center__oXK9F > span.sc-d5151d0-0.lcjIWe > span.IssueView_dots__7olLU",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 2100,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 100% 0px 0px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.15,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 66.6% 0px 0px)",
+          "computedOffset": 0.15
+        },
+        {
+          "offset": 0.3,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 33.3% 0px 0px)",
+          "computedOffset": 0.3
+        },
+        {
+          "offset": 0.45,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px)",
+          "computedOffset": 0.45
+        },
+        {
+          "offset": 0.65,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 100% 0px 0px)",
+          "computedOffset": 0.65
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 100% 0px 0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-bf9b917e",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "circle",
+      "selector": "div.Benefits_illustration__HxANm > div.FeaturesIllustrations_agentsWrapper__rWKu9 > svg > circle",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 2800,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.07142857142857142,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.07142857142857142
+        },
+        {
+          "offset": 0.14285714285714285,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.14285714285714285
+        },
+        {
+          "offset": 0.21428571428571427,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.21428571428571427
+        },
+        {
+          "offset": 0.2857142857142857,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.2857142857142857
+        },
+        {
+          "offset": 0.35714285714285715,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.35714285714285715
+        },
+        {
+          "offset": 0.42857142857142855,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.42857142857142855
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.5714285714285714,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.5714285714285714
+        },
+        {
+          "offset": 0.6428571428571429,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.6428571428571429
+        },
+        {
+          "offset": 0.7142857142857143,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.7142857142857143
+        },
+        {
+          "offset": 0.7857142857142857,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.7857142857142857
+        },
+        {
+          "offset": 0.8571428571428571,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.8571428571428571
+        },
+        {
+          "offset": 0.9285714285714286,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.9285714285714286
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-382f6eb3",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "circle",
+      "selector": "div.Benefits_illustration__HxANm > div.FeaturesIllustrations_agentsWrapper__rWKu9 > svg > circle",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 1600,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.25,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.75,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-5a28000d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "circle",
+      "selector": "div.Benefits_illustration__HxANm > div.FeaturesIllustrations_agentsWrapper__rWKu9 > svg > circle",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 3200,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.0625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.0625
+        },
+        {
+          "offset": 0.125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.1875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.1875
+        },
+        {
+          "offset": 0.25,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.3125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.3125
+        },
+        {
+          "offset": 0.375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.4375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4375
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.5625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5625
+        },
+        {
+          "offset": 0.625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.6875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.6875
+        },
+        {
+          "offset": 0.75,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.8125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8125
+        },
+        {
+          "offset": 0.875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 0.9375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.9375
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-393e30f5",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.SlackIssue_cursor__uR_n0",
+      "selector": "div.SlackIssue_textarea___o4_Z > span.sc-d5151d0-0.kVtUAI > div.Flex_root__DOQCW.Flex_align-center__oXK9F > div.SlackIssue_cursor__uR_n0",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 1250,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.49,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.49
+        },
+        {
+          "offset": 0.5,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.99,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.99
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-5a28000d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "circle",
+      "selector": "div > div.Flex_root__DOQCW.Flex_align-center__oXK9F > svg > circle",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 3200,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.0625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.0625
+        },
+        {
+          "offset": 0.125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.1875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.1875
+        },
+        {
+          "offset": 0.25,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.3125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.3125
+        },
+        {
+          "offset": 0.375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.4375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4375
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.5625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5625
+        },
+        {
+          "offset": 0.625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.6875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.6875
+        },
+        {
+          "offset": 0.75,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.8125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8125
+        },
+        {
+          "offset": 0.875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 0.9375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.9375
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-dae4fba2",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "span.Blink_root__0CSDl.Build_blink__E_pDa",
+      "selector": "div.Build_cmdkContainer__hLqDY.page_fixedGlowBgLeft__Hda7A > div.Build_cmdk__gSfBd > div > span.Blink_root__0CSDl.Build_blink__E_pDa",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 1200,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "replace",
+          "visibility": "visible",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "visibility": "hidden",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "replace",
+          "visibility": "visible",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-74034695",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.SlackIssue_sendButtonGroup____BtY",
+      "selector": "div.SlackIssue_slackBox__GIILV.page_fixedGlowBgRight__uXUH5 > div.SlackIssue_chatInput__Y9WPf > div.Flex_root__DOQCW.Flex_align-center__oXK9F > div.SlackIssue_sendButtonGroup____BtY",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 800,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0.2",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-e76b86d3",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.Header_viewport__yatj9.utils_hideScrollbars__TzPqp",
+      "selector": "div.Header_viewportPosition__RuLsy.hide-mobile > div.Header_viewport__yatj9.utils_hideScrollbars__TzPqp",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 180,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "scale(0.98)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "scale(1)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-d1eb2dc7",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div#radix-_r_8_-content-resources",
+      "selector": "div.Header_viewportPosition__RuLsy.hide-mobile > div.Header_viewport__yatj9.utils_hideScrollbars__TzPqp > div#radix-_r_8_-content-resources",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 180,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateX(48px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateX(0px)",
+          "computedOffset": 1
+        }
+      ]
+    }
+  ]
+}
