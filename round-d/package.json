@@ -1,0 +1,30 @@
+{
+  "name": "round-d-linear-experiment",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Round D baseline comparison: 5 clone tools vs Linear.app",
+  "type": "module",
+  "scripts": {
+    "snapshot": "tsx scripts/snapshot-t0.mjs",
+    "probe:dom": "tsx scripts/probe-animations.mjs",
+    "probe:vision": "tsx scripts/probe-vision.mjs",
+    "probe:merge": "tsx scripts/merge-animations.mjs",
+    "score:static": "tsx scripts/score-static.mjs",
+    "score:dynamic": "tsx scripts/score-dynamic.mjs",
+    "score:practical": "tsx scripts/score-practical.mjs",
+    "score:compile": "tsx scripts/compile-scorecard.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.88.0",
+    "culori": "^4.0.1",
+    "odiff-bin": "^3.2.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "sharp": "^0.34.5",
+    "single-file-cli": "^2.0.83",
+    "ssim.js": "^3.5.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
+}

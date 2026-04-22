@@ -1,0 +1,1760 @@
+{
+  "url": "https://linear.app/",
+  "title": "Linear – The system for product development",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "root": {
+    "backgroundColor": "rgb(8, 9, 10)",
+    "color": "rgb(247, 248, 248)"
+  },
+  "body": {
+    "backgroundColor": "rgb(8, 9, 10)",
+    "color": "rgb(247, 248, 248)",
+    "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif"
+  },
+  "elements": [
+    {
+      "tag": "h1",
+      "text": "The productdevelopmentsystem for teamsand agentsThe product developmentsystem fo",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "64px",
+      "fontWeight": "510",
+      "lineHeight": "64px",
+      "letterSpacing": "-1.408px",
+      "padding": "0px",
+      "margin": "0px 0px 0px -2px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 76,
+        "y": 272,
+        "w": 1271,
+        "h": 128
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "A new species of product tool. Purpose-built for modern teams with AI workflows ",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "510",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.056px",
+      "padding": "0px 32px",
+      "margin": "0px 0px 0px -2px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 44,
+        "y": 1532,
+        "w": 1250,
+        "h": 144
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Make product \noperations self-driving",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "510",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.056px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 76,
+        "y": 2578,
+        "w": 541.6875,
+        "h": 96
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Define the \nproduct direction",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "510",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.056px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 76,
+        "y": 3794.71875,
+        "w": 541.6875,
+        "h": 96
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Move work forward \nacross teams and agents",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "510",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.056px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 76,
+        "y": 5003.4375,
+        "w": 541.6875,
+        "h": 96
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Review PRs and agent output",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "510",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.056px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 76,
+        "y": 6168.15625,
+        "w": 541.6875,
+        "h": 96
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Understand \nprogress at scale",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "510",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.056px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 76,
+        "y": 7250.875,
+        "w": 541.6875,
+        "h": 96
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Changelog",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "510",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.056px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 76,
+        "y": 8495.59375,
+        "w": 223.65625,
+        "h": 48
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Built for the future. Available today.",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "72px",
+      "fontWeight": "510",
+      "lineHeight": "72px",
+      "letterSpacing": "-1.584px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 351.375,
+        "y": 9865.390625,
+        "w": 722.25,
+        "h": 144
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Faster app launch",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "590",
+      "lineHeight": "26.6px",
+      "letterSpacing": "-0.24px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 361.5,
+        "y": 629,
+        "w": 614,
+        "h": 26.59375
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Product",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "19.5px",
+      "letterSpacing": "-0.13px",
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 300.15625,
+        "y": 10374.390625,
+        "w": 158.171875,
+        "h": 19.5
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Features",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "19.5px",
+      "letterSpacing": "-0.13px",
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 522.328125,
+        "y": 10374.390625,
+        "w": 158.171875,
+        "h": 19.5
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Company",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "19.5px",
+      "letterSpacing": "-0.13px",
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 10374.390625,
+        "w": 158.15625,
+        "h": 19.5
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Resources",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "19.5px",
+      "letterSpacing": "-0.13px",
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 966.65625,
+        "y": 10374.390625,
+        "w": 158.171875,
+        "h": 19.5
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Connect",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "19.5px",
+      "letterSpacing": "-0.13px",
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 1188.828125,
+        "y": 10374.390625,
+        "w": 158.171875,
+        "h": 19.5
+      }
+    },
+    {
+      "tag": "h4",
+      "text": "Activity",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "590",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 361.5,
+        "y": 738.59375,
+        "w": 614,
+        "h": 24
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Purpose-built for planning and building products. Designed for the AI era.",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 78,
+        "y": 432,
+        "w": 505.046875,
+        "h": 26
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Render UI before vehicle_state sync when minimum required state is present, inst",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.182px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 361.5,
+        "y": 665.59375,
+        "w": 550,
+        "h": 45
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Linear is shaped by the practices and principles of world-class product teams.",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 78,
+        "y": 2232,
+        "w": 368,
+        "h": 48
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Designed for workflows shared by humans and agents. From drafting PRDs to pushin",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 533,
+        "y": 2232,
+        "w": 358,
+        "h": 48
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Reduces noise and restores momentum to help teams ship with high velocity and fo",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 956,
+        "y": 2232,
+        "w": 368,
+        "h": 48
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Turn conversations and customer feedback into actionable issues that are routed,",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "31.92px",
+      "letterSpacing": "-0.288px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 2578,
+        "w": 602.5,
+        "h": 95.71875
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Plan and navigate from idea to launch. Align your team with product initiatives,",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "31.92px",
+      "letterSpacing": "-0.288px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 3794.71875,
+        "w": 602.5,
+        "h": 95.71875
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Build and deploy AI agents that work alongside your team. Work on complex tasks ",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "31.92px",
+      "letterSpacing": "-0.288px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 5003.4375,
+        "w": 602.5,
+        "h": 95.71875
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Understand code changes at a glance with structural diffs for human and agent ou",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "31.92px",
+      "letterSpacing": "-0.288px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 6168.15625,
+        "w": 602.5,
+        "h": 95.71875
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Take the guesswork out of product development with project updates, analytics, a",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "31.92px",
+      "letterSpacing": "-0.288px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 7250.875,
+        "w": 602.5,
+        "h": 95.71875
+      }
+    },
+    {
+      "tag": "p",
+      "text": "iOS implementation is mostly complete, but Android updates are still work in pro",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 100,
+        "y": 7776.59375,
+        "w": 400,
+        "h": 48
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Risk of timeline slip if remaining design decisions aren’t finalized soon",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 100,
+        "y": 7832.59375,
+        "w": 400,
+        "h": 48
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Localization efforts have been completed",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 100,
+        "y": 7972.09375,
+        "w": 400,
+        "h": 24
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Everything else on track for launch in early September",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 100,
+        "y": 8004.09375,
+        "w": 400,
+        "h": 24
+      }
+    },
+    {
+      "tag": "p",
+      "text": "You just have to use it and you will see, you will just feel it.",
+      "color": "rgb(8, 9, 10)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.704px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 90,
+        "y": 9113.390625,
+        "w": 392.5,
+        "h": 108
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Our speed is intense and Linear helps us be action biased.",
+      "color": "rgb(8, 9, 10)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.704px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 967,
+        "y": 9113.390625,
+        "w": 368,
+        "h": 108
+      }
+    },
+    {
+      "tag": "p",
+      "text": "Linear powers over 25,000 product teams. From ambitious startups to major enterp",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.165px",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 78,
+        "y": 9617.390625,
+        "w": 611.25,
+        "h": 24
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Skip to content →",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(94, 106, 210)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "510",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "padding": "0px 16px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "w": 1425,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px 8px",
+      "margin": "0px 0px 0px -8px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 69,
+        "y": 20,
+        "w": 104,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Product",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "padding": "0px 12px",
+      "margin": "0px",
+      "borderRadius": "9999px",
+      "rect": {
+        "x": 728,
+        "y": 20,
+        "w": 72.109375,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Resources",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "padding": "0px 12px",
+      "margin": "0px",
+      "borderRadius": "9999px",
+      "rect": {
+        "x": 800.109375,
+        "y": 20,
+        "w": 88.65625,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Customers",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "padding": "0px 12px",
+      "margin": "0px",
+      "borderRadius": "9999px",
+      "rect": {
+        "x": 888.765625,
+        "y": 20,
+        "w": 90.703125,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Pricing",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "padding": "0px 12px",
+      "margin": "0px",
+      "borderRadius": "9999px",
+      "rect": {
+        "x": 979.46875,
+        "y": 20,
+        "w": 66.703125,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Now",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "padding": "0px 12px",
+      "margin": "0px",
+      "borderRadius": "9999px",
+      "rect": {
+        "x": 1046.171875,
+        "y": 20,
+        "w": 52,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Contact",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "padding": "0px 12px",
+      "margin": "0px",
+      "borderRadius": "9999px",
+      "rect": {
+        "x": 1098.171875,
+        "y": 20,
+        "w": 72.28125,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Log in",
+      "color": "rgb(138, 143, 152)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "padding": "0px 12px",
+      "margin": "0px",
+      "borderRadius": "9999px",
+      "rect": {
+        "x": 1205.46875,
+        "y": 20,
+        "w": 61.609375,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Sign up",
+      "color": "rgb(8, 9, 10)",
+      "backgroundColor": "rgb(229, 229, 230)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "padding": "0px 12px",
+      "margin": "0px",
+      "borderRadius": "9999px",
+      "rect": {
+        "x": 1275.078125,
+        "y": 20,
+        "w": 72.921875,
+        "h": 32
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Issue tracking is deadlinear.app/next →",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 1034.21875,
+        "y": 432,
+        "w": 312.78125,
+        "h": 26
+      }
+    },
+    {
+      "tag": "a",
+      "text": "1.0Intake→",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 2722.71875,
+        "w": 96.890625,
+        "h": 24
+      }
+    },
+    {
+      "tag": "a",
+      "text": "2.0Plan→",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 3939.4375,
+        "w": 84.84375,
+        "h": 24
+      }
+    },
+    {
+      "tag": "a",
+      "text": "3.0Build→",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 5148.15625,
+        "w": 89.296875,
+        "h": 24
+      }
+    },
+    {
+      "tag": "a",
+      "text": "4.0Diffs (Coming soon)→",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 6312.875,
+        "w": 192.765625,
+        "h": 24
+      }
+    },
+    {
+      "tag": "a",
+      "text": "5.0Monitor→",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 744.5,
+        "y": 7395.59375,
+        "w": 108.171875,
+        "h": 24
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Linear for Microsoft TeamsMention @Linear in any Microsoft Teams channel to turn",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "4px",
+      "rect": {
+        "x": 78,
+        "y": 8695.59375,
+        "w": 269.25,
+        "h": 116.796875
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Linear",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 4px",
+      "margin": "0px",
+      "borderRadius": "4px",
+      "rect": {
+        "x": 68.5,
+        "y": 544,
+        "w": 97.015625,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "color": "rgb(98, 102, 109)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 216.5,
+        "y": 544,
+        "w": 28,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Inbox",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 584,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "My issues",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 614,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Reviews",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 644,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Pulse",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 674,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Workspace",
+      "color": "rgb(98, 102, 109)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px 0px 4px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 714,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Initiatives",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 742,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Projects",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 772,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "More",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 802,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Favorites",
+      "color": "rgb(98, 102, 109)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px 0px 4px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 842,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Faster app launch",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(255, 255, 255, 0.04)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 870,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Agent tasks",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 900,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "UI Refresh",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 930,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Agents Insights",
+      "color": "rgb(208, 214, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "510",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "0px 6px",
+      "margin": "0px",
+      "borderRadius": "6px",
+      "rect": {
+        "x": 68.5,
+        "y": 960,
+        "w": 210,
+        "h": 28
+      }
+    },
+    {
+      "tag": "nav",
+      "text": "ProductProductResourcesResourcesCustomersPricingNowContactDocsOpen appLog inSign",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1425,
+        "h": 72
+      }
+    },
+    {
+      "tag": "nav",
+      "text": "LinearInboxMy issuesReviewsPulseWorkspace InitiativesProjectsMoreFavorites Faste",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "8px 14px 14px 8px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 60.5,
+        "y": 536,
+        "w": 232,
+        "h": 704
+      }
+    },
+    {
+      "tag": "main",
+      "text": "The productdevelopmentsystem for teamsand agentsThe product developmentsystem fo",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "72px 0px 0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1425,
+        "h": 10317.390625
+      }
+    },
+    {
+      "tag": "section",
+      "text": "",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1425,
+        "h": 0
+      }
+    },
+    {
+      "tag": "section",
+      "text": "Make product \noperations self-drivingTurn conversations and customer feedback in",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "96px 0px 128px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 46,
+        "y": 2482,
+        "w": 1333,
+        "h": 1206.71875
+      }
+    },
+    {
+      "tag": "section",
+      "text": "Define the \nproduct directionPlan and navigate from idea to launch. Align your t",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "96px 0px 128px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 46,
+        "y": 3698.71875,
+        "w": 1333,
+        "h": 1198.71875
+      }
+    },
+    {
+      "tag": "section",
+      "text": "Move work forward \nacross teams and agentsBuild and deploy AI agents that work a",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "96px 0px 128px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 46,
+        "y": 4907.4375,
+        "w": 1333,
+        "h": 1154.71875
+      }
+    },
+    {
+      "tag": "section",
+      "text": "Review PRs and agent outputUnderstand code changes at a glance with structural d",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "96px 0px 128px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 46,
+        "y": 6072.15625,
+        "w": 1333,
+        "h": 1072.71875
+      }
+    },
+    {
+      "tag": "section",
+      "text": "Understand \nprogress at scaleTake the guesswork out of product development with ",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "96px 0px 128px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 46,
+        "y": 7154.875,
+        "w": 1333,
+        "h": 1178.71875
+      }
+    },
+    {
+      "tag": "section",
+      "text": "You just have to use it and you will see, you will just feel it.Gabriel PealOpen",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 46,
+        "y": 9077.390625,
+        "w": 1333,
+        "h": 564
+      }
+    },
+    {
+      "tag": "section",
+      "text": "Built for the future. Available today.Get startedContact salesOpen appDownload",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "224px 0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 46,
+        "y": 9865.390625,
+        "w": 1333,
+        "h": 228
+      }
+    },
+    {
+      "tag": "header",
+      "text": "ProductProductResourcesResourcesCustomersPricingNowContactDocsOpen appLog inSign",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1425,
+        "h": 73
+      }
+    },
+    {
+      "tag": "header",
+      "text": "Faster app launch02/145",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px 24px 0px 31px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 293.5,
+        "y": 537,
+        "w": 750,
+        "h": 44
+      }
+    },
+    {
+      "tag": "header",
+      "text": "GitHub Copilot",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "12px 16px 12px 20px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 952.5,
+        "y": 780,
+        "w": 398,
+        "h": 49
+      }
+    },
+    {
+      "tag": "header",
+      "text": "Thread in #feedback",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "17px 24px",
+      "margin": "0px 1px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 55,
+        "y": 2814.71875,
+        "w": 478,
+        "h": 59
+      }
+    },
+    {
+      "tag": "header",
+      "text": "Initiatives",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px 24px",
+      "margin": "0px 1px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 55,
+        "y": 4147.4375,
+        "w": 398,
+        "h": 60
+      }
+    },
+    {
+      "tag": "header",
+      "text": "Codex",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgb(15, 16, 17)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px 24px 0px 28px",
+      "margin": "1px 1px 0px",
+      "borderRadius": "12px 12px 0px 0px",
+      "rect": {
+        "x": 56,
+        "y": 5278.15625,
+        "w": 1313,
+        "h": 60
+      }
+    },
+    {
+      "tag": "header",
+      "text": "Issue count by created date",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "20px 24px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 31,
+        "y": 7549.59375,
+        "w": 672.5,
+        "h": 65
+      }
+    },
+    {
+      "tag": "header",
+      "text": "Cycle time by agent",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "20px 24px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 721.5,
+        "y": 7549.59375,
+        "w": 672.5,
+        "h": 65
+      }
+    },
+    {
+      "tag": "header",
+      "text": "Weekly Pulse for Apr 22Listen1.0×",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px 0px 32px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 78,
+        "y": 7599.59375,
+        "w": 472,
+        "h": 62
+      }
+    },
+    {
+      "tag": "footer",
+      "text": "ProductIntakePlanBuildDiffsMonitorPricingSecurityFeaturesAsksAgentsCustomer Requ",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgb(8, 9, 10)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 0,
+        "y": 10317.390625,
+        "w": 1425,
+        "h": 464
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "color": "rgb(247, 248, 248)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "padding": "1px 32px",
+      "margin": "0px 1px",
+      "borderRadius": "0px",
+      "rect": {
+        "x": 720,
+        "y": 5309.15625,
+        "w": 558,
+        "h": 64
+      }
+    }
+  ],
+  "scrollHeight": 10781
+}

@@ -1,0 +1,16 @@
+You are a frontend engineer. Clone the visual design shown in the attached screenshot as a single Next.js 15 App Router `page.tsx` file using Tailwind CSS only (no external component libraries, no shadcn, no framer-motion). Output ONE .tsx file, no commentary, no markdown fences.
+
+**You have ONLY this screenshot. Do not assume any brand identity, do not fetch anything, do not reason about what site this might be. Work purely from what you see in the image.**
+
+Match colors, typography, spacing, and hero composition as closely as possible based on the screenshot. Include any Google Fonts you deem appropriate via `<link>` tags or `next/font`.
+
+The page must render standalone — drop it into a fresh `npx create-next-app@latest --ts --tailwind` project and `npm run dev` should show the clone at localhost:3000.
+
+Constraints:
+- Invent plausible copy that matches what you see in the screenshot
+- Responsive mobile-first (breakpoints at sm/md/lg/xl)
+- Semantic HTML (nav, main, section, footer)
+- Accessibility baseline (alt text, aria-labels where needed)
+- Extract hex colors from the screenshot pixels
+
+Start now. Output only the .tsx file contents.

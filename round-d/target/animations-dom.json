@@ -1,0 +1,895 @@
+{
+  "target": "https://linear.app",
+  "captured_at": "2026-04-22T05:06:48.854Z",
+  "total_raw": 3278,
+  "total_deduped": 12,
+  "animations": [
+    {
+      "label": "on-load",
+      "index": 0,
+      "id": "anim-0",
+      "playState": "running",
+      "currentTime": 6089.6359999999995,
+      "playbackRate": 1,
+      "targetSelector": "a.hide-mobile.Hero_newFeatureLink__PHt6b > span > div.Flex_root__DOQCW.Flex_align-center__oXK9F > div.Hero_pulseDot__oDuNr",
+      "targetTag": "div",
+      "duration": 1750,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 2,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.66, 0, 0, 1)",
+          "composite": "replace",
+          "boxShadow": "rgba(94, 106, 210, 0.1) 0px 0px 0px 0px",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.66, 0, 0, 1)",
+          "composite": "auto",
+          "boxShadow": "rgba(243, 79, 82, 0) 0px 0px 0px 10px",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "on-load",
+      "index": 1,
+      "id": "anim-1",
+      "playState": "running",
+      "currentTime": 6089.6359999999995,
+      "playbackRate": 1,
+      "targetSelector": "div.IssueView_chatBoxContent__TzJbj > div.Flex_root__DOQCW.Flex_align-center__oXK9F > svg > circle",
+      "targetTag": "circle",
+      "duration": 3200,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 17,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.0625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.0625
+        },
+        {
+          "offset": 0.125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.1875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.1875
+        },
+        {
+          "offset": 0.25,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.3125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.3125
+        },
+        {
+          "offset": 0.375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.4375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4375
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.5625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5625
+        },
+        {
+          "offset": 0.625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.6875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.6875
+        },
+        {
+          "offset": 0.75,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.8125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8125
+        },
+        {
+          "offset": 0.875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 0.9375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.9375
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "on-load",
+      "index": 26,
+      "id": "anim-26",
+      "playState": "running",
+      "currentTime": 6089.6359999999995,
+      "playbackRate": 1,
+      "targetSelector": "div.IssueView_chatBoxContent__TzJbj > div.Flex_root__DOQCW.Flex_align-center__oXK9F > span.sc-d5151d0-0.lcjIWe > span.IssueView_dots__7olLU",
+      "targetTag": "span",
+      "duration": 2100,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 6,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 100% 0px 0px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.15,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 66.6% 0px 0px)",
+          "computedOffset": 0.15
+        },
+        {
+          "offset": 0.3,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 33.3% 0px 0px)",
+          "computedOffset": 0.3
+        },
+        {
+          "offset": 0.45,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px)",
+          "computedOffset": 0.45
+        },
+        {
+          "offset": 0.65,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 100% 0px 0px)",
+          "computedOffset": 0.65
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "clipPath": "inset(0px 100% 0px 0px)",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "on-load",
+      "index": 27,
+      "id": "anim-27",
+      "playState": "running",
+      "currentTime": 5872.978,
+      "playbackRate": 1,
+      "targetSelector": "div.Benefits_illustration__HxANm > div.FeaturesIllustrations_agentsWrapper__rWKu9 > svg > circle",
+      "targetTag": "circle",
+      "duration": 2800,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 15,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.07142857142857142,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.07142857142857142
+        },
+        {
+          "offset": 0.14285714285714285,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.14285714285714285
+        },
+        {
+          "offset": 0.21428571428571427,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.21428571428571427
+        },
+        {
+          "offset": 0.2857142857142857,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.2857142857142857
+        },
+        {
+          "offset": 0.35714285714285715,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.35714285714285715
+        },
+        {
+          "offset": 0.42857142857142855,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.42857142857142855
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.5714285714285714,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.5714285714285714
+        },
+        {
+          "offset": 0.6428571428571429,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.6428571428571429
+        },
+        {
+          "offset": 0.7142857142857143,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.7142857142857143
+        },
+        {
+          "offset": 0.7857142857142857,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.7857142857142857
+        },
+        {
+          "offset": 0.8571428571428571,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.8571428571428571
+        },
+        {
+          "offset": 0.9285714285714286,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.9285714285714286
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "on-load",
+      "index": 52,
+      "id": "anim-52",
+      "playState": "running",
+      "currentTime": 5954.219999999859,
+      "playbackRate": 1,
+      "targetSelector": "div.Benefits_illustration__HxANm > div.FeaturesIllustrations_agentsWrapper__rWKu9 > svg > circle",
+      "targetTag": "circle",
+      "duration": 1600,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 9,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.25,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.75,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "0.3",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "on-load",
+      "index": 77,
+      "id": "anim-77",
+      "playState": "running",
+      "currentTime": 5872.978,
+      "playbackRate": 1,
+      "targetSelector": "div.Benefits_illustration__HxANm > div.FeaturesIllustrations_agentsWrapper__rWKu9 > svg > circle",
+      "targetTag": "circle",
+      "duration": 3200,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 17,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.0625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.0625
+        },
+        {
+          "offset": 0.125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.1875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.1875
+        },
+        {
+          "offset": 0.25,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.3125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.3125
+        },
+        {
+          "offset": 0.375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.4375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4375
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.5625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5625
+        },
+        {
+          "offset": 0.625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.6875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.6875
+        },
+        {
+          "offset": 0.75,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.8125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8125
+        },
+        {
+          "offset": 0.875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 0.9375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.9375
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "on-load",
+      "index": 102,
+      "id": "anim-102",
+      "playState": "running",
+      "currentTime": 5954.219999999859,
+      "playbackRate": 1,
+      "targetSelector": "div.SlackIssue_textarea___o4_Z > span.sc-d5151d0-0.kVtUAI > div.Flex_root__DOQCW.Flex_align-center__oXK9F > div.SlackIssue_cursor__uR_n0",
+      "targetTag": "div",
+      "duration": 1250,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 5,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.49,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.49
+        },
+        {
+          "offset": 0.5,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.99,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0.99
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "on-load",
+      "index": 103,
+      "id": "anim-103",
+      "playState": "running",
+      "currentTime": 5481.302,
+      "playbackRate": 1,
+      "targetSelector": "div > div.Flex_root__DOQCW.Flex_align-center__oXK9F > svg > circle",
+      "targetTag": "circle",
+      "duration": 3200,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 17,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.0625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.0625
+        },
+        {
+          "offset": 0.125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.125
+        },
+        {
+          "offset": 0.1875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.1875
+        },
+        {
+          "offset": 0.25,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.25
+        },
+        {
+          "offset": 0.3125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.3125
+        },
+        {
+          "offset": 0.375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.375
+        },
+        {
+          "offset": 0.4375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.4375
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 0.5625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5625
+        },
+        {
+          "offset": 0.625,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.625
+        },
+        {
+          "offset": 0.6875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.6875
+        },
+        {
+          "offset": 0.75,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.75
+        },
+        {
+          "offset": 0.8125,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.8125
+        },
+        {
+          "offset": 0.875,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.875
+        },
+        {
+          "offset": 0.9375,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.9375
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "on-load",
+      "index": 128,
+      "id": "anim-128",
+      "playState": "running",
+      "currentTime": 5954.219999999859,
+      "playbackRate": 1,
+      "targetSelector": "div.Build_cmdkContainer__hLqDY.page_fixedGlowBgLeft__Hda7A > div.Build_cmdk__gSfBd > div > span.Blink_root__0CSDl.Build_blink__E_pDa",
+      "targetTag": "span",
+      "duration": 1200,
+      "easing": "linear",
+      "iterations": null,
+      "keyframeCount": 3,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(1)",
+          "composite": "replace",
+          "visibility": "visible",
+          "computedOffset": 0
+        },
+        {
+          "offset": 0.5,
+          "easing": "steps(1)",
+          "composite": "auto",
+          "visibility": "hidden",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": 1,
+          "easing": "steps(1)",
+          "composite": "replace",
+          "visibility": "visible",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "scroll-5",
+      "index": 129,
+      "id": "anim-129",
+      "playState": "running",
+      "currentTime": 605.7000000003736,
+      "playbackRate": 1,
+      "targetSelector": "div.SlackIssue_slackBox__GIILV.page_fixedGlowBgRight__uXUH5 > div.SlackIssue_chatInput__Y9WPf > div.Flex_root__DOQCW.Flex_align-center__oXK9F > div.SlackIssue_sendButtonGroup____BtY",
+      "targetTag": "div",
+      "duration": 800,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "keyframeCount": 2,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0.2",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "hover-3",
+      "index": 103,
+      "id": "anim-103",
+      "playState": "finished",
+      "currentTime": 180,
+      "playbackRate": 1,
+      "targetSelector": "div.Header_viewportPosition__RuLsy.hide-mobile > div.Header_viewport__yatj9.utils_hideScrollbars__TzPqp",
+      "targetTag": "div",
+      "duration": 180,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframeCount": 2,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "scale(0.98)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "scale(1)",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    },
+    {
+      "label": "hover-5",
+      "index": 104,
+      "id": "anim-104",
+      "playState": "finished",
+      "currentTime": 180,
+      "playbackRate": 1,
+      "targetSelector": "div.Header_viewportPosition__RuLsy.hide-mobile > div.Header_viewport__yatj9.utils_hideScrollbars__TzPqp > div#radix-_R_ninpfcqlb_-content-resources",
+      "targetTag": "div",
+      "duration": 180,
+      "easing": "linear",
+      "iterations": 1,
+      "keyframeCount": 2,
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+          "composite": "auto",
+          "opacity": "0",
+          "transform": "translateX(48px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+          "composite": "auto",
+          "opacity": "1",
+          "transform": "translateX(0px)",
+          "computedOffset": 1
+        }
+      ],
+      "pseudoElement": null
+    }
+  ]
+}

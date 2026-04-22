@@ -1,0 +1,14 @@
+You are a frontend engineer. Clone the visual design of https://linear.app as a single Next.js 15 App Router `page.tsx` file using Tailwind CSS only (no external component libraries, no shadcn, no framer-motion). Output ONE .tsx file, no commentary, no markdown fences.
+
+Match colors, typography, spacing, and hero composition as closely as possible. Include any needed Google Fonts as `<link>` tags inside a `<head>`-equivalent (use Next.js `next/font` if preferred).
+
+The page must render standalone — drop it into a fresh `npx create-next-app@latest --ts --tailwind` project and `npm run dev` should show the clone at localhost:3000.
+
+Constraints:
+- Use real content from linear.app (not lorem ipsum)
+- Responsive mobile-first (breakpoints at sm/md/lg/xl)
+- Semantic HTML (nav, main, section, footer)
+- Accessibility baseline (alt text, aria-labels where needed)
+- Match Linear's exact hex colors and font stack as best you can recall
+
+Start now. Output only the .tsx file contents.

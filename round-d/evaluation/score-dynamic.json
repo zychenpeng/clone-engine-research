@@ -1,0 +1,184 @@
+{
+  "scored_at": "2026-04-22T06:34:11.047Z",
+  "ground_truth": {
+    "total": 27,
+    "triggers": {
+      "scroll-out": 1,
+      "on-load": 5,
+      "continuous": 1,
+      "scroll-in": 8,
+      "unknown": 12
+    }
+  },
+  "tool_count": 4,
+  "tools": [
+    {
+      "tool": "01-cloner-v2",
+      "file_count": 11,
+      "raw_counts": {
+        "framer_motion": 0,
+        "gsap": 0,
+        "lottie": 0,
+        "motion_component": 0,
+        "animate_presence": 0,
+        "use_animate": 0,
+        "hover_class": 84,
+        "focus_class": 0,
+        "active_class": 0,
+        "group_class": 0,
+        "transition_class": 74,
+        "animate_class": 27,
+        "duration_class": 4,
+        "ease_class": 0,
+        "css_transition": 0,
+        "css_animation": 0,
+        "css_keyframes": 0,
+        "intersection": 0,
+        "scroll_effect": 0
+      },
+      "derived": {
+        "lib_animation_count": 0,
+        "interaction_state_count": 84,
+        "transition_count": 101,
+        "scroll_animation_count": 0,
+        "est_captured_animations": 0
+      },
+      "vs_ground_truth": {
+        "ground_truth_total": 27,
+        "captured": 0,
+        "ratio": "0.00"
+      },
+      "sub_metrics": {
+        "animation_count_score": 0,
+        "interaction_presence_score": 96
+      },
+      "composite_dynamic": 48
+    },
+    {
+      "tool": "03-claude-naive",
+      "file_count": 1,
+      "raw_counts": {
+        "framer_motion": 0,
+        "gsap": 0,
+        "lottie": 0,
+        "motion_component": 0,
+        "animate_presence": 0,
+        "use_animate": 0,
+        "hover_class": 29,
+        "focus_class": 0,
+        "active_class": 0,
+        "group_class": 0,
+        "transition_class": 29,
+        "animate_class": 0,
+        "duration_class": 0,
+        "ease_class": 0,
+        "css_transition": 0,
+        "css_animation": 0,
+        "css_keyframes": 0,
+        "intersection": 0,
+        "scroll_effect": 0
+      },
+      "derived": {
+        "lib_animation_count": 0,
+        "interaction_state_count": 29,
+        "transition_count": 29,
+        "scroll_animation_count": 0,
+        "est_captured_animations": 0
+      },
+      "vs_ground_truth": {
+        "ground_truth_total": 27,
+        "captured": 0,
+        "ratio": "0.00"
+      },
+      "sub_metrics": {
+        "animation_count_score": 0,
+        "interaction_presence_score": 74
+      },
+      "composite_dynamic": 37
+    },
+    {
+      "tool": "04-claude-null",
+      "file_count": 1,
+      "raw_counts": {
+        "framer_motion": 0,
+        "gsap": 0,
+        "lottie": 0,
+        "motion_component": 0,
+        "animate_presence": 0,
+        "use_animate": 0,
+        "hover_class": 30,
+        "focus_class": 0,
+        "active_class": 0,
+        "group_class": 0,
+        "transition_class": 0,
+        "animate_class": 0,
+        "duration_class": 0,
+        "ease_class": 0,
+        "css_transition": 0,
+        "css_animation": 0,
+        "css_keyframes": 0,
+        "intersection": 0,
+        "scroll_effect": 0
+      },
+      "derived": {
+        "lib_animation_count": 0,
+        "interaction_state_count": 30,
+        "transition_count": 0,
+        "scroll_animation_count": 0,
+        "est_captured_animations": 0
+      },
+      "vs_ground_truth": {
+        "ground_truth_total": 27,
+        "captured": 0,
+        "ratio": "0.00"
+      },
+      "sub_metrics": {
+        "animation_count_score": 0,
+        "interaction_presence_score": 75
+      },
+      "composite_dynamic": 38
+    },
+    {
+      "tool": "05-v0dev",
+      "file_count": 2,
+      "raw_counts": {
+        "framer_motion": 0,
+        "gsap": 0,
+        "lottie": 0,
+        "motion_component": 0,
+        "animate_presence": 0,
+        "use_animate": 0,
+        "hover_class": 34,
+        "focus_class": 0,
+        "active_class": 0,
+        "group_class": 2,
+        "transition_class": 23,
+        "animate_class": 0,
+        "duration_class": 0,
+        "ease_class": 0,
+        "css_transition": 0,
+        "css_animation": 0,
+        "css_keyframes": 0,
+        "intersection": 0,
+        "scroll_effect": 0
+      },
+      "derived": {
+        "lib_animation_count": 0,
+        "interaction_state_count": 36,
+        "transition_count": 23,
+        "scroll_animation_count": 0,
+        "est_captured_animations": 0
+      },
+      "vs_ground_truth": {
+        "ground_truth_total": 27,
+        "captured": 0,
+        "ratio": "0.00"
+      },
+      "sub_metrics": {
+        "animation_count_score": 0,
+        "interaction_presence_score": 78
+      },
+      "composite_dynamic": 39
+    }
+  ]
+}

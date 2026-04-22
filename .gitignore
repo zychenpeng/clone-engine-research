@@ -1,0 +1,43 @@
+# Node
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env / secrets (CRITICAL — never commit)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Build
+dist/
+build/
+.next/
+out/
+
+# Test
+coverage/
+.nyc_output/
+
+# Cloned external tools (re-cloneable)
+round-*/tools/
+
+# Transient bash sessions
+*.transient

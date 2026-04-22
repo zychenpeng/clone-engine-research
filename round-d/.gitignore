@@ -1,0 +1,33 @@
+# Heavy artifacts — keep locally, don't bloat parent repo
+
+# Cloned tool repos (re-clonable from upstream)
+tools/
+
+# Tool outputs (large, tool-specific)
+outputs/
+
+# Target snapshot heavy assets (MHTML, HAR, video, assets)
+target/snapshot-T0.mhtml
+target/snapshot-T0.har
+target/recording-T0.mp4
+target/assets-T0/
+target/screenshots/
+
+# Keep the smaller JSON artifacts committed so scorecard is reproducible:
+#   target/dom-T0.json
+#   target/animations-T0.json
+
+# Node / Python scratch
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log

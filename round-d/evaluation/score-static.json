@@ -1,0 +1,124 @@
+{
+  "scored_at": "2026-04-22T06:34:38.024Z",
+  "target": "linear.app/homepage 1440px",
+  "tool_count": 4,
+  "total_judge_cost_usd": 0.17448600000000003,
+  "tools": [
+    {
+      "tool": "01-cloner-v2",
+      "file_count": 11,
+      "code_chars": 76467,
+      "sub_metrics": {
+        "visual_similarity": 72,
+        "color_accuracy": 85,
+        "typography_accuracy": 65,
+        "layout_structure": 78
+      },
+      "composite_static": 74,
+      "notes": "Strong dark theme implementation with accurate color palette (blacks, grays, accent colors). Layout structure captures hero, feature sections, and roadmap visualizations well. Typography uses Inter Variable which is close but Linear uses a custom geometric sans. Some interactive components and spacing proportions differ from target. Missing some micro-interactions and exact font weights.",
+      "judge_confidence": 0.82,
+      "judge_model": "claude-sonnet-4-5-20250929",
+      "judge_usage": {
+        "input_tokens": 26199,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 134,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      },
+      "judge_cost_usd": 0.080607,
+      "judge_wall_s": 5.8
+    },
+    {
+      "tool": "03-claude-naive",
+      "file_count": 1,
+      "code_chars": 24837,
+      "sub_metrics": {
+        "visual_similarity": 72,
+        "color_accuracy": 78,
+        "typography_accuracy": 55,
+        "layout_structure": 85
+      },
+      "composite_static": 72,
+      "notes": "Strong layout structure with appropriate sections (hero, features, command-line, testimonials, CTA, footer). Color palette captures the dark theme and violet accents well. However, typography uses Inter instead of Linear's custom geometric sans, and some visual details like gradients, spacing, and the hero product screenshot complexity are simplified compared to the target.",
+      "judge_confidence": 0.85,
+      "judge_model": "claude-sonnet-4-5-20250929",
+      "judge_usage": {
+        "input_tokens": 8507,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 137,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      },
+      "judge_cost_usd": 0.027576,
+      "judge_wall_s": 4.6
+    },
+    {
+      "tool": "04-claude-null",
+      "file_count": 1,
+      "code_chars": 23472,
+      "sub_metrics": {
+        "visual_similarity": 42,
+        "color_accuracy": 65,
+        "typography_accuracy": 30,
+        "layout_structure": 58
+      },
+      "composite_static": 47,
+      "notes": "Code captures basic dark theme and section structure, but misses Linear's precise spatial rhythm, iconic purple gradients, and custom geometric typography. Layout has correct sections but simplified visualizations and missing signature UI elements like the command palette aesthetic.",
+      "judge_confidence": 0.85,
+      "judge_model": "claude-sonnet-4-5-20250929",
+      "judge_usage": {
+        "input_tokens": 7775,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 113,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      },
+      "judge_cost_usd": 0.02502,
+      "judge_wall_s": 4.3
+    },
+    {
+      "tool": "05-v0dev",
+      "file_count": 2,
+      "code_chars": 39068,
+      "sub_metrics": {
+        "visual_similarity": 78,
+        "color_accuracy": 72,
+        "typography_accuracy": 65,
+        "layout_structure": 85
+      },
+      "composite_static": 76,
+      "notes": "Strong structural layout with correct sections (hero, features, operations, roadmap, agents, code review, analytics, changelog, testimonials, CTA, footer). Color palette uses generic dark theme variables instead of Linear's specific violet/blue accents and precise backgrounds. Typography defaults to system fonts via Geist rather than Linear's custom geometric sans (likely Inter or similar), affecting visual fidelity significantly.",
+      "judge_confidence": 0.88,
+      "judge_model": "claude-sonnet-4-5-20250929",
+      "judge_usage": {
+        "input_tokens": 13016,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 149,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      },
+      "judge_cost_usd": 0.041283,
+      "judge_wall_s": 8.7
+    }
+  ]
+}

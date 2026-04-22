@@ -1,0 +1,191 @@
+{
+  "target": "https://linear.app",
+  "captured_at": "2026-04-22T05:08:38.689Z",
+  "model": "claude-sonnet-4-5-20250929",
+  "frame_count": 20,
+  "cost_usd": 0.116667,
+  "total_animations": 15,
+  "animations": [
+    {
+      "element": "hero headline 'The product development system for teams and agents'",
+      "motion_type": "fade",
+      "trigger": "scroll-out",
+      "approximate_duration_ms": 800,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        0,
+        1,
+        2
+      ],
+      "confidence": 0.85
+    },
+    {
+      "element": "issue detail modal expansion",
+      "motion_type": "scale",
+      "trigger": "on-load",
+      "approximate_duration_ms": 400,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ],
+      "confidence": 0.9
+    },
+    {
+      "element": "Codex agent message panel slide-in from right",
+      "motion_type": "slide",
+      "trigger": "on-load",
+      "approximate_duration_ms": 500,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        0,
+        1
+      ],
+      "confidence": 0.75
+    },
+    {
+      "element": "company logo carousel (Vercel, Cursor, Oscar, OpenAI, etc.)",
+      "motion_type": "slide",
+      "trigger": "continuous",
+      "approximate_duration_ms": 10000,
+      "approximate_easing": "linear",
+      "frames_involved": [
+        1,
+        2
+      ],
+      "confidence": 0.7
+    },
+    {
+      "element": "Built for purpose, Powered by AI agents, Designed for speed cards fade-in",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "approximate_duration_ms": 600,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        2,
+        3
+      ],
+      "confidence": 0.85
+    },
+    {
+      "element": "feedback thread comments expand animation",
+      "motion_type": "reveal",
+      "trigger": "scroll-in",
+      "approximate_duration_ms": 500,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        4,
+        5
+      ],
+      "confidence": 0.8
+    },
+    {
+      "element": "Linear Agent command input '@Linear create urgent issues and assign to me' typing effect",
+      "motion_type": "reveal",
+      "trigger": "on-load",
+      "approximate_duration_ms": 1200,
+      "approximate_easing": "linear",
+      "frames_involved": [
+        4,
+        5
+      ],
+      "confidence": 0.9
+    },
+    {
+      "element": "roadmap timeline view with projects and initiatives",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "approximate_duration_ms": 700,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        6,
+        7
+      ],
+      "confidence": 0.8
+    },
+    {
+      "element": "assignee dropdown menu expansion (Codex, Steven, Ema, GitHub Copilot, Cursor, Meg)",
+      "motion_type": "scale",
+      "trigger": "on-load",
+      "approximate_duration_ms": 300,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        8,
+        9
+      ],
+      "confidence": 0.9
+    },
+    {
+      "element": "Codex agent 'Thinking...' loading indicator",
+      "motion_type": "fade",
+      "trigger": "on-load",
+      "approximate_duration_ms": 800,
+      "approximate_easing": "ease-in-out",
+      "frames_involved": [
+        9,
+        10
+      ],
+      "confidence": 0.95
+    },
+    {
+      "element": "code diff view structural comparison slide-in",
+      "motion_type": "slide",
+      "trigger": "scroll-in",
+      "approximate_duration_ms": 600,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        10,
+        11
+      ],
+      "confidence": 0.85
+    },
+    {
+      "element": "Weekly Pulse analytics bar chart and Cycle time scatter plot reveal",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "approximate_duration_ms": 800,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        12,
+        13
+      ],
+      "confidence": 0.8
+    },
+    {
+      "element": "changelog entries timeline fade-in",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "approximate_duration_ms": 600,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        14,
+        15
+      ],
+      "confidence": 0.75
+    },
+    {
+      "element": "customer testimonial cards (Gabriel Peal, Nik Koblov) slide-in",
+      "motion_type": "slide",
+      "trigger": "scroll-in",
+      "approximate_duration_ms": 700,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        15,
+        16
+      ],
+      "confidence": 0.8
+    },
+    {
+      "element": "footer CTA 'Built for the future. Available today.' fade-in",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "approximate_duration_ms": 600,
+      "approximate_easing": "ease-out",
+      "frames_involved": [
+        17,
+        18
+      ],
+      "confidence": 0.75
+    }
+  ]
+}

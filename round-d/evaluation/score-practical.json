@@ -1,0 +1,75 @@
+{
+  "scored_at": "2026-04-22T06:34:12.690Z",
+  "tool_count": 4,
+  "tools": [
+    {
+      "tool": "01-cloner-v2",
+      "format": "react-multi-section",
+      "sub_metrics": {
+        "format_score": 95,
+        "ship_ability_score": 80,
+        "has_cost_metadata": false
+      },
+      "ship_issues": [
+        "00-div/best.tsx: has TODO/placeholder",
+        "03-section/best.tsx: has TODO/placeholder",
+        "05-section/best.tsx: has TODO/placeholder",
+        "07-section/best.tsx: has TODO/placeholder"
+      ],
+      "file_count": 11,
+      "total_loc": 1809,
+      "cost_usd": null,
+      "wall_clock_s": null,
+      "composite_practical": 82
+    },
+    {
+      "tool": "03-claude-naive",
+      "format": "react-single-page",
+      "sub_metrics": {
+        "format_score": 90,
+        "ship_ability_score": 95,
+        "has_cost_metadata": true
+      },
+      "ship_issues": [
+        "page.tsx: has TODO/placeholder"
+      ],
+      "file_count": 1,
+      "total_loc": 410,
+      "cost_usd": 0.115368,
+      "wall_clock_s": 89.1,
+      "composite_practical": 94
+    },
+    {
+      "tool": "04-claude-null",
+      "format": "react-single-page",
+      "sub_metrics": {
+        "format_score": 90,
+        "ship_ability_score": 100,
+        "has_cost_metadata": true
+      },
+      "ship_issues": [],
+      "file_count": 1,
+      "total_loc": 475,
+      "cost_usd": 0.105828,
+      "wall_clock_s": 81.4,
+      "composite_practical": 95
+    },
+    {
+      "tool": "05-v0dev",
+      "format": "react-full-project",
+      "sub_metrics": {
+        "format_score": 100,
+        "ship_ability_score": 95,
+        "has_cost_metadata": false
+      },
+      "ship_issues": [
+        "app/page.tsx: has TODO/placeholder"
+      ],
+      "file_count": 2,
+      "total_loc": 973,
+      "cost_usd": null,
+      "wall_clock_s": null,
+      "composite_practical": 89
+    }
+  ]
+}
