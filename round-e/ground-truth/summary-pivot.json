@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-04-22T16:24:22.998Z",
+  "pipeline_version": "E-Pivot.3 (5-stage: dom + rrweb + vision + cross-validate + merge)",
+  "sites": [
+    {
+      "site": "linear.app",
+      "e2_baseline": {
+        "total": 35,
+        "vision_count": 23,
+        "overlap": 0
+      },
+      "pivot": {
+        "vision_candidates": 21,
+        "verified": 0,
+        "rejected": 21,
+        "verification_rate": 0,
+        "motion_mutations_available": 20,
+        "rejection_by_reason": {
+          "element_mismatch_in_window": 5,
+          "no_motion_in_time_window": 16
+        },
+        "final_spec_total": 12,
+        "final_by_provenance": {
+          "dom": 12,
+          "vision": 0,
+          "both": 0
+        }
+      }
+    },
+    {
+      "site": "stripe.com",
+      "e2_baseline": {
+        "total": 111,
+        "vision_count": 12,
+        "overlap": 4
+      },
+      "pivot": {
+        "vision_candidates": 16,
+        "verified": 3,
+        "rejected": 13,
+        "verification_rate": 0.1875,
+        "motion_mutations_available": 1110,
+        "rejection_by_reason": {
+          "element_mismatch_in_window": 13
+        },
+        "final_spec_total": 102,
+        "final_by_provenance": {
+          "dom": 99,
+          "vision": 1,
+          "both": 2
+        }
+      }
+    },
+    {
+      "site": "raycast.com",
+      "e2_baseline": {
+        "total": 50,
+        "vision_count": 25,
+        "overlap": 7
+      },
+      "pivot": {
+        "vision_candidates": 18,
+        "verified": 0,
+        "rejected": 18,
+        "verification_rate": 0,
+        "motion_mutations_available": 258,
+        "rejection_by_reason": {
+          "element_mismatch_in_window": 17,
+          "no_motion_in_time_window": 1
+        },
+        "final_spec_total": 30,
+        "final_by_provenance": {
+          "dom": 30,
+          "vision": 0,
+          "both": 0
+        }
+      }
+    },
+    {
+      "site": "vercel.com",
+      "e2_baseline": {
+        "total": 25,
+        "vision_count": 16,
+        "overlap": 4
+      },
+      "pivot": {
+        "vision_candidates": 15,
+        "verified": 0,
+        "rejected": 15,
+        "verification_rate": 0,
+        "motion_mutations_available": 591,
+        "rejection_by_reason": {
+          "element_mismatch_in_window": 11,
+          "no_motion_in_time_window": 4
+        },
+        "final_spec_total": 8,
+        "final_by_provenance": {
+          "dom": 8,
+          "vision": 0,
+          "both": 0
+        }
+      }
+    },
+    {
+      "site": "apple.com/mac",
+      "e2_baseline": {
+        "total": 26,
+        "vision_count": 5,
+        "overlap": 3
+      },
+      "pivot": {
+        "vision_candidates": 9,
+        "verified": 0,
+        "rejected": 9,
+        "verification_rate": 0,
+        "motion_mutations_available": 2115,
+        "rejection_by_reason": {
+          "no_motion_in_time_window": 4,
+          "element_mismatch_in_window": 5
+        },
+        "final_spec_total": 21,
+        "final_by_provenance": {
+          "dom": 21,
+          "vision": 0,
+          "both": 0
+        }
+      }
+    }
+  ],
+  "totals": {
+    "vision_candidates": 79,
+    "verified": 3,
+    "rejected": 76,
+    "motion_mutations_available": 4094,
+    "final_spec_total": 173,
+    "e2_baseline_total": 247
+  }
+}

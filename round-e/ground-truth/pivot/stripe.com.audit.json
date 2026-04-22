@@ -1,0 +1,287 @@
+{
+  "target": "https://stripe.com",
+  "validated_at": "2026-04-22T16:15:40.870Z",
+  "vision_path": "animations-vision.json",
+  "mutation_log_path": "mutation-log.json",
+  "time_window_ms": 500,
+  "stats": {
+    "total_candidates": 16,
+    "verified": 3,
+    "rejected": 13,
+    "verification_rate": 0.1875,
+    "motion_mutations_available": 1110,
+    "by_reason": {
+      "element_mismatch_in_window": 13
+    },
+    "time_window_ms": 500
+  },
+  "verdicts": [
+    {
+      "index": 0,
+      "element": "hero mesh gradient background (purple-pink-orange waves)",
+      "motion_type": "shader-webgl",
+      "trigger": "continuous",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 3493,
+        "hi": 12150,
+        "source": "frames_involved"
+      },
+      "keyword_count": 8,
+      "evidence": null
+    },
+    {
+      "index": 1,
+      "element": "Global GDP running on Stripe percentage counter",
+      "motion_type": "typewriter",
+      "trigger": "on-load",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 3493,
+        "hi": 4493,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 2,
+      "element": "usage meter bar chart animation in 'Enable any billing model' card",
+      "motion_type": "reveal",
+      "trigger": "scroll-in",
+      "verdict": "verified",
+      "reason": null,
+      "window": {
+        "lo": 3493,
+        "hi": 4998,
+        "source": "frames_involved"
+      },
+      "keyword_count": 8,
+      "evidence": {
+        "mutation_t": 4556,
+        "mutation_path": "html#​ > body > div#__next > div > main#main-content > section.hds-color-mode.section > div.section-container.section-row > div.modular-solutions-bento > div.modular-solutions-bento__content > div.modular-solutions-bento__layout > button.modular-solutions-bento-card.modular-solutions-bento__card-connect > div.modular-solutions-bento-card__inner > div.modular-solutions-bento-card__content > div.modular-solutions-bento-card__content-inner > div.modular-solutions-bento-card__graphic > div.lazy-animation.lazy-bento-graphic > div.connect-platform-dom-graphic-wrapper > div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--jackson-hot-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details",
+        "mutation_tag": "div",
+        "motion_props": [
+          "opacity",
+          "transform"
+        ],
+        "distance_ms": 311
+      }
+    },
+    {
+      "index": 3,
+      "element": "bar chart showing tokens used in last 30 days",
+      "motion_type": "stagger",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 3493,
+        "hi": 4998,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 4,
+      "element": "particle circle animation in 'Monetize through agentic commerce' card",
+      "motion_type": "shader-webgl",
+      "trigger": "scroll-in",
+      "verdict": "verified",
+      "reason": null,
+      "window": {
+        "lo": 3998,
+        "hi": 5505,
+        "source": "frames_involved"
+      },
+      "keyword_count": 8,
+      "evidence": {
+        "mutation_t": 4556,
+        "mutation_path": "html#​ > body > div#__next > div > main#main-content > section.hds-color-mode.section > div.section-container.section-row > div.modular-solutions-bento > div.modular-solutions-bento__content > div.modular-solutions-bento__layout > button.modular-solutions-bento-card.modular-solutions-bento__card-connect > div.modular-solutions-bento-card__inner > div.modular-solutions-bento-card__content > div.modular-solutions-bento-card__content-inner > div.modular-solutions-bento-card__graphic > div.lazy-animation.lazy-bento-graphic > div.connect-platform-dom-graphic-wrapper > div.dom-graphic.dom-graphic--variant-default > div.dom-graphic__content > div.connect-platform-graphic > div.connect-platform-graphic__payment-card > div.connect-platform-graphic__payment-card-content.connect-platform-graphic__payment-card-content--jackson-hot-yoga > div.connect-platform-graphic__payment-screen.connect-platform-graphic__payment-screen--order-details",
+        "mutation_tag": "div",
+        "motion_props": [
+          "opacity",
+          "transform"
+        ],
+        "distance_ms": 196
+      }
+    },
+    {
+      "index": 5,
+      "element": "money movement particles/dots in 'Access borderless money movement' card",
+      "motion_type": "shader-webgl",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 3998,
+        "hi": 5505,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 6,
+      "element": "radiating lines from center in 'The backbone of global commerce' section",
+      "motion_type": "shader-webgl",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 5524,
+        "hi": 7032,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 7,
+      "element": "$1.9T counter animation",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 5524,
+        "hi": 6524,
+        "source": "frames_involved"
+      },
+      "keyword_count": 2,
+      "evidence": null
+    },
+    {
+      "index": 8,
+      "element": "99.999% counter animation",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 5524,
+        "hi": 6524,
+        "source": "frames_involved"
+      },
+      "keyword_count": 2,
+      "evidence": null
+    },
+    {
+      "index": 9,
+      "element": "200M+ counter animation",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 5524,
+        "hi": 6524,
+        "source": "frames_involved"
+      },
+      "keyword_count": 3,
+      "evidence": null
+    },
+    {
+      "index": 10,
+      "element": "gradient background in 'Make your SaaS platform' section",
+      "motion_type": "shader-webgl",
+      "trigger": "scroll-in",
+      "verdict": "verified",
+      "reason": null,
+      "window": {
+        "lo": 8074,
+        "hi": 9588,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": {
+        "mutation_t": 8672,
+        "mutation_path": "html#​ > body > div#__next > div > main#main-content > section.hds-color-mode.business-sizes-section > div.section-container.section-row > div.section-row.section-row-gap > section.section-row.section-row-gap > div.platform-value__graphic-container > div.platform-graphic-wrapper > div.platform-graphic > div > div.platform-graphic__dom > div.dom-graphic.dom-graphic--variant-default",
+        "mutation_tag": "div",
+        "motion_props": [
+          "opacity",
+          "transform"
+        ],
+        "distance_ms": 159
+      }
+    },
+    {
+      "index": 11,
+      "element": "diagonal stripe pattern in gradient background",
+      "motion_type": "shader-webgl",
+      "trigger": "continuous",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 8074,
+        "hi": 9588,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 12,
+      "element": "flowing wave animation in statistics visualization",
+      "motion_type": "shader-webgl",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 10133,
+        "hi": 11133,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 13,
+      "element": "500M+ API requests counter",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 10133,
+        "hi": 11133,
+        "source": "frames_involved"
+      },
+      "keyword_count": 3,
+      "evidence": null
+    },
+    {
+      "index": 14,
+      "element": "10K+ API requests per second counter",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 10133,
+        "hi": 11133,
+        "source": "frames_involved"
+      },
+      "keyword_count": 3,
+      "evidence": null
+    },
+    {
+      "index": 15,
+      "element": "150K+ transactions per minute counter",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 10133,
+        "hi": 11133,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    }
+  ]
+}

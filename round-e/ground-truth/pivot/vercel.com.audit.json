@@ -1,0 +1,246 @@
+{
+  "target": "https://vercel.com",
+  "validated_at": "2026-04-22T16:20:31.221Z",
+  "vision_path": "animations-vision.json",
+  "mutation_log_path": "mutation-log.json",
+  "time_window_ms": 500,
+  "stats": {
+    "total_candidates": 15,
+    "verified": 0,
+    "rejected": 15,
+    "verification_rate": 0,
+    "motion_mutations_available": 591,
+    "by_reason": {
+      "element_mismatch_in_window": 11,
+      "no_motion_in_time_window": 4
+    },
+    "time_window_ms": 500
+  },
+  "verdicts": [
+    {
+      "index": 0,
+      "element": "Hero colorful gradient background with horizontal lines",
+      "motion_type": "shader-webgl",
+      "trigger": "continuous",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 5247,
+        "hi": 11421,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 1,
+      "element": "Security incident banner 'Vercel April 2026 security incident'",
+      "motion_type": "fade",
+      "trigger": "scroll-out",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 5247,
+        "hi": 6786,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 2,
+      "element": "Hero headline 'Build and deploy on the AI Cloud.'",
+      "motion_type": "fade",
+      "trigger": "scroll-out",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 5247,
+        "hi": 6786,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 3,
+      "element": "Social proof testimonials 'runway build times went from 7m to 40s.'",
+      "motion_type": "slide",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 5247,
+        "hi": 7296,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 4,
+      "element": "Agents 'Thinking...' loading animation with typing indicator",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 6296,
+        "hi": 8365,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 5,
+      "element": "AI Apps tags: Fluid, AI, AI GATEWAY",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 6296,
+        "hi": 7855,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 6,
+      "element": "Framework-Defined Infrastructure diagram with colorful connection lines",
+      "motion_type": "reveal",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 7365,
+        "hi": 8880,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 7,
+      "element": "Global network deployment visualization with blue connection lines and Vercel logos",
+      "motion_type": "reveal",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 8388,
+        "hi": 11421,
+        "source": "frames_involved"
+      },
+      "keyword_count": 9,
+      "evidence": null
+    },
+    {
+      "index": 8,
+      "element": "Terminal command prompt '~ vercel-site/'",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 9405,
+        "hi": 11421,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 9,
+      "element": "Fluid Compute CPU usage chart with colored timeline bars",
+      "motion_type": "reveal",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 9914,
+        "hi": 11936,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 10,
+      "element": "AI Gateway code snippet with syntax highlighting",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 10421,
+        "hi": 12440,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 11,
+      "element": "Top models on Apr 22, 2026 list with percentage bars",
+      "motion_type": "slide",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 10421,
+        "hi": 12440,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 12,
+      "element": "Template cards grid (Next.js, Svelte, React, Nuxt, Astro, Python)",
+      "motion_type": "stagger",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 11953,
+        "hi": 13981,
+        "source": "frames_involved"
+      },
+      "keyword_count": 9,
+      "evidence": null
+    },
+    {
+      "index": 13,
+      "element": "'Start Deploying' CTA button",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 12981,
+        "hi": 14498,
+        "source": "frames_involved"
+      },
+      "keyword_count": 3,
+      "evidence": null
+    },
+    {
+      "index": 14,
+      "element": "Footer links section",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 14008,
+        "hi": 16030,
+        "source": "frames_involved"
+      },
+      "keyword_count": 3,
+      "evidence": null
+    }
+  ]
+}

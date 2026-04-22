@@ -1,0 +1,156 @@
+{
+  "target": "https://www.apple.com/mac/",
+  "validated_at": "2026-04-22T16:21:51.004Z",
+  "vision_path": "animations-vision.json",
+  "mutation_log_path": "mutation-log.json",
+  "time_window_ms": 500,
+  "stats": {
+    "total_candidates": 9,
+    "verified": 0,
+    "rejected": 9,
+    "verification_rate": 0,
+    "motion_mutations_available": 2115,
+    "by_reason": {
+      "no_motion_in_time_window": 4,
+      "element_mismatch_in_window": 5
+    },
+    "time_window_ms": 500
+  },
+  "verdicts": [
+    {
+      "index": 0,
+      "element": "Product cards in 'Explore the lineup' section",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 4072,
+        "hi": 5586,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 1,
+      "element": "Financing details text (for 12 mo.)",
+      "motion_type": "reveal",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 4586,
+        "hi": 5586,
+        "source": "frames_involved"
+      },
+      "keyword_count": 3,
+      "evidence": null
+    },
+    {
+      "index": 2,
+      "element": "Learn more and Buy buttons",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 4586,
+        "hi": 5586,
+        "source": "frames_involved"
+      },
+      "keyword_count": 2,
+      "evidence": null
+    },
+    {
+      "index": 3,
+      "element": "Carousel navigation arrows (left/right)",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 4586,
+        "hi": 5586,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 4,
+      "element": "Why Apple is the best place to buy Mac cards",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 5100,
+        "hi": 6608,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 5,
+      "element": "Apple Trade In and Mac migration images",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 8173,
+        "hi": 9173,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 6,
+      "element": "Mac accessories product images (keyboard, mouse, sleeve, AirPods)",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 9206,
+        "hi": 10206,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 7,
+      "element": "Studio Display product image",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 9206,
+        "hi": 10206,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 8,
+      "element": "Mac and iPhone integration illustration",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 10222,
+        "hi": 11222,
+        "source": "frames_involved"
+      },
+      "keyword_count": 3,
+      "evidence": null
+    }
+  ]
+}

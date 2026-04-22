@@ -1,0 +1,336 @@
+{
+  "target": "https://linear.app",
+  "validated_at": "2026-04-22T10:55:08.413Z",
+  "vision_path": "animations-vision.json",
+  "mutation_log_path": "mutation-log.json",
+  "time_window_ms": 500,
+  "stats": {
+    "total_candidates": 21,
+    "verified": 0,
+    "rejected": 21,
+    "verification_rate": 0,
+    "motion_mutations_available": 20,
+    "by_reason": {
+      "element_mismatch_in_window": 5,
+      "no_motion_in_time_window": 16
+    },
+    "time_window_ms": 500
+  },
+  "verdicts": [
+    {
+      "index": 0,
+      "element": "Hero section with headline 'The product development system for teams and agents'",
+      "motion_type": "fade",
+      "trigger": "scroll-out",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 4845,
+        "hi": 6355,
+        "source": "frames_involved"
+      },
+      "keyword_count": 8,
+      "evidence": null
+    },
+    {
+      "index": 1,
+      "element": "Issue tracking interface modal/window",
+      "motion_type": "scale",
+      "trigger": "scroll-out",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 4845,
+        "hi": 6355,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 2,
+      "element": "Company logos (Vercel, CURSOR, Oscar, OpenAI, coinbase, Cash App, BOOM, ramp)",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 5355,
+        "hi": 6863,
+        "source": "frames_involved"
+      },
+      "keyword_count": 10,
+      "evidence": null
+    },
+    {
+      "index": 3,
+      "element": "Section headline 'A new species of product tool'",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 5355,
+        "hi": 6863,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 4,
+      "element": "Three isometric 3D illustration cards (FIG 0.2, FIG 0.3, FIG 0.4)",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 5863,
+        "hi": 7377,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 5,
+      "element": "Section 'Make product operations self-driving' with Slack-style thread interface",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 6377,
+        "hi": 7888,
+        "source": "frames_involved"
+      },
+      "keyword_count": 10,
+      "evidence": null
+    },
+    {
+      "index": 6,
+      "element": "Todo/In Progress issue board interface",
+      "motion_type": "slide",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 6888,
+        "hi": 8390,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 7,
+      "element": "Navigation links '1.1 Linear Agent', '1.2 Triage', '1.3 Customer Requests', '1.4 Linear Asks'",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 7390,
+        "hi": 8390,
+        "source": "frames_involved"
+      },
+      "keyword_count": 8,
+      "evidence": null
+    },
+    {
+      "index": 8,
+      "element": "Section 'Define the product direction' with roadmap visualization",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 7390,
+        "hi": 8904,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 9,
+      "element": "Initiatives timeline/roadmap chart with projects",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 7904,
+        "hi": 9415,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 10,
+      "element": "Section 'Move work forward across teams and agents'",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 8415,
+        "hi": 9921,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 11,
+      "element": "Codex agent interface with terminal output",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 8921,
+        "hi": 10438,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 12,
+      "element": "Assignment dropdown menu with Codex, Steven, Ema, GitHub Copilot, Cursor, Meg",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 9438,
+        "hi": 10438,
+        "source": "frames_involved"
+      },
+      "keyword_count": 8,
+      "evidence": null
+    },
+    {
+      "index": 13,
+      "element": "Section 'Review PRs and agent output' with code diff",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 9953,
+        "hi": 11464,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 14,
+      "element": "Code diff comparison interface showing React imports",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 10464,
+        "hi": 11967,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 15,
+      "element": "Section 'Understand progress at scale'",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 10967,
+        "hi": 12483,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 16,
+      "element": "Weekly Pulse card and Cycle time by agent scatter plot",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 11483,
+        "hi": 12997,
+        "source": "frames_involved"
+      },
+      "keyword_count": 8,
+      "evidence": null
+    },
+    {
+      "index": 17,
+      "element": "Changelog section with timeline cards",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 11997,
+        "hi": 13508,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 18,
+      "element": "Testimonial cards from Gabriel Peal (OpenAI) and Nik Koblov (Ramp)",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 12508,
+        "hi": 14011,
+        "source": "frames_involved"
+      },
+      "keyword_count": 7,
+      "evidence": null
+    },
+    {
+      "index": 19,
+      "element": "Final CTA section 'Built for the future. Available today.'",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 13011,
+        "hi": 14517,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 20,
+      "element": "Footer navigation with Product, Features, Company, Resources, Connect columns",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 14032,
+        "hi": 15546,
+        "source": "frames_involved"
+      },
+      "keyword_count": 8,
+      "evidence": null
+    }
+  ]
+}

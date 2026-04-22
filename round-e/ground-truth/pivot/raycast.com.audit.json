@@ -1,0 +1,291 @@
+{
+  "target": "https://raycast.com",
+  "validated_at": "2026-04-22T16:18:56.188Z",
+  "vision_path": "animations-vision.json",
+  "mutation_log_path": "mutation-log.json",
+  "time_window_ms": 500,
+  "stats": {
+    "total_candidates": 18,
+    "verified": 0,
+    "rejected": 18,
+    "verification_rate": 0,
+    "motion_mutations_available": 258,
+    "by_reason": {
+      "element_mismatch_in_window": 17,
+      "no_motion_in_time_window": 1
+    },
+    "time_window_ms": 500
+  },
+  "verdicts": [
+    {
+      "index": 0,
+      "element": "Red diagonal stripe background pattern",
+      "motion_type": "parallax",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 18966,
+        "hi": 23026,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 1,
+      "element": "Hero section headline 'Your shortcut to everything.'",
+      "motion_type": "fade",
+      "trigger": "scroll-out",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 18966,
+        "hi": 21451,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 2,
+      "element": "Banner 'Introducing Glaze | Join waitlist'",
+      "motion_type": "fade",
+      "trigger": "on-load",
+      "verdict": "rejected",
+      "reason": "no_motion_in_time_window",
+      "window": {
+        "lo": 20451,
+        "hi": 21451,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 3,
+      "element": "Clipboard History dropdown menu with color filters",
+      "motion_type": "fade",
+      "trigger": "hover",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 20451,
+        "hi": 23026,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 4,
+      "element": "Clipboard History icon panel with 5 icons",
+      "motion_type": "stagger",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 20451,
+        "hi": 23026,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 5,
+      "element": "Linear extension card animation icons (circle, half-moon, checkmark)",
+      "motion_type": "morph",
+      "trigger": "continuous",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 23582,
+        "hi": 26093,
+        "source": "frames_involved"
+      },
+      "keyword_count": 9,
+      "evidence": null
+    },
+    {
+      "index": 6,
+      "element": "Google Translate omelet text cycling",
+      "motion_type": "typewriter",
+      "trigger": "continuous",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 23582,
+        "hi": 26093,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 7,
+      "element": "Spotify playback controls",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 23582,
+        "hi": 26093,
+        "source": "frames_involved"
+      },
+      "keyword_count": 3,
+      "evidence": null
+    },
+    {
+      "index": 8,
+      "element": "AI Chat interface typing query 'How do I quit'",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 25594,
+        "hi": 26594,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 9,
+      "element": "Testimonial quote fade rotation",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 26622,
+        "hi": 27622,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 10,
+      "element": "Snippets feature 'scratch' search results",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 27126,
+        "hi": 28126,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 11,
+      "element": "Hotkey visualization 'option + command + L'",
+      "motion_type": "stagger",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 27126,
+        "hi": 28642,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 12,
+      "element": "AI Chat interface 'Sure, here you go:' message input",
+      "motion_type": "typewriter",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 27126,
+        "hi": 28126,
+        "source": "frames_involved"
+      },
+      "keyword_count": 6,
+      "evidence": null
+    },
+    {
+      "index": 13,
+      "element": "Meeting notes checklist items appearing",
+      "motion_type": "stagger",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 27642,
+        "hi": 29153,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 14,
+      "element": "3D isometric device illustrations (Mac, battery, buttons)",
+      "motion_type": "parallax",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 29176,
+        "hi": 31193,
+        "source": "frames_involved"
+      },
+      "keyword_count": 5,
+      "evidence": null
+    },
+    {
+      "index": 15,
+      "element": "Command key keyboard visualization with glow",
+      "motion_type": "color-shift",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 31226,
+        "hi": 32226,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 16,
+      "element": "Red diagonal stripe footer pattern",
+      "motion_type": "fade",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 31743,
+        "hi": 32743,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    },
+    {
+      "index": 17,
+      "element": "Footer navigation menu expansion",
+      "motion_type": "reveal",
+      "trigger": "scroll-in",
+      "verdict": "rejected",
+      "reason": "element_mismatch_in_window",
+      "window": {
+        "lo": 32247,
+        "hi": 33756,
+        "source": "frames_involved"
+      },
+      "keyword_count": 4,
+      "evidence": null
+    }
+  ]
+}

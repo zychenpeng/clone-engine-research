@@ -1,0 +1,271 @@
+{
+  "version": "1.0",
+  "target_url": "https://vercel.com",
+  "captured_at": "2026-04-22T16:20:32.448Z",
+  "total": 8,
+  "by_provenance": {
+    "dom": 8,
+    "vision": 0,
+    "both": 0
+  },
+  "by_trigger": {
+    "continuous": 2,
+    "unknown": 6
+  },
+  "by_motion_type": {
+    "loop": 2,
+    "one-shot": 6
+  },
+  "layer_counts": {
+    "dom": 8,
+    "vision": 0
+  },
+  "cost_usd": 0.11931,
+  "animations": [
+    {
+      "id": "anim-8d28a54d",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.globe-module__QBqKTa__cursor",
+      "selector": "div.globe-module__QBqKTa__globe > div.globe-module__QBqKTa__info > div.globe-module__QBqKTa__left > div.globe-module__QBqKTa__cursor",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 800,
+      "easing": "ease-out",
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 0.5
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-c450a5f5",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.domains-module__kmvSIa__window",
+      "selector": "div.flex.flex-col > div.w-full.grow > div.flex.flex-col-reverse > div.domains-module__kmvSIa__window",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0.8",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-8b3b08cc",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "span.globe-module__QBqKTa__lightText",
+      "selector": "div.globe-module__QBqKTa__left > div.globe-module__QBqKTa__row > div.text-label-12-mono.md:text-copy-13-mono > span.globe-module__QBqKTa__lightText",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "filter": "blur(1px)",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "filter": "blur(0px)",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-99fc1852",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.globe-module__QBqKTa__row",
+      "selector": "div.globe-module__QBqKTa__globe > div.globe-module__QBqKTa__info > div.globe-module__QBqKTa__left > div.globe-module__QBqKTa__row",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-a334c932",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div",
+      "selector": "div.globe-module__QBqKTa__building > div.text-label-12-mono.md:text-copy-13-mono > div.globe-module__QBqKTa__dots > div",
+      "motion_type": "loop",
+      "trigger": "continuous",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "steps(4)",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "steps(4)",
+          "composite": "replace",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-06e74d74",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "div.globe-module__QBqKTa__right",
+      "selector": "div.w-full.aspect-[802/402] > div.globe-module__QBqKTa__globe > div.globe-module__QBqKTa__info > div.globe-module__QBqKTa__right",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-78330f05",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "p",
+      "selector": "div.globe-module__QBqKTa__globe > div.globe-module__QBqKTa__info > div.globe-module__QBqKTa__left > p",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "anim-ee5f6d9e",
+      "provenance": [
+        "dom"
+      ],
+      "confidence": 1,
+      "element": "button.globe-module__QBqKTa__right.globe-module__QBqKTa__replay",
+      "selector": "div.w-full.aspect-[802/402] > div.globe-module__QBqKTa__globe > div.globe-module__QBqKTa__info > button.globe-module__QBqKTa__right.globe-module__QBqKTa__replay",
+      "motion_type": "one-shot",
+      "trigger": "unknown",
+      "duration_ms": 300,
+      "easing": "cubic-bezier",
+      "iterations": 1,
+      "keyframes": [
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "0",
+          "computedOffset": 0
+        },
+        {
+          "offset": null,
+          "easing": "linear",
+          "composite": "auto",
+          "opacity": "1",
+          "computedOffset": 1
+        }
+      ]
+    }
+  ]
+}
